@@ -9,7 +9,11 @@
    "mine": "What did you do on weekend?",
    "mark": "~",
    "note": "",
-   "audio": "audio/b946ed6bd02b.mp3"
+   "audio": "audio/b946ed6bd02b.mp3",
+   "us": {
+    "en": "Did you [[do anything fun]] this weekend?"
+   },
+   "audio_us": "audio/eccb6660514c.mp3"
   },
   {
    "zh": "最近怎么样？",
@@ -17,7 +21,12 @@
    "mine": "How are you recently?",
    "mark": "x",
    "note": "澳洲版的 How are you",
-   "audio": "audio/cc8ef8a304ce.mp3"
+   "audio": "audio/cc8ef8a304ce.mp3",
+   "us": {
+    "en": "[[How's it going]]?",
+    "note": "How're you going 是澳洲说法"
+   },
+   "audio_us": "audio/99b8d313c31c.mp3"
   },
   {
    "zh": "还行吧",
@@ -25,7 +34,8 @@
    "mine": "Just so-so.",
    "mark": "x",
    "note": "",
-   "audio": "audio/6a9355d8ecc6.mp3"
+   "audio": "audio/6a9355d8ecc6.mp3",
+   "audio_us": "audio/fe8ca80872ff.mp3"
   },
   {
    "zh": "今天好热",
@@ -33,7 +43,11 @@
    "mine": "Today is very hot.",
    "mark": "~",
    "note": "",
-   "audio": "audio/5c32a122dde3.mp3"
+   "audio": "audio/5c32a122dde3.mp3",
+   "us": {
+    "en": "It's [[scorching]] today."
+   },
+   "audio_us": "audio/a334785caeb2.mp3"
   },
   {
    "zh": "天气变得好快",
@@ -41,7 +55,11 @@
    "mine": "The weather changes very fast.",
    "mark": "~",
    "note": "",
-   "audio": "audio/a9fd3e8bced8.mp3"
+   "audio": "audio/a9fd3e8bced8.mp3",
+   "us": {
+    "en": "The weather's [[all over the place]] today."
+   },
+   "audio_us": "audio/45696a541489.mp3"
   },
   {
    "zh": "周末有什么安排吗？",
@@ -49,7 +67,8 @@
    "mine": "Do you have plan this weekend?",
    "mark": "x",
    "note": "",
-   "audio": "audio/e48b9169a0e1.mp3"
+   "audio": "audio/e48b9169a0e1.mp3",
+   "audio_us": "audio/92df4df77466.mp3"
   },
   {
    "zh": "没什么特别的，就休息",
@@ -57,7 +76,8 @@
    "mine": "Nothing special, just rest.",
    "mark": "~",
    "note": "",
-   "audio": "audio/1583d444270f.mp3"
+   "audio": "audio/1583d444270f.mp3",
+   "audio_us": "audio/aad4bbc619f0.mp3"
   },
   {
    "zh": "好久不见！",
@@ -65,7 +85,8 @@
    "mine": "Long time no see!",
    "mark": "~",
    "note": "Long time no see 也能用，in ages 更常见",
-   "audio": "audio/97b36f6d132c.mp3"
+   "audio": "audio/97b36f6d132c.mp3",
+   "audio_us": "audio/731f8f250a40.mp3"
   },
   {
    "zh": "我得走了",
@@ -73,7 +94,12 @@
    "mine": "I need to go now.",
    "mark": "~",
    "note": "",
-   "audio": "audio/40b78317b8e2.mp3"
+   "audio": "audio/40b78317b8e2.mp3",
+   "us": {
+    "en": "I'd better [[get going]].",
+    "note": "head off 偏英澳"
+   },
+   "audio_us": "audio/e22f6f9f2794.mp3"
   },
   {
    "zh": "改天一起喝咖啡",
@@ -81,7 +107,8 @@
    "mine": "Let's drink coffee another day.",
    "mark": "x",
    "note": "",
-   "audio": "audio/b133557820eb.mp3"
+   "audio": "audio/b133557820eb.mp3",
+   "audio_us": "audio/270c3a6eb297.mp3"
   },
   {
    "zh": "太巧了吧！",
@@ -89,7 +116,8 @@
    "mine": "So coincident!",
    "mark": "x",
    "note": "",
-   "audio": "audio/afd4e799b28c.mp3"
+   "audio": "audio/afd4e799b28c.mp3",
+   "audio_us": "audio/fe773fc5b92f.mp3"
   },
   {
    "zh": "我也是",
@@ -97,7 +125,8 @@
    "mine": "Me too.",
    "mark": "~",
    "note": "",
-   "audio": "audio/92c65c585e53.mp3"
+   "audio": "audio/92c65c585e53.mp3",
+   "audio_us": "audio/96d744cbb4c9.mp3"
   },
   {
    "zh": "真的假的？！",
@@ -105,7 +134,8 @@
    "mine": "Really or fake?",
    "mark": "x",
    "note": "",
-   "audio": "audio/e4701830b7db.mp3"
+   "audio": "audio/e4701830b7db.mp3",
+   "audio_us": "audio/8e0771efb46c.mp3"
   },
   {
    "zh": "那也太惨了",
@@ -113,7 +143,8 @@
    "mine": "That's so miserable.",
    "mark": "x",
    "note": "",
-   "audio": "audio/43d47fc97bc7.mp3"
+   "audio": "audio/43d47fc97bc7.mp3",
+   "audio_us": "audio/b8b311824997.mp3"
   },
   {
    "zh": "干得漂亮！",
@@ -121,7 +152,12 @@
    "mine": "You are great!",
    "mark": "~",
    "note": "很澳洲的说法，为别人高兴时用",
-   "audio": "audio/7c5ee968d759.mp3"
+   "audio": "audio/7c5ee968d759.mp3",
+   "us": {
+    "en": "[[Good for you]]!",
+    "note": "Good on ya 是澳洲说法"
+   },
+   "audio_us": "audio/8093e8944d7d.mp3"
   },
   {
    "zh": "没事，不客气",
@@ -129,7 +165,12 @@
    "mine": "It doesn't matter.",
    "mark": "x",
    "note": "",
-   "audio": "audio/2589f130e77e.mp3"
+   "audio": "audio/2589f130e77e.mp3",
+   "us": {
+    "en": "[[No problem]].",
+    "note": "No worries 美国人也说，但 no problem 更常见"
+   },
+   "audio_us": "audio/86691f8343a2.mp3"
   },
   {
    "zh": "你是做什么工作的？",
@@ -137,7 +178,8 @@
    "mine": "What is your job?",
    "mark": "~",
    "note": "",
-   "audio": "audio/2f938c70b990.mp3"
+   "audio": "audio/2f938c70b990.mp3",
+   "audio_us": "audio/c1cec227c950.mp3"
   },
   {
    "zh": "我刚入职一个月左右",
@@ -145,7 +187,8 @@
    "mine": "I just joined one month.",
    "mark": "x",
    "note": "",
-   "audio": "audio/59a285eaaea0.mp3"
+   "audio": "audio/59a285eaaea0.mp3",
+   "audio_us": "audio/dab367b4a890.mp3"
   },
   {
    "zh": "回头见",
@@ -153,7 +196,8 @@
    "mine": "See you next time.",
    "mark": "~",
    "note": "",
-   "audio": "audio/d69d94ba9f26.mp3"
+   "audio": "audio/d69d94ba9f26.mp3",
+   "audio_us": "audio/fd1b14ad86e9.mp3"
   },
   {
    "zh": "好累啊",
@@ -161,7 +205,12 @@
    "mine": "I'm very tired.",
    "mark": "~",
    "note": "澳洲人也常说 I'm stuffed",
-   "audio": "audio/5b8e1e17e1ea.mp3"
+   "audio": "audio/5b8e1e17e1ea.mp3",
+   "us": {
+    "en": "I'm [[beat]].",
+    "note": "也可以说 I'm wiped out。knackered 是英澳说法"
+   },
+   "audio_us": "audio/705507652741.mp3"
   },
   {
    "zh": "听起来好好玩",
@@ -169,7 +218,12 @@
    "mine": "It sounds very interesting.",
    "mark": "~",
    "note": "heaps = 很多，澳洲超常用",
-   "audio": "audio/4fd26a9aaf0f.mp3"
+   "audio": "audio/4fd26a9aaf0f.mp3",
+   "us": {
+    "en": "That sounds like [[a blast]].",
+    "note": "a blast = 超好玩"
+   },
+   "audio_us": "audio/f1f667a859e9.mp3"
   },
   {
    "zh": "你最后去哪玩了？",
@@ -177,7 +231,8 @@
    "mine": "Where did you go for holiday?",
    "mark": "~",
    "note": "",
-   "audio": "audio/d9c9d3beaba3.mp3"
+   "audio": "audio/d9c9d3beaba3.mp3",
+   "audio_us": "audio/8f47a0d943d4.mp3"
   },
   {
    "zh": "圣诞节有什么安排吗？",
@@ -185,7 +240,8 @@
    "mine": "What's your plan for Christmas?",
    "mark": "~",
    "note": "",
-   "audio": "audio/2bd2e1794207.mp3"
+   "audio": "audio/2bd2e1794207.mp3",
+   "audio_us": "audio/b195dec0e587.mp3"
   },
   {
    "zh": "我刚说到哪了？",
@@ -193,7 +249,8 @@
    "mine": "What was I talking just now?",
    "mark": "x",
    "note": "",
-   "audio": "audio/a2ea3aafaa1c.mp3"
+   "audio": "audio/a2ea3aafaa1c.mp3",
+   "audio_us": "audio/07606c7a2f9e.mp3"
   },
   {
    "zh": "我对足球不太感兴趣",
@@ -201,7 +258,12 @@
    "mine": "I'm not very interested in football.",
    "mark": "~",
    "note": "footy 在墨尔本一般指 AFL",
-   "audio": "audio/4946a78ef680.mp3"
+   "audio": "audio/4946a78ef680.mp3",
+   "us": {
+    "en": "I'm not really [[into]] football.",
+    "note": "在美国 football 指美式橄榄球"
+   },
+   "audio_us": "audio/5792b126b58d.mp3"
   }
  ]
 }

@@ -9,7 +9,12 @@
    "mine": "I want to see the house.",
    "mark": "~",
    "note": "澳洲看房叫 inspection",
-   "audio": "audio/2fcd1ed4ffe4.mp3"
+   "audio": "audio/2fcd1ed4ffe4.mp3",
+   "us": {
+    "en": "I'd like to [[schedule a viewing]].",
+    "note": "也可以说 Can I tour the apartment?"
+   },
+   "audio_us": "audio/bd17fc1cb504.mp3"
   },
   {
    "zh": "押金多少？",
@@ -17,7 +22,14 @@
    "mine": "How much is the deposit?",
    "mark": "~",
    "note": "澳洲租房押金叫 bond",
-   "audio": "audio/18bfdb320cda.mp3"
+   "audio": "audio/18bfdb320cda.mp3",
+   "us": {
+    "en": "How much is the [[security deposit]]?",
+    "mine": "How much is the pledge money?",
+    "mark": "x",
+    "note": "美国说 security deposit，澳洲说 bond"
+   },
+   "audio_us": "audio/21f79c29e7ad.mp3"
   },
   {
    "zh": "每周房租多少？",
@@ -25,7 +37,13 @@
    "mine": "How much is the rent every month?",
    "mark": "~",
    "note": "澳洲房租一般按周报价",
-   "audio": "audio/26c10313ed33.mp3"
+   "audio": "audio/26c10313ed33.mp3",
+   "us": {
+    "en": "How much is it [[a month]]?",
+    "mine": "How much is the rent every week?",
+    "note": "美国房租按月算"
+   },
+   "audio_us": "audio/42b1b99e4096.mp3"
   },
   {
    "zh": "包水电吗？",
@@ -33,7 +51,12 @@
    "mine": "Does it include water and electricity fee?",
    "mark": "~",
    "note": "",
-   "audio": "audio/31e957a0f0af.mp3"
+   "audio": "audio/31e957a0f0af.mp3",
+   "us": {
+    "en": "Are [[utilities included]]?",
+    "note": "美国说 utilities"
+   },
+   "audio_us": "audio/ea75db22e9e9.mp3"
   },
   {
    "zh": "什么时候能入住？",
@@ -41,7 +64,8 @@
    "mine": "When can I move in?",
    "mark": "~",
    "note": "",
-   "audio": "audio/72b44ee233f1.mp3"
+   "audio": "audio/72b44ee233f1.mp3",
+   "audio_us": "audio/090c91636bca.mp3"
   },
   {
    "zh": "热水器有点问题",
@@ -49,7 +73,12 @@
    "mine": "The water heater has some problem.",
    "mark": "~",
    "note": "play up = 出毛病，澳洲常用",
-   "audio": "audio/9c696a1fc2b3.mp3"
+   "audio": "audio/9c696a1fc2b3.mp3",
+   "us": {
+    "en": "The water heater's [[acting up]].",
+    "note": "act up = 出毛病"
+   },
+   "audio_us": "audio/9719dd887600.mp3"
   },
   {
    "zh": "水龙头漏水",
@@ -57,7 +86,12 @@
    "mine": "The water tap is dropping water.",
    "mark": "x",
    "note": "",
-   "audio": "audio/534206412ced.mp3"
+   "audio": "audio/534206412ced.mp3",
+   "us": {
+    "en": "The [[faucet]]'s leaking.",
+    "note": "美国说 faucet，英澳说 tap"
+   },
+   "audio_us": "audio/d3e9859940b8.mp3"
   },
   {
    "zh": "能派人来修一下吗？",
@@ -65,7 +99,8 @@
    "mine": "Can you find someone to repair?",
    "mark": "~",
    "note": "",
-   "audio": "audio/71b54ea183b4.mp3"
+   "audio": "audio/71b54ea183b4.mp3",
+   "audio_us": "audio/06cace3c8e49.mp3"
   },
   {
    "zh": "这个比较急",
@@ -73,7 +108,8 @@
    "mine": "This is quite hurry.",
    "mark": "x",
    "note": "",
-   "audio": "audio/305c4ca2d069.mp3"
+   "audio": "audio/305c4ca2d069.mp3",
+   "audio_us": "audio/68e26be26ba7.mp3"
   },
   {
    "zh": "我想续租",
@@ -81,7 +117,8 @@
    "mine": "I want to continue renting.",
    "mark": "~",
    "note": "",
-   "audio": "audio/ac45938292a0.mp3"
+   "audio": "audio/ac45938292a0.mp3",
+   "audio_us": "audio/3af26177d1ad.mp3"
   },
   {
    "zh": "我想通知你们我要退租",
@@ -89,7 +126,8 @@
    "mine": "I want to tell you I will move out.",
    "mark": "~",
    "note": "",
-   "audio": "audio/343a0537b2f8.mp3"
+   "audio": "audio/343a0537b2f8.mp3",
+   "audio_us": "audio/ddf17a9fdff9.mp3"
   },
   {
    "zh": "能养宠物吗？",
@@ -97,7 +135,8 @@
    "mine": "Can I keep pets?",
    "mark": "~",
    "note": "",
-   "audio": "audio/2a46b8c71f77.mp3"
+   "audio": "audio/2a46b8c71f77.mp3",
+   "audio_us": "audio/77b8271e0130.mp3"
   },
   {
    "zh": "退房检查是什么时候？",
@@ -105,7 +144,11 @@
    "mine": "When do you check the house when I leave?",
    "mark": "x",
    "note": "",
-   "audio": "audio/4c2e346ff29b.mp3"
+   "audio": "audio/4c2e346ff29b.mp3",
+   "us": {
+    "en": "When's the [[move-out inspection]]?"
+   },
+   "audio_us": "audio/9c2a72546f65.mp3"
   },
   {
    "zh": "押金什么时候退？",
@@ -113,7 +156,11 @@
    "mine": "When will you return my deposit?",
    "mark": "~",
    "note": "",
-   "audio": "audio/db79b6966cf2.mp3"
+   "audio": "audio/db79b6966cf2.mp3",
+   "us": {
+    "en": "When will I [[get my deposit back]]?"
+   },
+   "audio_us": "audio/e68c7c7a0dbf.mp3"
   },
   {
    "zh": "那不是我弄坏的，入住时就这样",
@@ -121,7 +168,11 @@
    "mine": "I didn't break it.",
    "mark": "~",
    "note": "所以入住时一定要认真填 condition report",
-   "audio": "audio/0a12b2f69185.mp3"
+   "audio": "audio/0a12b2f69185.mp3",
+   "us": {
+    "note": "所以入住时要做 move-in inspection，拍照留证据"
+   },
+   "audio_us": "audio/4663eb475ae8.mp3"
   },
   {
    "zh": "房租涨得太多了",
@@ -129,7 +180,8 @@
    "mine": "The rent goes up too much.",
    "mark": "~",
    "note": "steep = 陡，形容价格高",
-   "audio": "audio/5912999f3cd8.mp3"
+   "audio": "audio/5912999f3cd8.mp3",
+   "audio_us": "audio/e65141389c4e.mp3"
   },
   {
    "zh": "有车位吗？",
@@ -137,7 +189,11 @@
    "mine": "Is there a parking?",
    "mark": "x",
    "note": "",
-   "audio": "audio/6ebb990f2a78.mp3"
+   "audio": "audio/6ebb990f2a78.mp3",
+   "us": {
+    "en": "Does it [[come with]] a parking spot?"
+   },
+   "audio_us": "audio/a1aeefa71155.mp3"
   },
   {
    "zh": "走路能到火车站吗？",
@@ -145,7 +201,11 @@
    "mine": "Is it near the train station by walk?",
    "mark": "x",
    "note": "",
-   "audio": "audio/534b85853a1d.mp3"
+   "audio": "audio/534b85853a1d.mp3",
+   "us": {
+    "en": "Is it [[walking distance]] to the train station?"
+   },
+   "audio_us": "audio/ae6fb06c348b.mp3"
   },
   {
    "zh": "浴室有点发霉",
@@ -153,7 +213,12 @@
    "mine": "The bathroom has some fungus.",
    "mark": "x",
    "note": "澳洲拼 mould，美国拼 mold",
-   "audio": "audio/5754d8c34dc2.mp3"
+   "audio": "audio/5754d8c34dc2.mp3",
+   "us": {
+    "en": "There's some [[mold]] in the bathroom.",
+    "note": "美国拼 mold，英澳拼 mould"
+   },
+   "audio_us": "audio/26b3f9c8d4f5.mp3"
   },
   {
    "zh": "是合租吗？",
@@ -161,7 +226,12 @@
    "mine": "Is it rent together with others?",
    "mark": "x",
    "note": "",
-   "audio": "audio/abf8bcf21ef3.mp3"
+   "audio": "audio/abf8bcf21ef3.mp3",
+   "us": {
+    "en": "Would I [[have roommates]]?",
+    "note": "澳洲说 share house / housemates"
+   },
+   "audio_us": "audio/f41bb7dab53f.mp3"
   }
  ]
 }

@@ -9,7 +9,8 @@
    "mine": "This makes me look a little old.",
    "mark": "~",
    "note": "",
-   "audio": "audio/9e39f822ba8e.mp3"
+   "audio": "audio/9e39f822ba8e.mp3",
+   "audio_us": "audio/300e0695289e.mp3"
   },
   {
    "zh": "我懒得换衣服了",
@@ -17,7 +18,12 @@
    "mine": "I'm too lazy to change.",
    "mark": "~",
    "note": "澳洲人常直接说 \"Can't be bothered.\"",
-   "audio": "audio/dd211160ee32.mp3"
+   "audio": "audio/dd211160ee32.mp3",
+   "us": {
+    "en": "I [[don't feel like]] changing.",
+    "note": "can't be bothered 美国人也懂，但更常说 don't feel like"
+   },
+   "audio_us": "audio/0b6057c7aa96.mp3"
   },
   {
    "zh": "我就凑合穿这个吧",
@@ -25,7 +31,8 @@
    "mine": "I'll just wear this somehow.",
    "mark": "x",
    "note": "",
-   "audio": "audio/935b58553c2f.mp3"
+   "audio": "audio/935b58553c2f.mp3",
+   "audio_us": "audio/96398c5703ae.mp3"
   },
   {
    "zh": "我穿这个会不会显胖？",
@@ -33,7 +40,8 @@
    "mine": "Do I look fat in this?",
    "mark": "~",
    "note": "fat 太直接，bigger 更委婉",
-   "audio": "audio/a4a997821446.mp3"
+   "audio": "audio/a4a997821446.mp3",
+   "audio_us": "audio/eaf254872072.mp3"
   },
   {
    "zh": "这件有点难搭",
@@ -41,7 +49,8 @@
    "mine": "This is a little hard to match.",
    "mark": "x",
    "note": "也可以说 \"It's hard to pair with anything.\"",
-   "audio": "audio/35671f80fc82.mp3"
+   "audio": "audio/35671f80fc82.mp3",
+   "audio_us": "audio/e847e3ab83b5.mp3"
   },
   {
    "zh": "这件穿着太热了",
@@ -49,7 +58,8 @@
    "mine": "This is too hot to wear.",
    "mark": "~",
    "note": "",
-   "audio": "audio/8aa0c9b8b1de.mp3"
+   "audio": "audio/8aa0c9b8b1de.mp3",
+   "audio_us": "audio/f9eb429c5031.mp3"
   },
   {
    "zh": "我能试一下这件吗？",
@@ -57,7 +67,8 @@
    "mine": "Can I try this?",
    "mark": "x",
    "note": "没有 on 像是在问\"能尝一下吗\"",
-   "audio": "audio/08025f47ab1b.mp3"
+   "audio": "audio/08025f47ab1b.mp3",
+   "audio_us": "audio/4c7a65f17812.mp3"
   },
   {
    "zh": "尺码不合适可以退吗？",
@@ -65,7 +76,8 @@
    "mine": "Can I return it if the size isn't suitable?",
    "mark": "~",
    "note": "",
-   "audio": "audio/724f3ec50f02.mp3"
+   "audio": "audio/724f3ec50f02.mp3",
+   "audio_us": "audio/ee5ef7729d85.mp3"
   },
   {
    "zh": "我有点犹豫",
@@ -73,7 +85,8 @@
    "mine": "I'm a little hesitant.",
    "mark": "~",
    "note": "",
-   "audio": "audio/5c7aacb77d95.mp3"
+   "audio": "audio/5c7aacb77d95.mp3",
+   "audio_us": "audio/74250f6cccdd.mp3"
   },
   {
    "zh": "我再考虑一下",
@@ -81,7 +94,12 @@
    "mine": "I'll consider it.",
    "mark": "~",
    "note": "很澳洲的说法；也可以说 \"I'll think about it.\"",
-   "audio": "audio/413254ad7aff.mp3"
+   "audio": "audio/413254ad7aff.mp3",
+   "us": {
+    "en": "Let me [[think it over]].",
+    "note": "have a think 是英澳说法"
+   },
+   "audio_us": "audio/47e0ea0fe8c4.mp3"
   },
   {
    "zh": "我就随便看看",
@@ -89,7 +107,12 @@
    "mine": "I'm just looking around casually.",
    "mark": "~",
    "note": "店员问 \"Can I help you?\" 时最常用",
-   "audio": "audio/8bb7aa195891.mp3"
+   "audio": "audio/8bb7aa195891.mp3",
+   "us": {
+    "en": "[[Just looking]], thanks.",
+    "note": "店员问 Can I help you find anything? 时最常用"
+   },
+   "audio_us": "audio/4702ce693f37.mp3"
   },
   {
    "zh": "这件有 M 码吗？",
@@ -97,7 +120,12 @@
    "mine": "Is there M size of this?",
    "mark": "x",
    "note": "",
-   "audio": "audio/39e4e593b9fc.mp3"
+   "audio": "audio/39e4e593b9fc.mp3",
+   "us": {
+    "en": "Do you [[have this in]] a medium?",
+    "note": ""
+   },
+   "audio_us": "audio/1b199ad119c4.mp3"
   },
   {
    "zh": "能帮我拿大一号吗？",
@@ -105,7 +133,8 @@
    "mine": "Can you give me a bigger one?",
    "mark": "~",
    "note": "小一号：a size down",
-   "audio": "audio/f81ffede8c8b.mp3"
+   "audio": "audio/f81ffede8c8b.mp3",
+   "audio_us": "audio/a4659592970e.mp3"
   },
   {
    "zh": "有点紧",
@@ -113,7 +142,8 @@
    "mine": "It's a little tight.",
    "mark": "~",
    "note": "tight 也对，snug 更口语",
-   "audio": "audio/9722e92ffb8c.mp3"
+   "audio": "audio/9722e92ffb8c.mp3",
+   "audio_us": "audio/be20058667df.mp3"
   },
   {
    "zh": "这件太宽松了",
@@ -121,7 +151,8 @@
    "mine": "It's too loose.",
    "mark": "~",
    "note": "",
-   "audio": "audio/e8fe710176e3.mp3"
+   "audio": "audio/e8fe710176e3.mp3",
+   "audio_us": "audio/edb5e25a8569.mp3"
   },
   {
    "zh": "有别的颜色吗？",
@@ -129,7 +160,11 @@
    "mine": "Does it have other colours?",
    "mark": "~",
    "note": "",
-   "audio": "audio/b490208aa0bd.mp3"
+   "audio": "audio/b490208aa0bd.mp3",
+   "us": {
+    "en": "Does it [[come in]] other colors?"
+   },
+   "audio_us": "audio/13a56aa17361.mp3"
   },
   {
    "zh": "试衣间在哪？",
@@ -137,7 +172,12 @@
    "mine": "Where is the try-on room?",
    "mark": "x",
    "note": "澳洲说 change rooms，美国说 fitting rooms",
-   "audio": "audio/9beb89e28889.mp3"
+   "audio": "audio/9beb89e28889.mp3",
+   "us": {
+    "en": "Where are the [[fitting rooms]]?",
+    "note": "美国说 fitting rooms，澳洲说 change rooms"
+   },
+   "audio_us": "audio/620f70848ee2.mp3"
   },
   {
    "zh": "两件都喜欢，好纠结",
@@ -145,7 +185,8 @@
    "mine": "I like both, very entangled.",
    "mark": "x",
    "note": "",
-   "audio": "audio/1fc344454ae7.mp3"
+   "audio": "audio/1fc344454ae7.mp3",
+   "audio_us": "audio/013da3a2f6b6.mp3"
   },
   {
    "zh": "这个颜色很衬你",
@@ -153,7 +194,12 @@
    "mine": "This colour is very match you.",
    "mark": "x",
    "note": "",
-   "audio": "audio/d3eaefba9196.mp3"
+   "audio": "audio/d3eaefba9196.mp3",
+   "us": {
+    "en": "That color really [[looks great on you]].",
+    "mine": "This color is very match you."
+   },
+   "audio_us": "audio/65fd7be63380.mp3"
   },
   {
    "zh": "这条裤子有点长，可以改短吗？",
@@ -161,7 +207,12 @@
    "mine": "Can you change it shorter?",
    "mark": "x",
    "note": "改短裤长 = take up / hem",
-   "audio": "audio/6dc2fd735cf4.mp3"
+   "audio": "audio/6dc2fd735cf4.mp3",
+   "us": {
+    "en": "They're a bit long. Can they be [[hemmed]]?",
+    "note": "美国说 hem，take up 偏英澳"
+   },
+   "audio_us": "audio/a3ce09a76dc6.mp3"
   },
   {
    "zh": "这个在打折吗？",
@@ -169,7 +220,8 @@
    "mine": "Is this discount?",
    "mark": "x",
    "note": "",
-   "audio": "audio/98a9a8b0a856.mp3"
+   "audio": "audio/98a9a8b0a856.mp3",
+   "audio_us": "audio/ad809e463dfd.mp3"
   },
   {
    "zh": "穿起来很舒服",
@@ -177,7 +229,8 @@
    "mine": "It's very comfortable to wear.",
    "mark": "~",
    "note": "",
-   "audio": "audio/69fbe95c929b.mp3"
+   "audio": "audio/69fbe95c929b.mp3",
+   "audio_us": "audio/e258fdf0268d.mp3"
   },
   {
    "zh": "我刷卡付",
@@ -185,7 +238,12 @@
    "mine": "I want to swipe card.",
    "mark": "x",
    "note": "澳洲几乎都用 tap（感应支付）",
-   "audio": "audio/bd9aacabbe32.mp3"
+   "audio": "audio/bd9aacabbe32.mp3",
+   "us": {
+    "en": "Can I [[tap to pay]]?",
+    "note": "也可以说 Can I use Apple Pay?"
+   },
+   "audio_us": "audio/4119bc284e96.mp3"
   },
   {
    "zh": "可以帮我包成礼物吗？",
@@ -193,7 +251,8 @@
    "mine": "Can you pack it as a gift?",
    "mark": "~",
    "note": "",
-   "audio": "audio/e25e9072ab4e.mp3"
+   "audio": "audio/e25e9072ab4e.mp3",
+   "audio_us": "audio/70f3cc430f16.mp3"
   },
   {
    "zh": "只能换货，不能退款吗？",
@@ -201,7 +260,8 @@
    "mine": "Can only change, cannot return money?",
    "mark": "x",
    "note": "",
-   "audio": "audio/01a766d9091d.mp3"
+   "audio": "audio/01a766d9091d.mp3",
+   "audio_us": "audio/c225eb536274.mp3"
   }
  ]
 }

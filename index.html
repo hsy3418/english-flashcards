@@ -13,6 +13,10 @@
 body{margin:0;font-family:-apple-system,"PingFang SC","Helvetica Neue",Arial,sans-serif;background:var(--bg);color:var(--ink);min-height:100vh;display:flex;flex-direction:column;align-items:center;padding:env(safe-area-inset-top) 16px 24px}
 header{width:100%;max-width:520px;display:flex;justify-content:space-between;align-items:center;padding:14px 0}
 header h1{font-size:18px;margin:0}
+.right{display:flex;align-items:center;gap:4px}
+.accent{display:flex;background:var(--card);border:1px solid var(--line);border-radius:12px;overflow:hidden}
+.accent button{background:none;color:var(--muted);padding:6px 10px;font-size:13px;border-radius:0}
+.accent button.on{background:var(--accent);color:#fff}
 button{font:inherit;cursor:pointer;border:none;border-radius:12px}
 .link{background:none;color:var(--muted);font-size:15px;padding:6px}
 .wrap{width:100%;max-width:520px}
@@ -48,7 +52,7 @@ button{font:inherit;cursor:pointer;border:none;border-radius:12px}
 </style>
 </head>
 <body>
-<header><h1 id="title">🐰 地道英文卡片</h1><button class="link hidden" id="home">← 主题</button></header>
+<header><h1 id="title">🐰 地道英文卡片</h1><div class="right"><div class="accent" id="accent"><button data-a="us">🇺🇸 美式</button><button data-a="au">🇦🇺 澳式</button></div><button class="link hidden" id="home">← 主题</button></div></header>
 
 <main class="wrap">
   <section id="picker">
@@ -94,6 +98,7 @@ const $ = id => document.getElementById(id);
 const esc = s => s.replace(/[&<>"]/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]));
 const fmt = s => esc(s).replace(/\[\[/g,'<u>').replace(/\]\]/g,'</u>');
 const plain = s => s.replace(/\[\[|\]\]/g,'');
+let accent = localStorage.getItem('fc-accent') || 'us';
 let deck, queue = [], cur = null, flipped = false, mode = 'due', total = 0, voice = null;
 
 // progress: { "<deck>:<zh>": level }  level>=2 = 记住了
@@ -103,12 +108,16 @@ const save = () => localStorage.setItem(KEY, JSON.stringify(prog));
 const k = c => deck.id + ':' + c.zh;
 
 function pickVoice(){
-  const vs = speechSynthesis.getVoices();
-  voice = vs.find(v => v.lang === 'en-AU') || vs.find(v => v.lang === 'en-GB') || vs.find(v => v.lang.startsWith('en'));
+  if (!('speechSynthesis' in window)) return;
+  const vs = speechSynthesis.getVoices(), want = accent === 'au' ? ['en-AU','en-GB'] : ['en-US'];
+  voice = vs.find(v => v.lang === want[0]) || vs.find(v => v.lang === want[1]) || vs.find(v => v.lang.startsWith('en'));
 }
 if ('speechSynthesis' in window){ pickVoice(); speechSynthesis.onvoiceschanged = pickVoice; }
 const player = new Audio();
+const view = c => accent === 'us' ? Object.assign({}, c, c.us || {}, {audio: c.audio_us || c.audio}) : c;
+function setAccent(){ document.querySelectorAll('#accent button').forEach(b => b.classList.toggle('on', b.dataset.a === accent)); pickVoice(); }
 function play(c, rate){
+  c = view(c);
   if (c.audio){
     player.src = c.audio; player.playbackRate = rate; player.preservesPitch = true;
     player.play().catch(() => speak(plain(c.en), rate));
@@ -120,7 +129,7 @@ function speak(text, rate = 1){
   if (!('speechSynthesis' in window)) return;
   speechSynthesis.cancel();
   const u = new SpeechSynthesisUtterance(text);
-  if (voice) u.voice = voice; u.lang = voice ? voice.lang : 'en-AU'; u.rate = 0.95 * rate;
+  if (voice) u.voice = voice; u.lang = voice ? voice.lang : (accent === 'au' ? 'en-AU' : 'en-US'); u.rate = 0.95 * rate;
   speechSynthesis.speak(u);
 }
 
@@ -161,12 +170,17 @@ function next(){
     return;
   }
   cur = queue[0]; flipped = false;
-  $('zh').textContent = cur.zh;
-  $('en').innerHTML = fmt(cur.en);
-  const tag = cur.mark === 'x' ? '<span class="tag x">不地道</span>' : '<span class="tag w">能用，但不够自然</span>';
-  $('mine').innerHTML = cur.mine ? `${tag}你以为的：${esc(cur.mine)}` : '';
-  $('note').textContent = cur.note || '';
+  render();
   $('back').classList.add('hidden'); $('tapHint').classList.remove('hidden'); $('actions').classList.add('hidden');
+}
+
+function render(){
+  const v = view(cur);
+  $('zh').textContent = v.zh;
+  $('en').innerHTML = fmt(v.en);
+  const tag = v.mark === 'x' ? '<span class="tag x">不地道</span>' : '<span class="tag w">能用，但不够自然</span>';
+  $('mine').innerHTML = v.mine ? `${tag}你以为的：${esc(v.mine)}` : '';
+  $('note').textContent = v.note || '';
 }
 
 function flip(){
@@ -195,6 +209,11 @@ $('speak').onclick = e => { e.stopPropagation(); play(cur, 1); };
 $('slow').onclick = e => { e.stopPropagation(); play(cur, 0.7); };
 $('auto').onclick = () => { auto = !auto; localStorage.setItem('fc-auto', auto ? '1' : '0'); setAuto(); if (auto && flipped) play(cur, 1); };
 setAuto();
+setAccent();
+document.querySelectorAll('#accent button').forEach(b => b.onclick = () => {
+  accent = b.dataset.a; localStorage.setItem('fc-accent', accent); setAccent();
+  if (cur && !$('study').classList.contains('hidden')){ render(); if (flipped && auto) play(cur, 1); }
+});
 $('again').onclick = () => answer(false);
 $('good').onclick = () => answer(true);
 $('restart').onclick = () => { mode = 'all'; setMode(); start(); };

@@ -9,7 +9,8 @@
    "mine": "I want one small oat milk latte.",
    "mark": "~",
    "note": "",
-   "audio": "audio/8571101f3246.mp3"
+   "audio": "audio/8571101f3246.mp3",
+   "audio_us": "audio/29ed67dd5705.mp3"
   },
   {
    "zh": "外带，谢谢",
@@ -17,7 +18,13 @@
    "mine": "To go, please.",
    "mark": "~",
    "note": "To go 是美国说法，澳洲说 takeaway",
-   "audio": "audio/649525de0bb3.mp3"
+   "audio": "audio/649525de0bb3.mp3",
+   "us": {
+    "en": "[[To go]], please.",
+    "mine": "Take away, please.",
+    "note": "美国说 to go，澳洲说 takeaway"
+   },
+   "audio_us": "audio/5be7d40e81b5.mp3"
   },
   {
    "zh": "在这儿喝",
@@ -25,7 +32,12 @@
    "mine": "Eat here.",
    "mark": "x",
    "note": "店员会问：Having it here or takeaway?",
-   "audio": "audio/96a57c5031aa.mp3"
+   "audio": "audio/96a57c5031aa.mp3",
+   "us": {
+    "en": "[[For here]], please.",
+    "note": "店员会问：For here or to go?"
+   },
+   "audio_us": "audio/698bfb731b04.mp3"
   },
   {
    "zh": "能加一份浓缩吗？",
@@ -33,7 +45,8 @@
    "mine": "Can you make it stronger?",
    "mark": "~",
    "note": "",
-   "audio": "audio/667bd693431f.mp3"
+   "audio": "audio/667bd693431f.mp3",
+   "audio_us": "audio/cdc0774ad55d.mp3"
   },
   {
    "zh": "要特别烫的",
@@ -41,7 +54,8 @@
    "mine": "Please make it very hot.",
    "mark": "~",
    "note": "",
-   "audio": "audio/82f976c653d0.mp3"
+   "audio": "audio/82f976c653d0.mp3",
+   "audio_us": "audio/64836adc4afa.mp3"
   },
   {
    "zh": "一杯美式",
@@ -49,7 +63,13 @@
    "mine": "An Americano, please.",
    "mark": "~",
    "note": "澳洲咖啡店基本都说 long black",
-   "audio": "audio/38c4ff64b3dc.mp3"
+   "audio": "audio/38c4ff64b3dc.mp3",
+   "us": {
+    "en": "An [[Americano]], please.",
+    "mine": "A long black, please.",
+    "note": "long black 是澳洲叫法"
+   },
+   "audio_us": "audio/b5a916acfebf.mp3"
   },
   {
    "zh": "两位，有位子吗？",
@@ -57,7 +77,8 @@
    "mine": "We have two people, any seat?",
    "mark": "x",
    "note": "",
-   "audio": "audio/be21eed7ea1d.mp3"
+   "audio": "audio/be21eed7ea1d.mp3",
+   "audio_us": "audio/7f63fc7a21d6.mp3"
   },
   {
    "zh": "我们还没想好",
@@ -65,7 +86,8 @@
    "mine": "We didn't decide yet.",
    "mark": "~",
    "note": "",
-   "audio": "audio/136ee2c7bec6.mp3"
+   "audio": "audio/136ee2c7bec6.mp3",
+   "audio_us": "audio/880b3d64de6a.mp3"
   },
   {
    "zh": "我要这个",
@@ -73,7 +95,8 @@
    "mine": "I want this one.",
    "mark": "~",
    "note": "go with = 选这个",
-   "audio": "audio/39b45e40e67e.mp3"
+   "audio": "audio/39b45e40e67e.mp3",
+   "audio_us": "audio/65a67f6bbc07.mp3"
   },
   {
    "zh": "我对坚果过敏",
@@ -81,7 +104,8 @@
    "mine": "I'm allergic with nuts.",
    "mark": "x",
    "note": "allergic 后面接 to，不是 with",
-   "audio": "audio/79cda55be78e.mp3"
+   "audio": "audio/79cda55be78e.mp3",
+   "audio_us": "audio/4a18ce68c90b.mp3"
   },
   {
    "zh": "能不放洋葱吗？",
@@ -89,7 +113,8 @@
    "mine": "Can you not put onion?",
    "mark": "~",
    "note": "",
-   "audio": "audio/ce4f2d1d21ac.mp3"
+   "audio": "audio/ce4f2d1d21ac.mp3",
+   "audio_us": "audio/033e59d73f39.mp3"
   },
   {
    "zh": "我们能分开付吗？",
@@ -97,7 +122,8 @@
    "mine": "Can we pay separately?",
    "mark": "~",
    "note": "",
-   "audio": "audio/4119ebab75cc.mp3"
+   "audio": "audio/4119ebab75cc.mp3",
+   "audio_us": "audio/9205bccbabc6.mp3"
   },
   {
    "zh": "这顿我请",
@@ -105,7 +131,12 @@
    "mine": "I treat you.",
    "mark": "x",
    "note": "shout = 请客，澳洲超常用。轮流请客也叫 shout",
-   "audio": "audio/866265920086.mp3"
+   "audio": "audio/866265920086.mp3",
+   "us": {
+    "en": "[[It's on me]].",
+    "note": "My shout 是澳洲说法"
+   },
+   "audio_us": "audio/db4dd81178fe.mp3"
   },
   {
    "zh": "买单",
@@ -113,7 +144,12 @@
    "mine": "Pay the bill please.",
    "mark": "x",
    "note": "美国说 check，澳洲说 bill",
-   "audio": "audio/39c5b1395a23.mp3"
+   "audio": "audio/39c5b1395a23.mp3",
+   "us": {
+    "en": "Could we get [[the check]], please?",
+    "note": "美国说 check，英澳说 bill"
+   },
+   "audio_us": "audio/2df1ec74e0d9.mp3"
   },
   {
    "zh": "剩下的能帮我打包吗？",
@@ -121,7 +157,8 @@
    "mine": "Can you pack the rest for me?",
    "mark": "~",
    "note": "",
-   "audio": "audio/f7d0da235d84.mp3"
+   "audio": "audio/f7d0da235d84.mp3",
+   "audio_us": "audio/758e9b6d1003.mp3"
   },
   {
    "zh": "太好吃了",
@@ -129,7 +166,12 @@
    "mine": "It's very delicious.",
    "mark": "~",
    "note": "unreal = 好到不真实",
-   "audio": "audio/e12833e3918e.mp3"
+   "audio": "audio/e12833e3918e.mp3",
+   "us": {
+    "en": "This really [[hits the spot]].",
+    "note": "hit the spot = 正是想吃的，吃得很满足"
+   },
+   "audio_us": "audio/66e5ddb89fb0.mp3"
   },
   {
    "zh": "我们订了位，名字是 Chen",
@@ -137,7 +179,12 @@
    "mine": "We ordered a table, name is Chen.",
    "mark": "x",
    "note": "澳洲说 booking，美国说 reservation",
-   "audio": "audio/02e9a2745513.mp3"
+   "audio": "audio/02e9a2745513.mp3",
+   "us": {
+    "en": "We have a [[reservation]] under Chen.",
+    "note": "美国说 reservation，澳洲说 booking"
+   },
+   "audio_us": "audio/5599f32cd2dc.mp3"
   },
   {
    "zh": "要等多久？",
@@ -145,7 +192,8 @@
    "mine": "How long we need to wait?",
    "mark": "x",
    "note": "",
-   "audio": "audio/4abe968b3552.mp3"
+   "audio": "audio/4abe968b3552.mp3",
+   "audio_us": "audio/510ed1f3a7c1.mp3"
   },
   {
    "zh": "这好像不是我点的",
@@ -153,7 +201,8 @@
    "mine": "This is not mine.",
    "mark": "~",
    "note": "",
-   "audio": "audio/128bbf6485c5.mp3"
+   "audio": "audio/128bbf6485c5.mp3",
+   "audio_us": "audio/e259e54879f3.mp3"
   },
   {
    "zh": "自来水就好",
@@ -161,7 +210,11 @@
    "mine": "Normal water is fine.",
    "mark": "~",
    "note": "澳洲餐厅的自来水免费",
-   "audio": "audio/91bf6e3d4ada.mp3"
+   "audio": "audio/91bf6e3d4ada.mp3",
+   "us": {
+    "note": "美国餐厅一般会直接给你一杯免费冰水"
+   },
+   "audio_us": "audio/d9a281b393c0.mp3"
   },
   {
    "zh": "有素食吗？",
@@ -169,7 +222,11 @@
    "mine": "Do you have food for vegetarian?",
    "mark": "x",
    "note": "口语里也说 veggo options",
-   "audio": "audio/2caa4c1901d2.mp3"
+   "audio": "audio/2caa4c1901d2.mp3",
+   "us": {
+    "note": ""
+   },
+   "audio_us": "audio/6d1d94808c09.mp3"
   },
   {
    "zh": "我要冰的",
@@ -177,7 +234,8 @@
    "mine": "I want cold one.",
    "mark": "x",
    "note": "",
-   "audio": "audio/7e731806a2b9.mp3"
+   "audio": "audio/7e731806a2b9.mp3",
+   "audio_us": "audio/897debb08380.mp3"
   },
   {
    "zh": "能换成燕麦奶吗？",
@@ -185,7 +243,8 @@
    "mine": "Can you change milk to oat milk?",
    "mark": "~",
    "note": "",
-   "audio": "audio/c6b1903058b3.mp3"
+   "audio": "audio/c6b1903058b3.mp3",
+   "audio_us": "audio/b131a2c542e2.mp3"
   },
   {
    "zh": "这里什么好吃？",
@@ -193,7 +252,8 @@
    "mine": "What is your recommend?",
    "mark": "x",
    "note": "recommend 是动词，不能当名词",
-   "audio": "audio/3e650cbe7aef.mp3"
+   "audio": "audio/3e650cbe7aef.mp3",
+   "audio_us": "audio/5560914856eb.mp3"
   },
   {
    "zh": "就这些了",
@@ -201,7 +261,8 @@
    "mine": "No more, thanks.",
    "mark": "~",
    "note": "",
-   "audio": "audio/163d56081614.mp3"
+   "audio": "audio/163d56081614.mp3",
+   "audio_us": "audio/960882eeeecc.mp3"
   }
  ]
 }

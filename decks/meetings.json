@@ -9,7 +9,8 @@
    "mine": "Sorry to interrupt you, let me say something.",
    "mark": "~",
    "note": "",
-   "audio": "audio/13d8343fa23a.mp3"
+   "audio": "audio/13d8343fa23a.mp3",
+   "audio_us": "audio/4530263b5d06.mp3"
   },
   {
    "zh": "大部分我同意，但是……",
@@ -17,7 +18,8 @@
    "mine": "I partly agree with you, but...",
    "mark": "~",
    "note": "",
-   "audio": "audio/3a328a7d8bdd.mp3"
+   "audio": "audio/3a328a7d8bdd.mp3",
+   "audio_us": "audio/091a87ab2dcf.mp3"
   },
   {
    "zh": "这个先放一放，之后再聊",
@@ -25,7 +27,8 @@
    "mine": "Let's not talk about it now.",
    "mark": "~",
    "note": "park = 先搁置，开会时超常用",
-   "audio": "audio/35a1f01d9d45.mp3"
+   "audio": "audio/35a1f01d9d45.mp3",
+   "audio_us": "audio/06bc7c218c6e.mp3"
   },
   {
    "zh": "这个我回头再跟你确认",
@@ -33,7 +36,8 @@
    "mine": "I will confirm with you later.",
    "mark": "~",
    "note": "",
-   "audio": "audio/7d732e6f3e98.mp3"
+   "audio": "audio/7d732e6f3e98.mp3",
+   "audio_us": "audio/9de5396a2f1b.mp3"
   },
   {
    "zh": "不好意思，我没太听清",
@@ -41,7 +45,8 @@
    "mine": "I don't understand, can you say again?",
    "mark": "x",
    "note": "没听清 ≠ 没听懂，别说 I don't understand",
-   "audio": "audio/5fdaaddd117c.mp3"
+   "audio": "audio/5fdaaddd117c.mp3",
+   "audio_us": "audio/a644a7714b57.mp3"
   },
   {
    "zh": "我们对一下进度吧",
@@ -49,7 +54,12 @@
    "mine": "Let's align the progress.",
    "mark": "x",
    "note": "where this is at 很澳洲口语",
-   "audio": "audio/577468e1de64.mp3"
+   "audio": "audio/577468e1de64.mp3",
+   "us": {
+    "en": "Can we [[sync up]] on where we're at?",
+    "note": ""
+   },
+   "audio_us": "audio/e952cf7b37d3.mp3"
   },
   {
    "zh": "我这周有点忙不过来",
@@ -57,7 +67,11 @@
    "mine": "I'm too busy this week.",
    "mark": "~",
    "note": "",
-   "audio": "audio/3d7ffa2c9a07.mp3"
+   "audio": "audio/3d7ffa2c9a07.mp3",
+   "us": {
+    "en": "I'm [[spread a little thin]] this week."
+   },
+   "audio_us": "audio/12b8abe16f39.mp3"
   },
   {
    "zh": "这不是我能决定的",
@@ -65,7 +79,8 @@
    "mine": "I can't decide this.",
    "mark": "~",
    "note": "",
-   "audio": "audio/f44f9a6c9301.mp3"
+   "audio": "audio/f44f9a6c9301.mp3",
+   "audio_us": "audio/578238750ada.mp3"
   },
   {
    "zh": "这个我来跟进",
@@ -73,7 +88,8 @@
    "mine": "I will follow this.",
    "mark": "x",
    "note": "",
-   "audio": "audio/87f455523ce7.mp3"
+   "audio": "audio/87f455523ce7.mp3",
+   "audio_us": "audio/ca9c3961e851.mp3"
   },
   {
    "zh": "大家都了解这个情况了吗？",
@@ -81,7 +97,12 @@
    "mine": "Does everyone know this situation?",
    "mark": "~",
    "note": "be across sth = 了解情况，澳洲职场超常用",
-   "audio": "audio/e9a67b7e8a52.mp3"
+   "audio": "audio/e9a67b7e8a52.mp3",
+   "us": {
+    "en": "Is everyone [[up to speed]] on this?",
+    "note": "be across 是澳洲说法，美国说 up to speed"
+   },
+   "audio_us": "audio/471ffa0cddd6.mp3"
   },
   {
    "zh": "我对这个持保留意见",
@@ -89,7 +110,8 @@
    "mine": "I keep my opinion.",
    "mark": "x",
    "note": "",
-   "audio": "audio/9c2b290e3e2e.mp3"
+   "audio": "audio/9c2b290e3e2e.mp3",
+   "audio_us": "audio/a9dfa3027b72.mp3"
   },
   {
    "zh": "我们换个角度看",
@@ -97,7 +119,8 @@
    "mine": "Let's think from another side.",
    "mark": "x",
    "note": "",
-   "audio": "audio/edc3c9b717f0.mp3"
+   "audio": "audio/edc3c9b717f0.mp3",
+   "audio_us": "audio/49052f980ad2.mp3"
   },
   {
    "zh": "你先说吧",
@@ -105,7 +128,8 @@
    "mine": "You say first.",
    "mark": "x",
    "note": "",
-   "audio": "audio/5e80cf32d2c3.mp3"
+   "audio": "audio/5e80cf32d2c3.mp3",
+   "audio_us": "audio/5acd50b9ce1d.mp3"
   },
   {
    "zh": "我再核实一下，然后回复你",
@@ -113,7 +137,8 @@
    "mine": "I need to confirm again and reply you.",
    "mark": "x",
    "note": "reply 后面要加 to",
-   "audio": "audio/c6af46f1f1a1.mp3"
+   "audio": "audio/c6af46f1f1a1.mp3",
+   "audio_us": "audio/08be25aa58d3.mp3"
   },
   {
    "zh": "这个我们会后单独聊",
@@ -121,7 +146,8 @@
    "mine": "Let's talk privately later.",
    "mark": "~",
    "note": "",
-   "audio": "audio/bab3175ca1a8.mp3"
+   "audio": "audio/bab3175ca1a8.mp3",
+   "audio_us": "audio/0532ea7fa576.mp3"
   },
   {
    "zh": "我们时间不多了",
@@ -129,7 +155,8 @@
    "mine": "Our time is almost finished.",
    "mark": "x",
    "note": "",
-   "audio": "audio/d2d13d1012ac.mp3"
+   "audio": "audio/d2d13d1012ac.mp3",
+   "audio_us": "audio/e27553cd7814.mp3"
   },
   {
    "zh": "最后总结一下",
@@ -137,7 +164,8 @@
    "mine": "So, to make a summary...",
    "mark": "~",
    "note": "",
-   "audio": "audio/8feac9c16e76.mp3"
+   "audio": "audio/8feac9c16e76.mp3",
+   "audio_us": "audio/11614eece0f0.mp3"
   },
   {
    "zh": "这个可以先往后放",
@@ -145,7 +173,8 @@
    "mine": "This priority is not high.",
    "mark": "x",
    "note": "back burner = 炉子后面那个小火",
-   "audio": "audio/948e5ab70f19.mp3"
+   "audio": "audio/948e5ab70f19.mp3",
+   "audio_us": "audio/d1363525ea6d.mp3"
   },
   {
    "zh": "我觉得这个方案有点风险",
@@ -153,7 +182,8 @@
    "mine": "I think this plan has risk.",
    "mark": "~",
    "note": "",
-   "audio": "audio/69a3648fb39c.mp3"
+   "audio": "audio/69a3648fb39c.mp3",
+   "audio_us": "audio/de346feab8b3.mp3"
   },
   {
    "zh": "这个谁来接？",
@@ -161,7 +191,8 @@
    "mine": "Who is responsible for this?",
    "mark": "~",
    "note": "pick up = 接手一个任务",
-   "audio": "audio/f43712ccba56.mp3"
+   "audio": "audio/f43712ccba56.mp3",
+   "audio_us": "audio/bbae50a7c13f.mp3"
   },
   {
    "zh": "不好意思迟到了，上个会拖堂了",
@@ -169,7 +200,8 @@
    "mine": "Sorry, my last meeting delayed.",
    "mark": "x",
    "note": "",
-   "audio": "audio/0398ab7fbc25.mp3"
+   "audio": "audio/0398ab7fbc25.mp3",
+   "audio_us": "audio/538ca781acfd.mp3"
   },
   {
    "zh": "你刚刚卡了一下",
@@ -177,7 +209,11 @@
    "mine": "Your network was stuck just now.",
    "mark": "x",
    "note": "",
-   "audio": "audio/370c065fb714.mp3"
+   "audio": "audio/370c065fb714.mp3",
+   "us": {
+    "en": "Sorry, you [[cut out]] for a sec."
+   },
+   "audio_us": "audio/4ebf502aadf0.mp3"
   },
   {
    "zh": "不好意思，我刚才静音了",
@@ -185,7 +221,8 @@
    "mine": "Sorry, I closed my microphone.",
    "mark": "x",
    "note": "",
-   "audio": "audio/4a2100ef31cc.mp3"
+   "audio": "audio/4a2100ef31cc.mp3",
+   "audio_us": "audio/1eee31f03826.mp3"
   },
   {
    "zh": "好主意，就这么办",
@@ -193,7 +230,8 @@
    "mine": "Good idea, let's do like this.",
    "mark": "x",
    "note": "",
-   "audio": "audio/2c8eb4942cd8.mp3"
+   "audio": "audio/2c8eb4942cd8.mp3",
+   "audio_us": "audio/dea4fc14d2c5.mp3"
   },
   {
    "zh": "我们达成一致了吗？",
@@ -201,7 +239,8 @@
    "mine": "Do we reach agreement?",
    "mark": "x",
    "note": "",
-   "audio": "audio/a6366e53f984.mp3"
+   "audio": "audio/a6366e53f984.mp3",
+   "audio_us": "audio/1510fe408e60.mp3"
   }
  ]
 }

@@ -9,7 +9,12 @@
    "mine": "I want to make a doctor appointment.",
    "mark": "~",
    "note": "",
-   "audio": "audio/a9c50f73c51d.mp3"
+   "audio": "audio/a9c50f73c51d.mp3",
+   "us": {
+    "en": "I'd like to [[make an appointment]] with my doctor.",
+    "note": "美国一般说 primary care doctor，很少说 GP"
+   },
+   "audio_us": "audio/2c8bb7e6b473.mp3"
   },
   {
    "zh": "你们这里能 bulk bill 吗？",
@@ -17,7 +22,13 @@
    "mine": "Is it free with Medicare?",
    "mark": "~",
    "note": "bulk bill = Medicare 直接付，自己不用掏钱",
-   "audio": "audio/182a1ea2735c.mp3"
+   "audio": "audio/182a1ea2735c.mp3",
+   "us": {
+    "en": "Do you [[take my insurance]]?",
+    "mine": "Can I use insurance here?",
+    "note": "美国看病先问保险，没有 bulk bill"
+   },
+   "audio_us": "audio/3a4f9d567457.mp3"
   },
   {
    "zh": "我腰疼了两周了",
@@ -25,7 +36,8 @@
    "mine": "My back is pain two weeks.",
    "mark": "x",
    "note": "pain 是名词，不能说 is pain",
-   "audio": "audio/056da13b0baa.mp3"
+   "audio": "audio/056da13b0baa.mp3",
+   "audio_us": "audio/9f5f84956d4e.mp3"
   },
   {
    "zh": "弯腰的时候会疼",
@@ -33,7 +45,8 @@
    "mine": "It hurts when I bow down.",
    "mark": "x",
    "note": "bow 是鞠躬",
-   "audio": "audio/ff95393ead79.mp3"
+   "audio": "audio/ff95393ead79.mp3",
+   "audio_us": "audio/fe8a162fdb35.mp3"
   },
   {
    "zh": "一阵一阵地疼",
@@ -41,7 +54,8 @@
    "mine": "It's pain one time and one time.",
    "mark": "x",
    "note": "",
-   "audio": "audio/c84bed4a2911.mp3"
+   "audio": "audio/c84bed4a2911.mp3",
+   "audio_us": "audio/15cebcb316e1.mp3"
   },
   {
    "zh": "隐隐作痛",
@@ -49,7 +63,8 @@
    "mine": "It's a little bit pain.",
    "mark": "x",
    "note": "",
-   "audio": "audio/ec75045eff03.mp3"
+   "audio": "audio/ec75045eff03.mp3",
+   "audio_us": "audio/ce7df2105410.mp3"
   },
   {
    "zh": "像针扎一样疼",
@@ -57,7 +72,8 @@
    "mine": "It's like needle pain.",
    "mark": "x",
    "note": "",
-   "audio": "audio/bd7088569d7a.mp3"
+   "audio": "audio/bd7088569d7a.mp3",
+   "audio_us": "audio/7d2bc0cc3b93.mp3"
   },
   {
    "zh": "我好像拉伤了",
@@ -65,7 +81,8 @@
    "mine": "I think my muscle is hurt.",
    "mark": "~",
    "note": "",
-   "audio": "audio/8ccc61e94222.mp3"
+   "audio": "audio/8ccc61e94222.mp3",
+   "audio_us": "audio/ea45749aff10.mp3"
   },
   {
    "zh": "我扭到脚了",
@@ -73,7 +90,8 @@
    "mine": "I twisted my foot.",
    "mark": "~",
    "note": "",
-   "audio": "audio/8dc85360aaae.mp3"
+   "audio": "audio/8dc85360aaae.mp3",
+   "audio_us": "audio/0dcaa68ce5f6.mp3"
   },
   {
    "zh": "我需要转诊信吗？",
@@ -81,7 +99,8 @@
    "mine": "Do I need a letter to see specialist?",
    "mark": "~",
    "note": "",
-   "audio": "audio/a548c086547c.mp3"
+   "audio": "audio/a548c086547c.mp3",
+   "audio_us": "audio/b7f1caa8f729.mp3"
   },
   {
    "zh": "能开一张病假条吗？",
@@ -89,7 +108,12 @@
    "mine": "Can you give me a sick note?",
    "mark": "~",
    "note": "口语说 med cert",
-   "audio": "audio/d7ed0fd34197.mp3"
+   "audio": "audio/d7ed0fd34197.mp3",
+   "us": {
+    "en": "Could I get a [[doctor's note]]?",
+    "note": "美国说 doctor's note"
+   },
+   "audio_us": "audio/3ac2abd65739.mp3"
   },
   {
    "zh": "能给我开处方吗？",
@@ -97,7 +121,12 @@
    "mine": "Can you write medicine for me?",
    "mark": "x",
    "note": "script = prescription，澳洲口语",
-   "audio": "audio/69cf4c2b07b1.mp3"
+   "audio": "audio/69cf4c2b07b1.mp3",
+   "us": {
+    "en": "Could I get a [[prescription]] for that?",
+    "note": "script 是澳洲口语"
+   },
+   "audio_us": "audio/db75df9435c4.mp3"
   },
   {
    "zh": "我感冒了",
@@ -105,7 +134,8 @@
    "mine": "I got a cold.",
    "mark": "~",
    "note": "",
-   "audio": "audio/8115faaa1753.mp3"
+   "audio": "audio/8115faaa1753.mp3",
+   "audio_us": "audio/d405fe177955.mp3"
   },
   {
    "zh": "我鼻子完全堵住了",
@@ -113,7 +143,11 @@
    "mine": "My nose cannot breathe.",
    "mark": "x",
    "note": "",
-   "audio": "audio/c068cd84f326.mp3"
+   "audio": "audio/c068cd84f326.mp3",
+   "us": {
+    "en": "I'm [[all stuffed up]]."
+   },
+   "audio_us": "audio/62e6da0014ae.mp3"
   },
   {
    "zh": "嗓子疼",
@@ -121,7 +155,8 @@
    "mine": "My throat is pain.",
    "mark": "x",
    "note": "",
-   "audio": "audio/9869efaee3ee.mp3"
+   "audio": "audio/9869efaee3ee.mp3",
+   "audio_us": "audio/9010a480d6db.mp3"
   },
   {
    "zh": "这个动作每天做几组？",
@@ -129,7 +164,8 @@
    "mine": "How many times I do this every day?",
    "mark": "~",
    "note": "set = 组，rep = 次",
-   "audio": "audio/8618d44f17da.mp3"
+   "audio": "audio/8618d44f17da.mp3",
+   "audio_us": "audio/b4c8ef8ef143.mp3"
   },
   {
    "zh": "做这个动作的时候有点拉扯感",
@@ -137,7 +173,8 @@
    "mine": "When I do this, it feels pulling.",
    "mark": "x",
    "note": "",
-   "audio": "audio/17e5605b019d.mp3"
+   "audio": "audio/17e5605b019d.mp3",
+   "audio_us": "audio/ed414457cae9.mp3"
   },
   {
    "zh": "好多了",
@@ -145,7 +182,12 @@
    "mine": "It's much more better.",
    "mark": "x",
    "note": "much 和 more 不能一起用",
-   "audio": "audio/99fb784abfb6.mp3"
+   "audio": "audio/99fb784abfb6.mp3",
+   "us": {
+    "en": "It's [[a lot better]].",
+    "note": "heaps 是澳洲说法；much 和 more 不能一起用"
+   },
+   "audio_us": "audio/564f17b4c82a.mp3"
   },
   {
    "zh": "还是老样子",
@@ -153,7 +195,8 @@
    "mine": "Still the old way.",
    "mark": "x",
    "note": "",
-   "audio": "audio/a00c11d00dc5.mp3"
+   "audio": "audio/a00c11d00dc5.mp3",
+   "audio_us": "audio/f60aa306445c.mp3"
   },
   {
    "zh": "我要不要先少去健身房？",
@@ -161,7 +204,8 @@
    "mine": "Should I go to gym less?",
    "mark": "~",
    "note": "ease off = 减量，放缓",
-   "audio": "audio/6935968ade18.mp3"
+   "audio": "audio/6935968ade18.mp3",
+   "audio_us": "audio/1ef07ca61515.mp3"
   }
  ]
 }
