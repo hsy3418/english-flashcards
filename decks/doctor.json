@@ -1,0 +1,167 @@
+{
+ "id": "doctor",
+ "title": "看医生 & 理疗",
+ "emoji": "🩺",
+ "cards": [
+  {
+   "zh": "我想约个 GP",
+   "en": "I'd like to [[book an appointment]] with a GP.",
+   "mine": "I want to make a doctor appointment.",
+   "mark": "~",
+   "note": "",
+   "audio": "audio/a9c50f73c51d.mp3"
+  },
+  {
+   "zh": "你们这里能 bulk bill 吗？",
+   "en": "Do you [[bulk bill]]?",
+   "mine": "Is it free with Medicare?",
+   "mark": "~",
+   "note": "bulk bill = Medicare 直接付，自己不用掏钱",
+   "audio": "audio/182a1ea2735c.mp3"
+  },
+  {
+   "zh": "我腰疼了两周了",
+   "en": "I've [[had]] lower back pain [[for]] two weeks.",
+   "mine": "My back is pain two weeks.",
+   "mark": "x",
+   "note": "pain 是名词，不能说 is pain",
+   "audio": "audio/056da13b0baa.mp3"
+  },
+  {
+   "zh": "弯腰的时候会疼",
+   "en": "It [[flares up]] when I bend over.",
+   "mine": "It hurts when I bow down.",
+   "mark": "x",
+   "note": "bow 是鞠躬",
+   "audio": "audio/ff95393ead79.mp3"
+  },
+  {
+   "zh": "一阵一阵地疼",
+   "en": "It [[comes and goes]].",
+   "mine": "It's pain one time and one time.",
+   "mark": "x",
+   "note": "",
+   "audio": "audio/c84bed4a2911.mp3"
+  },
+  {
+   "zh": "隐隐作痛",
+   "en": "It's a [[dull ache]].",
+   "mine": "It's a little bit pain.",
+   "mark": "x",
+   "note": "",
+   "audio": "audio/ec75045eff03.mp3"
+  },
+  {
+   "zh": "像针扎一样疼",
+   "en": "It's a [[sharp, stabbing pain]].",
+   "mine": "It's like needle pain.",
+   "mark": "x",
+   "note": "",
+   "audio": "audio/bd7088569d7a.mp3"
+  },
+  {
+   "zh": "我好像拉伤了",
+   "en": "I think I [[pulled a muscle]].",
+   "mine": "I think my muscle is hurt.",
+   "mark": "~",
+   "note": "",
+   "audio": "audio/8ccc61e94222.mp3"
+  },
+  {
+   "zh": "我扭到脚了",
+   "en": "I [[rolled my ankle]].",
+   "mine": "I twisted my foot.",
+   "mark": "~",
+   "note": "",
+   "audio": "audio/8dc85360aaae.mp3"
+  },
+  {
+   "zh": "我需要转诊信吗？",
+   "en": "Do I need a [[referral]]?",
+   "mine": "Do I need a letter to see specialist?",
+   "mark": "~",
+   "note": "",
+   "audio": "audio/a548c086547c.mp3"
+  },
+  {
+   "zh": "能开一张病假条吗？",
+   "en": "Could I get a [[medical certificate]]?",
+   "mine": "Can you give me a sick note?",
+   "mark": "~",
+   "note": "口语说 med cert",
+   "audio": "audio/d7ed0fd34197.mp3"
+  },
+  {
+   "zh": "能给我开处方吗？",
+   "en": "Could I get a [[script]] for that?",
+   "mine": "Can you write medicine for me?",
+   "mark": "x",
+   "note": "script = prescription，澳洲口语",
+   "audio": "audio/69cf4c2b07b1.mp3"
+  },
+  {
+   "zh": "我感冒了",
+   "en": "I've [[come down with]] a cold.",
+   "mine": "I got a cold.",
+   "mark": "~",
+   "note": "",
+   "audio": "audio/8115faaa1753.mp3"
+  },
+  {
+   "zh": "我鼻子完全堵住了",
+   "en": "I'm [[all blocked up]].",
+   "mine": "My nose cannot breathe.",
+   "mark": "x",
+   "note": "",
+   "audio": "audio/c068cd84f326.mp3"
+  },
+  {
+   "zh": "嗓子疼",
+   "en": "I've got a [[sore throat]].",
+   "mine": "My throat is pain.",
+   "mark": "x",
+   "note": "",
+   "audio": "audio/9869efaee3ee.mp3"
+  },
+  {
+   "zh": "这个动作每天做几组？",
+   "en": "How many [[sets and reps]] should I do a day?",
+   "mine": "How many times I do this every day?",
+   "mark": "~",
+   "note": "set = 组，rep = 次",
+   "audio": "audio/8618d44f17da.mp3"
+  },
+  {
+   "zh": "做这个动作的时候有点拉扯感",
+   "en": "I feel a bit of a [[pull]] when I do this.",
+   "mine": "When I do this, it feels pulling.",
+   "mark": "x",
+   "note": "",
+   "audio": "audio/17e5605b019d.mp3"
+  },
+  {
+   "zh": "好多了",
+   "en": "It's [[heaps better]].",
+   "mine": "It's much more better.",
+   "mark": "x",
+   "note": "much 和 more 不能一起用",
+   "audio": "audio/99fb784abfb6.mp3"
+  },
+  {
+   "zh": "还是老样子",
+   "en": "[[About the same]], really.",
+   "mine": "Still the old way.",
+   "mark": "x",
+   "note": "",
+   "audio": "audio/a00c11d00dc5.mp3"
+  },
+  {
+   "zh": "我要不要先少去健身房？",
+   "en": "Should I [[ease off]] the gym for a bit?",
+   "mine": "Should I go to gym less?",
+   "mark": "~",
+   "note": "ease off = 减量，放缓",
+   "audio": "audio/6935968ade18.mp3"
+  }
+ ]
+}

@@ -1,0 +1,207 @@
+{
+ "id": "smalltalk",
+ "title": "闲聊 Small talk",
+ "emoji": "💬",
+ "cards": [
+  {
+   "zh": "周末干嘛了？",
+   "en": "Did you [[get up to]] much on the weekend?",
+   "mine": "What did you do on weekend?",
+   "mark": "~",
+   "note": "",
+   "audio": "audio/b946ed6bd02b.mp3"
+  },
+  {
+   "zh": "最近怎么样？",
+   "en": "[[How're you going]]?",
+   "mine": "How are you recently?",
+   "mark": "x",
+   "note": "澳洲版的 How are you",
+   "audio": "audio/cc8ef8a304ce.mp3"
+  },
+  {
+   "zh": "还行吧",
+   "en": "[[Not too bad]].",
+   "mine": "Just so-so.",
+   "mark": "x",
+   "note": "",
+   "audio": "audio/6a9355d8ecc6.mp3"
+  },
+  {
+   "zh": "今天好热",
+   "en": "It's [[a scorcher]] today.",
+   "mine": "Today is very hot.",
+   "mark": "~",
+   "note": "",
+   "audio": "audio/5c32a122dde3.mp3"
+  },
+  {
+   "zh": "天气变得好快",
+   "en": "Classic Melbourne, [[four seasons in one day]].",
+   "mine": "The weather changes very fast.",
+   "mark": "~",
+   "note": "",
+   "audio": "audio/a9fd3e8bced8.mp3"
+  },
+  {
+   "zh": "周末有什么安排吗？",
+   "en": "[[Got anything planned]] for the weekend?",
+   "mine": "Do you have plan this weekend?",
+   "mark": "x",
+   "note": "",
+   "audio": "audio/e48b9169a0e1.mp3"
+  },
+  {
+   "zh": "没什么特别的，就休息",
+   "en": "[[Nothing much]], just [[taking it easy]].",
+   "mine": "Nothing special, just rest.",
+   "mark": "~",
+   "note": "",
+   "audio": "audio/1583d444270f.mp3"
+  },
+  {
+   "zh": "好久不见！",
+   "en": "Haven't seen you [[in ages]]!",
+   "mine": "Long time no see!",
+   "mark": "~",
+   "note": "Long time no see 也能用，in ages 更常见",
+   "audio": "audio/97b36f6d132c.mp3"
+  },
+  {
+   "zh": "我得走了",
+   "en": "I'd better [[head off]].",
+   "mine": "I need to go now.",
+   "mark": "~",
+   "note": "",
+   "audio": "audio/40b78317b8e2.mp3"
+  },
+  {
+   "zh": "改天一起喝咖啡",
+   "en": "We should [[grab a coffee]] sometime.",
+   "mine": "Let's drink coffee another day.",
+   "mark": "x",
+   "note": "",
+   "audio": "audio/b133557820eb.mp3"
+  },
+  {
+   "zh": "太巧了吧！",
+   "en": "[[What are the odds]]!",
+   "mine": "So coincident!",
+   "mark": "x",
+   "note": "",
+   "audio": "audio/afd4e799b28c.mp3"
+  },
+  {
+   "zh": "我也是",
+   "en": "[[Same here]].",
+   "mine": "Me too.",
+   "mark": "~",
+   "note": "",
+   "audio": "audio/92c65c585e53.mp3"
+  },
+  {
+   "zh": "真的假的？！",
+   "en": "[[No way]]!",
+   "mine": "Really or fake?",
+   "mark": "x",
+   "note": "",
+   "audio": "audio/e4701830b7db.mp3"
+  },
+  {
+   "zh": "那也太惨了",
+   "en": "Oh, [[that's rough]].",
+   "mine": "That's so miserable.",
+   "mark": "x",
+   "note": "",
+   "audio": "audio/43d47fc97bc7.mp3"
+  },
+  {
+   "zh": "干得漂亮！",
+   "en": "[[Good on ya]]!",
+   "mine": "You are great!",
+   "mark": "~",
+   "note": "很澳洲的说法，为别人高兴时用",
+   "audio": "audio/7c5ee968d759.mp3"
+  },
+  {
+   "zh": "没事，不客气",
+   "en": "[[No worries]].",
+   "mine": "It doesn't matter.",
+   "mark": "x",
+   "note": "",
+   "audio": "audio/2589f130e77e.mp3"
+  },
+  {
+   "zh": "你是做什么工作的？",
+   "en": "What do you [[do for work]]?",
+   "mine": "What is your job?",
+   "mark": "~",
+   "note": "",
+   "audio": "audio/2f938c70b990.mp3"
+  },
+  {
+   "zh": "我刚入职一个月左右",
+   "en": "I [[started]] about a month ago.",
+   "mine": "I just joined one month.",
+   "mark": "x",
+   "note": "",
+   "audio": "audio/59a285eaaea0.mp3"
+  },
+  {
+   "zh": "回头见",
+   "en": "[[Catch you later]].",
+   "mine": "See you next time.",
+   "mark": "~",
+   "note": "",
+   "audio": "audio/d69d94ba9f26.mp3"
+  },
+  {
+   "zh": "好累啊",
+   "en": "I'm [[knackered]].",
+   "mine": "I'm very tired.",
+   "mark": "~",
+   "note": "澳洲人也常说 I'm stuffed",
+   "audio": "audio/5b8e1e17e1ea.mp3"
+  },
+  {
+   "zh": "听起来好好玩",
+   "en": "That sounds like [[heaps of fun]].",
+   "mine": "It sounds very interesting.",
+   "mark": "~",
+   "note": "heaps = 很多，澳洲超常用",
+   "audio": "audio/4fd26a9aaf0f.mp3"
+  },
+  {
+   "zh": "你最后去哪玩了？",
+   "en": "Where'd you [[end up going]]?",
+   "mine": "Where did you go for holiday?",
+   "mark": "~",
+   "note": "",
+   "audio": "audio/d9c9d3beaba3.mp3"
+  },
+  {
+   "zh": "圣诞节有什么安排吗？",
+   "en": "Are you [[doing anything for]] Christmas?",
+   "mine": "What's your plan for Christmas?",
+   "mark": "~",
+   "note": "",
+   "audio": "audio/2bd2e1794207.mp3"
+  },
+  {
+   "zh": "我刚说到哪了？",
+   "en": "Sorry, [[where was I]]?",
+   "mine": "What was I talking just now?",
+   "mark": "x",
+   "note": "",
+   "audio": "audio/a2ea3aafaa1c.mp3"
+  },
+  {
+   "zh": "我对足球不太感兴趣",
+   "en": "I'm not really [[into]] footy.",
+   "mine": "I'm not very interested in football.",
+   "mark": "~",
+   "note": "footy 在墨尔本一般指 AFL",
+   "audio": "audio/4946a78ef680.mp3"
+  }
+ ]
+}

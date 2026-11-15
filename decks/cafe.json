@@ -1,0 +1,207 @@
+{
+ "id": "cafe",
+ "title": "咖啡店 & 餐厅",
+ "emoji": "☕",
+ "cards": [
+  {
+   "zh": "一杯小杯燕麦拿铁",
+   "en": "Can I [[grab a]] small oat latte?",
+   "mine": "I want one small oat milk latte.",
+   "mark": "~",
+   "note": "",
+   "audio": "audio/8571101f3246.mp3"
+  },
+  {
+   "zh": "外带，谢谢",
+   "en": "[[Takeaway]], thanks.",
+   "mine": "To go, please.",
+   "mark": "~",
+   "note": "To go 是美国说法，澳洲说 takeaway",
+   "audio": "audio/649525de0bb3.mp3"
+  },
+  {
+   "zh": "在这儿喝",
+   "en": "[[Having it here]], thanks.",
+   "mine": "Eat here.",
+   "mark": "x",
+   "note": "店员会问：Having it here or takeaway?",
+   "audio": "audio/96a57c5031aa.mp3"
+  },
+  {
+   "zh": "能加一份浓缩吗？",
+   "en": "Can I get an [[extra shot]]?",
+   "mine": "Can you make it stronger?",
+   "mark": "~",
+   "note": "",
+   "audio": "audio/667bd693431f.mp3"
+  },
+  {
+   "zh": "要特别烫的",
+   "en": "Can I get it [[extra hot]]?",
+   "mine": "Please make it very hot.",
+   "mark": "~",
+   "note": "",
+   "audio": "audio/82f976c653d0.mp3"
+  },
+  {
+   "zh": "一杯美式",
+   "en": "A [[long black]], please.",
+   "mine": "An Americano, please.",
+   "mark": "~",
+   "note": "澳洲咖啡店基本都说 long black",
+   "audio": "audio/38c4ff64b3dc.mp3"
+  },
+  {
+   "zh": "两位，有位子吗？",
+   "en": "[[Table for two]], please.",
+   "mine": "We have two people, any seat?",
+   "mark": "x",
+   "note": "",
+   "audio": "audio/be21eed7ea1d.mp3"
+  },
+  {
+   "zh": "我们还没想好",
+   "en": "Could we [[have a few more minutes]]?",
+   "mine": "We didn't decide yet.",
+   "mark": "~",
+   "note": "",
+   "audio": "audio/136ee2c7bec6.mp3"
+  },
+  {
+   "zh": "我要这个",
+   "en": "I'll [[go with]] the barramundi.",
+   "mine": "I want this one.",
+   "mark": "~",
+   "note": "go with = 选这个",
+   "audio": "audio/39b45e40e67e.mp3"
+  },
+  {
+   "zh": "我对坚果过敏",
+   "en": "I've got a [[nut allergy]].",
+   "mine": "I'm allergic with nuts.",
+   "mark": "x",
+   "note": "allergic 后面接 to，不是 with",
+   "audio": "audio/79cda55be78e.mp3"
+  },
+  {
+   "zh": "能不放洋葱吗？",
+   "en": "Can I get that with [[no onion]]?",
+   "mine": "Can you not put onion?",
+   "mark": "~",
+   "note": "",
+   "audio": "audio/ce4f2d1d21ac.mp3"
+  },
+  {
+   "zh": "我们能分开付吗？",
+   "en": "Can we [[split the bill]]?",
+   "mine": "Can we pay separately?",
+   "mark": "~",
+   "note": "",
+   "audio": "audio/4119ebab75cc.mp3"
+  },
+  {
+   "zh": "这顿我请",
+   "en": "[[My shout]].",
+   "mine": "I treat you.",
+   "mark": "x",
+   "note": "shout = 请客，澳洲超常用。轮流请客也叫 shout",
+   "audio": "audio/866265920086.mp3"
+  },
+  {
+   "zh": "买单",
+   "en": "Could we [[get the bill]], please?",
+   "mine": "Pay the bill please.",
+   "mark": "x",
+   "note": "美国说 check，澳洲说 bill",
+   "audio": "audio/39c5b1395a23.mp3"
+  },
+  {
+   "zh": "剩下的能帮我打包吗？",
+   "en": "Could I [[get this boxed up]]?",
+   "mine": "Can you pack the rest for me?",
+   "mark": "~",
+   "note": "",
+   "audio": "audio/f7d0da235d84.mp3"
+  },
+  {
+   "zh": "太好吃了",
+   "en": "This is [[unreal]].",
+   "mine": "It's very delicious.",
+   "mark": "~",
+   "note": "unreal = 好到不真实",
+   "audio": "audio/e12833e3918e.mp3"
+  },
+  {
+   "zh": "我们订了位，名字是 Chen",
+   "en": "We've [[got a booking]] under Chen.",
+   "mine": "We ordered a table, name is Chen.",
+   "mark": "x",
+   "note": "澳洲说 booking，美国说 reservation",
+   "audio": "audio/02e9a2745513.mp3"
+  },
+  {
+   "zh": "要等多久？",
+   "en": "How long's [[the wait]]?",
+   "mine": "How long we need to wait?",
+   "mark": "x",
+   "note": "",
+   "audio": "audio/4abe968b3552.mp3"
+  },
+  {
+   "zh": "这好像不是我点的",
+   "en": "Sorry, I don't think this is [[what I ordered]].",
+   "mine": "This is not mine.",
+   "mark": "~",
+   "note": "",
+   "audio": "audio/128bbf6485c5.mp3"
+  },
+  {
+   "zh": "自来水就好",
+   "en": "Just [[tap water]], thanks.",
+   "mine": "Normal water is fine.",
+   "mark": "~",
+   "note": "澳洲餐厅的自来水免费",
+   "audio": "audio/91bf6e3d4ada.mp3"
+  },
+  {
+   "zh": "有素食吗？",
+   "en": "Do you have any [[vegetarian options]]?",
+   "mine": "Do you have food for vegetarian?",
+   "mark": "x",
+   "note": "口语里也说 veggo options",
+   "audio": "audio/2caa4c1901d2.mp3"
+  },
+  {
+   "zh": "我要冰的",
+   "en": "Can I get it [[iced]]?",
+   "mine": "I want cold one.",
+   "mark": "x",
+   "note": "",
+   "audio": "audio/7e731806a2b9.mp3"
+  },
+  {
+   "zh": "能换成燕麦奶吗？",
+   "en": "Can I [[swap]] the milk [[for]] oat?",
+   "mine": "Can you change milk to oat milk?",
+   "mark": "~",
+   "note": "",
+   "audio": "audio/c6b1903058b3.mp3"
+  },
+  {
+   "zh": "这里什么好吃？",
+   "en": "What's [[good here]]?",
+   "mine": "What is your recommend?",
+   "mark": "x",
+   "note": "recommend 是动词，不能当名词",
+   "audio": "audio/3e650cbe7aef.mp3"
+  },
+  {
+   "zh": "就这些了",
+   "en": "[[That's everything]], thanks.",
+   "mine": "No more, thanks.",
+   "mark": "~",
+   "note": "",
+   "audio": "audio/163d56081614.mp3"
+  }
+ ]
+}

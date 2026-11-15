@@ -32,7 +32,8 @@ button{font:inherit;cursor:pointer;border:none;border-radius:12px}
 .back hr{border:none;border-top:1px solid var(--line);margin:22px 0}
 .en{font-size:24px;line-height:1.5}
 .en u{text-decoration-color:var(--accent);text-decoration-thickness:3px;text-underline-offset:5px}
-.speak{background:none;font-size:22px;padding:4px 8px;vertical-align:middle}
+.play{display:flex;gap:10px;justify-content:center;margin-top:14px}
+.play button{background:var(--bg);border:1px solid var(--line);color:var(--ink);padding:8px 14px;font-size:15px}
 .mine{margin-top:22px;font-size:16px;color:var(--muted);line-height:1.5}
 .tag{display:inline-block;font-size:12px;padding:2px 8px;border-radius:10px;margin-right:6px;color:#fff;vertical-align:1px}
 .tag.x{background:var(--red)}.tag.w{background:var(--grey)}
@@ -60,6 +61,7 @@ button{font:inherit;cursor:pointer;border:none;border-radius:12px}
       <button data-m="due" class="on">只练没记住的</button>
       <button data-m="all">全部</button>
       <button data-m="reset">重置进度</button>
+      <button id="auto">🔊 翻面自动读</button>
     </div>
     <div class="bar"><i id="prog"></i></div>
     <div class="count" id="count"></div>
@@ -69,7 +71,8 @@ button{font:inherit;cursor:pointer;border:none;border-radius:12px}
       <div class="hint" id="tapHint">先自己说一遍，再点开看答案</div>
       <div class="back hidden" id="back">
         <hr>
-        <div class="en"><span id="en"></span> <button class="speak" id="speak" aria-label="朗读">🔊</button></div>
+        <div class="en" id="en"></div>
+        <div class="play"><button id="speak">🔊 播放</button><button id="slow">🐢 慢速</button></div>
         <div class="mine" id="mine"></div>
         <div class="note" id="note"></div>
       </div>
@@ -104,11 +107,20 @@ function pickVoice(){
   voice = vs.find(v => v.lang === 'en-AU') || vs.find(v => v.lang === 'en-GB') || vs.find(v => v.lang.startsWith('en'));
 }
 if ('speechSynthesis' in window){ pickVoice(); speechSynthesis.onvoiceschanged = pickVoice; }
-function speak(text){
+const player = new Audio();
+function play(c, rate){
+  if (c.audio){
+    player.src = c.audio; player.playbackRate = rate; player.preservesPitch = true;
+    player.play().catch(() => speak(plain(c.en), rate));
+  } else speak(plain(c.en), rate);
+}
+let auto = localStorage.getItem('fc-auto') === '1';
+function setAuto(){ $('auto').classList.toggle('on', auto); }
+function speak(text, rate = 1){
   if (!('speechSynthesis' in window)) return;
   speechSynthesis.cancel();
   const u = new SpeechSynthesisUtterance(text);
-  if (voice) u.voice = voice; u.lang = voice ? voice.lang : 'en-AU'; u.rate = 0.95;
+  if (voice) u.voice = voice; u.lang = voice ? voice.lang : 'en-AU'; u.rate = 0.95 * rate;
   speechSynthesis.speak(u);
 }
 
@@ -161,6 +173,7 @@ function flip(){
   if (!cur || flipped) return;
   flipped = true;
   $('back').classList.remove('hidden'); $('tapHint').classList.add('hidden'); $('actions').classList.remove('hidden');
+  if (auto) play(cur, 1);
 }
 
 function answer(ok){
@@ -177,14 +190,17 @@ function updateBar(){
   $('count').textContent = total ? `${Math.min(doneN+1,total)} / ${total}` : '';
 }
 
-$('card').onclick = e => { if (e.target.id === 'speak') return; flip(); };
-$('speak').onclick = e => { e.stopPropagation(); speak(plain(cur.en)); };
+$('card').onclick = e => { if (e.target.closest('.play')) return; flip(); };
+$('speak').onclick = e => { e.stopPropagation(); play(cur, 1); };
+$('slow').onclick = e => { e.stopPropagation(); play(cur, 0.7); };
+$('auto').onclick = () => { auto = !auto; localStorage.setItem('fc-auto', auto ? '1' : '0'); setAuto(); if (auto && flipped) play(cur, 1); };
+setAuto();
 $('again').onclick = () => answer(false);
 $('good').onclick = () => answer(true);
 $('restart').onclick = () => { mode = 'all'; setMode(); start(); };
 $('home').onclick = () => { $('study').classList.add('hidden'); $('picker').classList.remove('hidden'); $('home').classList.add('hidden'); $('title').textContent = '🐰 地道英文卡片'; history.replaceState(null,'',location.pathname); };
-function setMode(){ document.querySelectorAll('#modes button').forEach(b => b.classList.toggle('on', b.dataset.m === mode)); }
-document.querySelectorAll('#modes button').forEach(b => b.onclick = () => {
+function setMode(){ document.querySelectorAll('#modes button[data-m]').forEach(b => b.classList.toggle('on', b.dataset.m === mode)); }
+document.querySelectorAll('#modes button[data-m]').forEach(b => b.onclick = () => {
   if (b.dataset.m === 'reset'){ if (!confirm('清空这个主题的进度？')) return; deck.cards.forEach(c => delete prog[k(c)]); save(); mode = 'all'; }
   else mode = b.dataset.m;
   setMode(); start();
@@ -194,7 +210,7 @@ document.addEventListener('keydown', e => {
   if (e.key === ' ' || e.key === 'Enter'){ e.preventDefault(); flipped ? answer(true) : flip(); }
   else if (e.key === 'ArrowLeft') answer(false);
   else if (e.key === 'ArrowRight') answer(true);
-  else if (e.key.toLowerCase() === 's' && flipped) speak(plain(cur.en));
+  else if (e.key.toLowerCase() === 's' && flipped) play(cur, 1);
 });
 loadIndex();
 </script>

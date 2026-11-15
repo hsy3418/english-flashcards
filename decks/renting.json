@@ -1,0 +1,167 @@
+{
+ "id": "renting",
+ "title": "租房",
+ "emoji": "🏠",
+ "cards": [
+  {
+   "zh": "我想预约看房",
+   "en": "I'd like to [[book an inspection]].",
+   "mine": "I want to see the house.",
+   "mark": "~",
+   "note": "澳洲看房叫 inspection",
+   "audio": "audio/2fcd1ed4ffe4.mp3"
+  },
+  {
+   "zh": "押金多少？",
+   "en": "How much is the [[bond]]?",
+   "mine": "How much is the deposit?",
+   "mark": "~",
+   "note": "澳洲租房押金叫 bond",
+   "audio": "audio/18bfdb320cda.mp3"
+  },
+  {
+   "zh": "每周房租多少？",
+   "en": "How much is it [[per week]]?",
+   "mine": "How much is the rent every month?",
+   "mark": "~",
+   "note": "澳洲房租一般按周报价",
+   "audio": "audio/26c10313ed33.mp3"
+  },
+  {
+   "zh": "包水电吗？",
+   "en": "Are [[bills included]]?",
+   "mine": "Does it include water and electricity fee?",
+   "mark": "~",
+   "note": "",
+   "audio": "audio/31e957a0f0af.mp3"
+  },
+  {
+   "zh": "什么时候能入住？",
+   "en": "When's it [[available from]]?",
+   "mine": "When can I move in?",
+   "mark": "~",
+   "note": "",
+   "audio": "audio/72b44ee233f1.mp3"
+  },
+  {
+   "zh": "热水器有点问题",
+   "en": "The hot water's [[playing up]].",
+   "mine": "The water heater has some problem.",
+   "mark": "~",
+   "note": "play up = 出毛病，澳洲常用",
+   "audio": "audio/9c696a1fc2b3.mp3"
+  },
+  {
+   "zh": "水龙头漏水",
+   "en": "The tap's [[leaking]].",
+   "mine": "The water tap is dropping water.",
+   "mark": "x",
+   "note": "",
+   "audio": "audio/534206412ced.mp3"
+  },
+  {
+   "zh": "能派人来修一下吗？",
+   "en": "Could you [[send someone out]] to fix it?",
+   "mine": "Can you find someone to repair?",
+   "mark": "~",
+   "note": "",
+   "audio": "audio/71b54ea183b4.mp3"
+  },
+  {
+   "zh": "这个比较急",
+   "en": "It's [[fairly urgent]].",
+   "mine": "This is quite hurry.",
+   "mark": "x",
+   "note": "",
+   "audio": "audio/305c4ca2d069.mp3"
+  },
+  {
+   "zh": "我想续租",
+   "en": "I'd like to [[renew the lease]].",
+   "mine": "I want to continue renting.",
+   "mark": "~",
+   "note": "",
+   "audio": "audio/ac45938292a0.mp3"
+  },
+  {
+   "zh": "我想通知你们我要退租",
+   "en": "I'd like to [[give notice]].",
+   "mine": "I want to tell you I will move out.",
+   "mark": "~",
+   "note": "",
+   "audio": "audio/343a0537b2f8.mp3"
+  },
+  {
+   "zh": "能养宠物吗？",
+   "en": "Is it [[pet-friendly]]?",
+   "mine": "Can I keep pets?",
+   "mark": "~",
+   "note": "",
+   "audio": "audio/2a46b8c71f77.mp3"
+  },
+  {
+   "zh": "退房检查是什么时候？",
+   "en": "When's the [[final inspection]]?",
+   "mine": "When do you check the house when I leave?",
+   "mark": "x",
+   "note": "",
+   "audio": "audio/4c2e346ff29b.mp3"
+  },
+  {
+   "zh": "押金什么时候退？",
+   "en": "When will I [[get my bond back]]?",
+   "mine": "When will you return my deposit?",
+   "mark": "~",
+   "note": "",
+   "audio": "audio/db79b6966cf2.mp3"
+  },
+  {
+   "zh": "那不是我弄坏的，入住时就这样",
+   "en": "That was [[already like that]] when I moved in.",
+   "mine": "I didn't break it.",
+   "mark": "~",
+   "note": "所以入住时一定要认真填 condition report",
+   "audio": "audio/0a12b2f69185.mp3"
+  },
+  {
+   "zh": "房租涨得太多了",
+   "en": "That's [[a pretty steep]] increase.",
+   "mine": "The rent goes up too much.",
+   "mark": "~",
+   "note": "steep = 陡，形容价格高",
+   "audio": "audio/5912999f3cd8.mp3"
+  },
+  {
+   "zh": "有车位吗？",
+   "en": "Does it [[come with]] a car space?",
+   "mine": "Is there a parking?",
+   "mark": "x",
+   "note": "",
+   "audio": "audio/6ebb990f2a78.mp3"
+  },
+  {
+   "zh": "走路能到火车站吗？",
+   "en": "Is it [[walking distance]] to the train?",
+   "mine": "Is it near the train station by walk?",
+   "mark": "x",
+   "note": "",
+   "audio": "audio/534b85853a1d.mp3"
+  },
+  {
+   "zh": "浴室有点发霉",
+   "en": "There's some [[mould]] in the bathroom.",
+   "mine": "The bathroom has some fungus.",
+   "mark": "x",
+   "note": "澳洲拼 mould，美国拼 mold",
+   "audio": "audio/5754d8c34dc2.mp3"
+  },
+  {
+   "zh": "是合租吗？",
+   "en": "Is it a [[share house]]?",
+   "mine": "Is it rent together with others?",
+   "mark": "x",
+   "note": "",
+   "audio": "audio/abf8bcf21ef3.mp3"
+  }
+ ]
+}
