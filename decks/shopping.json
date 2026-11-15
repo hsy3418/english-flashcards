@@ -1,0 +1,182 @@
+{
+ "id": "shopping",
+ "title": "逛街买衣服",
+ "emoji": "🛍️",
+ "cards": [
+  {
+   "zh": "我穿这个有点显老",
+   "en": "This [[ages me]] a bit.",
+   "mine": "This makes me look a little old.",
+   "mark": "~",
+   "note": ""
+  },
+  {
+   "zh": "我懒得换衣服了",
+   "en": "I [[can't be bothered]] to change.",
+   "mine": "I'm too lazy to change.",
+   "mark": "~",
+   "note": "澳洲人常直接说 \"Can't be bothered.\""
+  },
+  {
+   "zh": "我就凑合穿这个吧",
+   "en": "I'll just [[make do]] with this.",
+   "mine": "I'll just wear this somehow.",
+   "mark": "x",
+   "note": ""
+  },
+  {
+   "zh": "我穿这个会不会显胖？",
+   "en": "Does this [[make me look bigger]]?",
+   "mine": "Do I look fat in this?",
+   "mark": "~",
+   "note": "fat 太直接，bigger 更委婉"
+  },
+  {
+   "zh": "这件有点难搭",
+   "en": "This is kind of [[tricky to style]].",
+   "mine": "This is a little hard to match.",
+   "mark": "x",
+   "note": "也可以说 \"It's hard to pair with anything.\""
+  },
+  {
+   "zh": "这件穿着太热了",
+   "en": "I [[get way too hot]] in this.",
+   "mine": "This is too hot to wear.",
+   "mark": "~",
+   "note": ""
+  },
+  {
+   "zh": "我能试一下这件吗？",
+   "en": "Can I [[try this on]]?",
+   "mine": "Can I try this?",
+   "mark": "x",
+   "note": "没有 on 像是在问\"能尝一下吗\""
+  },
+  {
+   "zh": "尺码不合适可以退吗？",
+   "en": "Can I return it if it [[doesn't fit]]?",
+   "mine": "Can I return it if the size isn't suitable?",
+   "mark": "~",
+   "note": ""
+  },
+  {
+   "zh": "我有点犹豫",
+   "en": "I'm [[on the fence]].",
+   "mine": "I'm a little hesitant.",
+   "mark": "~",
+   "note": ""
+  },
+  {
+   "zh": "我再考虑一下",
+   "en": "I'll [[have a think]].",
+   "mine": "I'll consider it.",
+   "mark": "~",
+   "note": "很澳洲的说法；也可以说 \"I'll think about it.\""
+  },
+  {
+   "zh": "我就随便看看",
+   "en": "[[Just browsing]], thanks.",
+   "mine": "I'm just looking around casually.",
+   "mark": "~",
+   "note": "店员问 \"Can I help you?\" 时最常用"
+  },
+  {
+   "zh": "这件有 M 码吗？",
+   "en": "[[Have you got]] this in a medium?",
+   "mine": "Is there M size of this?",
+   "mark": "x",
+   "note": ""
+  },
+  {
+   "zh": "能帮我拿大一号吗？",
+   "en": "Could I [[grab a size up]]?",
+   "mine": "Can you give me a bigger one?",
+   "mark": "~",
+   "note": "小一号：a size down"
+  },
+  {
+   "zh": "有点紧",
+   "en": "It's [[a bit snug]].",
+   "mine": "It's a little tight.",
+   "mark": "~",
+   "note": "tight 也对，snug 更口语"
+  },
+  {
+   "zh": "这件太宽松了",
+   "en": "It's [[a bit baggy]].",
+   "mine": "It's too loose.",
+   "mark": "~",
+   "note": ""
+  },
+  {
+   "zh": "有别的颜色吗？",
+   "en": "Does it [[come in]] other colours?",
+   "mine": "Does it have other colours?",
+   "mark": "~",
+   "note": ""
+  },
+  {
+   "zh": "试衣间在哪？",
+   "en": "Where are the [[change rooms]]?",
+   "mine": "Where is the try-on room?",
+   "mark": "x",
+   "note": "澳洲说 change rooms，美国说 fitting rooms"
+  },
+  {
+   "zh": "两件都喜欢，好纠结",
+   "en": "I'm [[torn]] between these two.",
+   "mine": "I like both, very entangled.",
+   "mark": "x",
+   "note": ""
+  },
+  {
+   "zh": "这个颜色很衬你",
+   "en": "That colour really [[suits you]].",
+   "mine": "This colour is very match you.",
+   "mark": "x",
+   "note": ""
+  },
+  {
+   "zh": "这条裤子有点长，可以改短吗？",
+   "en": "They're a bit long. Can they be [[taken up]]?",
+   "mine": "Can you change it shorter?",
+   "mark": "x",
+   "note": "改短裤长 = take up / hem"
+  },
+  {
+   "zh": "这个在打折吗？",
+   "en": "Is this [[on sale]]?",
+   "mine": "Is this discount?",
+   "mark": "x",
+   "note": ""
+  },
+  {
+   "zh": "穿起来很舒服",
+   "en": "It's really [[comfy]].",
+   "mine": "It's very comfortable to wear.",
+   "mark": "~",
+   "note": ""
+  },
+  {
+   "zh": "我刷卡付",
+   "en": "Can I just [[tap]]?",
+   "mine": "I want to swipe card.",
+   "mark": "x",
+   "note": "澳洲几乎都用 tap（感应支付）"
+  },
+  {
+   "zh": "可以帮我包成礼物吗？",
+   "en": "Could you [[gift wrap]] it?",
+   "mine": "Can you pack it as a gift?",
+   "mark": "~",
+   "note": ""
+  },
+  {
+   "zh": "只能换货，不能退款吗？",
+   "en": "Is it [[exchange only]], or can I get a refund?",
+   "mine": "Can only change, cannot return money?",
+   "mark": "x",
+   "note": ""
+  }
+ ]
+}
