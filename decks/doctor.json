@@ -206,6 +206,147 @@
    "note": "ease off = 减量，放缓",
    "audio": "audio/6935968ade18.mp3",
    "audio_us": "audio/1ef07ca61515.mp3"
+  },
+  {
+   "zh": "我有点发烧",
+   "en": "I'm [[running a temperature]].",
+   "mine": "I have a little fever.",
+   "mark": "~",
+   "note": "",
+   "us": {
+    "en": "I'm [[running a fever]]."
+   },
+   "audio": "audio/5560e52b62bf.mp3",
+   "audio_us": "audio/2be8d1b53d20.mp3"
+  },
+  {
+   "zh": "咳嗽一直好不了",
+   "en": "I can't [[shake this cough]].",
+   "mine": "My cough can't get better.",
+   "mark": "x",
+   "note": "",
+   "audio": "audio/6d167ebc2a8c.mp3",
+   "audio_us": "audio/ef7a6621a916.mp3"
+  },
+  {
+   "zh": "我最近老是头晕",
+   "en": "I've been feeling [[light-headed]].",
+   "mine": "My head is dizzy recently.",
+   "mark": "x",
+   "note": "",
+   "audio": "audio/5faef6ddde5a.mp3",
+   "audio_us": "audio/d5ad13a2288f.mp3"
+  },
+  {
+   "zh": "我昨晚吐了",
+   "en": "I [[threw up]] last night.",
+   "mine": "I vomited last night.",
+   "mark": "~",
+   "note": "vomit 偏医学用语",
+   "audio": "audio/9877c0374ef1.mp3",
+   "audio_us": "audio/9a0ab29b6244.mp3"
+  },
+  {
+   "zh": "我肠胃不太舒服",
+   "en": "I've got [[an upset stomach]].",
+   "mine": "My stomach is not comfortable.",
+   "mark": "~",
+   "note": "",
+   "audio": "audio/43195772af2b.mp3",
+   "audio_us": "audio/b5e9727b0c03.mp3"
+  },
+  {
+   "zh": "这个动作要保持多久？",
+   "en": "How long should I [[hold]] this for?",
+   "mine": "How long should I keep this action?",
+   "mark": "x",
+   "note": "",
+   "audio": "audio/cd166e1321ed.mp3",
+   "audio_us": "audio/6a48e85ae8dd.mp3"
+  },
+  {
+   "zh": "做这个会不会加重？",
+   "en": "Could this [[aggravate]] it?",
+   "mine": "Will this make it more serious?",
+   "mark": "~",
+   "note": "aggravate = 让伤情加重",
+   "audio": "audio/9960c538a3d3.mp3",
+   "audio_us": "audio/bf039ef0022f.mp3"
+  },
+  {
+   "zh": "坐久了腰就发僵",
+   "en": "My lower back [[gets stiff]] if I sit too long.",
+   "mine": "My waist becomes hard after sitting long.",
+   "mark": "x",
+   "note": "腰疼是 lower back，不是 waist",
+   "audio": "audio/02693d43dfea.mp3",
+   "audio_us": "audio/7063687f6524.mp3"
+  },
+  {
+   "zh": "我什么时候能重新开始做硬拉？",
+   "en": "When can I [[get back into]] deadlifts?",
+   "mine": "When can I recover doing deadlifts?",
+   "mark": "x",
+   "note": "",
+   "audio": "audio/4e3317319e58.mp3",
+   "audio_us": "audio/fe89b1732bdd.mp3"
+  },
+  {
+   "zh": "这个不用处方能买吗？",
+   "en": "Can I get this [[over the counter]]?",
+   "mine": "Can I buy this without prescription?",
+   "mark": "~",
+   "note": "",
+   "audio": "audio/f6342fb84153.mp3",
+   "audio_us": "audio/ac701b36eadb.mp3"
+  },
+  {
+   "zh": "这个药一天吃几次？",
+   "en": "How often should I [[take]] these?",
+   "mine": "How many times a day should I eat this medicine?",
+   "mark": "x",
+   "note": "吃药用 take，不用 eat",
+   "audio": "audio/77855d192881.mp3",
+   "audio_us": "audio/8e778b41d33f.mp3"
+  },
+  {
+   "zh": "吃了会犯困吗？",
+   "en": "Will these [[make me drowsy]]?",
+   "mine": "Will I feel sleepy after eating it?",
+   "mark": "~",
+   "note": "",
+   "audio": "audio/421c051bf09b.mp3",
+   "audio_us": "audio/cfa565202a6a.mp3"
+  },
+  {
+   "zh": "我想约个洗牙",
+   "en": "I'd like to book [[a check-up and clean]].",
+   "mine": "I want to wash my teeth.",
+   "mark": "x",
+   "note": "",
+   "us": {
+    "en": "I'd like to book [[a cleaning]]."
+   },
+   "audio": "audio/1432129a7ef8.mp3",
+   "audio_us": "audio/e68e88e7811a.mp3"
+  },
+  {
+   "zh": "这颗牙一碰冷的就疼",
+   "en": "This tooth is [[sensitive to cold]].",
+   "mine": "This tooth hurts when touching cold.",
+   "mark": "~",
+   "note": "",
+   "audio": "audio/8b142876f1c1.mp3",
+   "audio_us": "audio/4de9acab8e7f.mp3"
+  },
+  {
+   "zh": "我补的牙掉了",
+   "en": "One of my [[fillings]] fell out.",
+   "mine": "My repaired tooth dropped.",
+   "mark": "x",
+   "note": "补牙 = filling",
+   "audio": "audio/cfedbed123a4.mp3",
+   "audio_us": "audio/efd106616c17.mp3"
   }
  ]
 }

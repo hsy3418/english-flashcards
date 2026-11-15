@@ -1,0 +1,240 @@
+{
+ "id": "opinions",
+ "title": "表达观点 & 讨论",
+ "emoji": "🧠",
+ "cards": [
+  {
+   "zh": "要我说，这个被高估了",
+   "en": "[[If you ask me]], it's overrated.",
+   "mine": "In my opinion, it's overrated.",
+   "mark": "~",
+   "note": "in my opinion偏书面",
+   "audio": "audio/22c6c01f27a1.mp3",
+   "audio_us": "audio/4a52b01df36a.mp3"
+  },
+  {
+   "zh": "我觉得他会迟到",
+   "en": "[[I reckon]] he'll be late.",
+   "mine": "I think he will be late.",
+   "mark": "~",
+   "note": "reckon是澳洲人最常用的“我觉得”",
+   "us": {
+    "en": "[[I'd say]] he'll be late.",
+    "note": "I'd say 语气接近\"我觉得\""
+   },
+   "audio": "audio/a1afecf2cb10.mp3",
+   "audio_us": "audio/e3089ba6fee1.mp3"
+  },
+  {
+   "zh": "我可能说错，但我觉得……",
+   "en": "[[I could be wrong]], but I think...",
+   "mine": "I'm not sure, but I think...",
+   "mark": "~",
+   "note": "先打个预防针，语气更软",
+   "audio": "audio/89634ccaa948.mp3",
+   "audio_us": "audio/5fefdd9ab951.mp3"
+  },
+  {
+   "zh": "我完全同意",
+   "en": "[[Couldn't agree more]].",
+   "mine": "I very agree.",
+   "mark": "x",
+   "note": "very不能修饰agree",
+   "audio": "audio/dad497180eed.mp3",
+   "audio_us": "audio/576d1d709f06.mp3"
+  },
+  {
+   "zh": "你说得有道理",
+   "en": "You've [[got a point]] there.",
+   "mine": "You have reason.",
+   "mark": "x",
+   "note": "have reason不是有道理",
+   "audio": "audio/d58a6bd45dc3.mp3",
+   "audio_us": "audio/a8ee52410796.mp3"
+  },
+  {
+   "zh": "行吧，可以理解",
+   "en": "[[Fair enough]].",
+   "mine": "OK, it's reasonable.",
+   "mark": "~",
+   "note": "接受对方说法的万能回应",
+   "audio": "audio/a31d03d7a997.mp3",
+   "audio_us": "audio/557326e6be11.mp3"
+  },
+  {
+   "zh": "这个我不太同意",
+   "en": "I'm [[not sure I agree]] with that.",
+   "mine": "I don't agree with you.",
+   "mark": "~",
+   "note": "直接说don't agree有点冲",
+   "audio": "audio/f7554191b85c.mp3",
+   "audio_us": "audio/378692c4d713.mp3"
+  },
+  {
+   "zh": "我明白你的意思，但是……",
+   "en": "I [[see where you're coming from]], but...",
+   "mine": "I understand your meaning, but...",
+   "mark": "x",
+   "note": "不说understand your meaning",
+   "audio": "audio/f9cebd2e963c.mp3",
+   "audio_us": "audio/e905f47786da.mp3"
+  },
+  {
+   "zh": "我故意唱个反调啊",
+   "en": "Just to [[play devil's advocate]]...",
+   "mine": "Let me say the opposite on purpose.",
+   "mark": "~",
+   "note": "",
+   "audio": "audio/41510d8fac2d.mp3",
+   "audio_us": "audio/7830e6f9b3e5.mp3"
+  },
+  {
+   "zh": "我收回刚才那句话",
+   "en": "Actually, I [[take that back]].",
+   "mine": "I withdraw what I said.",
+   "mark": "~",
+   "note": "withdraw太正式",
+   "audio": "audio/9541684b811a.mp3",
+   "audio_us": "audio/8514b5521659.mp3"
+  },
+  {
+   "zh": "好吧，你说服我了",
+   "en": "Okay, you've [[won me over]].",
+   "mine": "OK, I am persuaded by you.",
+   "mark": "~",
+   "note": "被动语态听起来很生硬",
+   "audio": "audio/67677ac1f2d5.mp3",
+   "audio_us": "audio/154fc5b2fc04.mp3"
+  },
+  {
+   "zh": "好吧，这点我承认",
+   "en": "Okay, [[I'll give you that]].",
+   "mine": "OK, you are right in this point.",
+   "mark": "~",
+   "note": "in this point介词不对，应为on",
+   "audio": "audio/187df3f80ba4.mp3",
+   "audio_us": "audio/b45a12d26aab.mp3"
+  },
+  {
+   "zh": "这个真不好说",
+   "en": "[[Hard to say]], really.",
+   "mine": "This is not good to say.",
+   "mark": "x",
+   "note": "不好说≠not good to say",
+   "audio": "audio/76ceb5c3d9a1.mp3",
+   "audio_us": "audio/e9927f1cbf40.mp3"
+  },
+  {
+   "zh": "两边我都能理解",
+   "en": "I can [[see both sides]].",
+   "mine": "Both sides have reason.",
+   "mark": "x",
+   "note": "",
+   "audio": "audio/10dc682267ac.mp3",
+   "audio_us": "audio/94510fd09ecd.mp3"
+  },
+  {
+   "zh": "我不是那个意思",
+   "en": "That's [[not what I meant]].",
+   "mine": "My meaning is not like that.",
+   "mark": "x",
+   "note": "",
+   "audio": "audio/0b0caeb25ff6.mp3",
+   "audio_us": "audio/2a8fb5b9e8cb.mp3"
+  },
+  {
+   "zh": "说实话，我不太喜欢",
+   "en": "[[Not gonna lie]], I didn't love it.",
+   "mine": "Speak truth, I didn't like it.",
+   "mark": "x",
+   "note": "not gonna lie是很常见的口语",
+   "audio": "audio/2135af8736ac.mp3",
+   "audio_us": "audio/da94582b777f.mp3"
+  },
+  {
+   "zh": "我觉得这有点牵强",
+   "en": "I think that's [[a bit of a stretch]].",
+   "mine": "I think it's a little exaggerate.",
+   "mark": "x",
+   "note": "exaggerate是动词",
+   "audio": "audio/381792bcda61.mp3",
+   "audio_us": "audio/fa1bd583b616.mp3"
+  },
+  {
+   "zh": "我不这么看",
+   "en": "I [[don't see it that way]].",
+   "mine": "I don't think like that.",
+   "mark": "~",
+   "note": "",
+   "audio": "audio/1b14e07101a7.mp3",
+   "audio_us": "audio/fb7a5d040910.mp3"
+  },
+  {
+   "zh": "那就各自保留意见吧",
+   "en": "Let's [[agree to disagree]].",
+   "mine": "Let's keep our own opinions.",
+   "mark": "~",
+   "note": "友好结束争论的说法",
+   "audio": "audio/b67af27a8548.mp3",
+   "audio_us": "audio/ca25f11fdaec.mp3"
+  },
+  {
+   "zh": "我有点怀疑",
+   "en": "I'm [[a bit sceptical]].",
+   "mine": "I'm a bit doubt.",
+   "mark": "x",
+   "note": "doubt不是形容词，用doubtful",
+   "us": {
+    "en": "I'm [[a bit skeptical]].",
+    "note": "美式拼写skeptical"
+   },
+   "audio": "audio/5695dfa6b9e2.mp3",
+   "audio_us": "audio/5d21c1c69ba8.mp3"
+  },
+  {
+   "zh": "这点我倒没想到",
+   "en": "I [[hadn't thought of that]].",
+   "mine": "I didn't think about this point.",
+   "mark": "~",
+   "note": "",
+   "audio": "audio/fe7141b4b423.mp3",
+   "audio_us": "audio/e750ca6b98c1.mp3"
+  },
+  {
+   "zh": "你说得太对了",
+   "en": "You're [[spot on]].",
+   "mine": "You said very correct.",
+   "mark": "x",
+   "note": "spot on=完全正确",
+   "audio": "audio/54b5d4a709ab.mp3",
+   "audio_us": "audio/7d1a840978ba.mp3"
+  },
+  {
+   "zh": "我就是随口一说",
+   "en": "I'm [[just thinking out loud]].",
+   "mine": "I'm just saying casually.",
+   "mark": "~",
+   "note": "想到哪说到哪",
+   "audio": "audio/28c506d6df69.mp3",
+   "audio_us": "audio/287ef31eb8a6.mp3"
+  },
+  {
+   "zh": "好吧，是我搞错了",
+   "en": "Okay, [[I stand corrected]].",
+   "mine": "OK, I admit I'm wrong.",
+   "mark": "~",
+   "note": "被纠正后体面认错",
+   "audio": "audio/6382001ddba4.mp3",
+   "audio_us": "audio/0607602f43a3.mp3"
+  },
+  {
+   "zh": "我无所谓，都行",
+   "en": "I [[don't feel strongly]] either way.",
+   "mine": "I don't have special opinion.",
+   "mark": "x",
+   "note": "",
+   "audio": "audio/680914e728a3.mp3",
+   "audio_us": "audio/dc1304174179.mp3"
+  }
+ ]
+}

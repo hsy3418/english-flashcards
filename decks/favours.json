@@ -1,0 +1,247 @@
+{
+ "id": "favours",
+ "title": "请求帮忙 & 礼貌拒绝",
+ "emoji": "🙏",
+ "cards": [
+  {
+   "zh": "能帮我个忙吗？",
+   "en": "Could you [[do me a favour]]?",
+   "mine": "Can you help me a favour?",
+   "mark": "x",
+   "note": "help不搭配favour，用do",
+   "us": {
+    "en": "Could you [[do me a favor]]?",
+    "mine": "Can you help me a favor?",
+    "note": "help不搭配favor，用do"
+   },
+   "audio": "audio/e80830175faa.mp3",
+   "audio_us": "audio/92e38e6a333e.mp3"
+  },
+  {
+   "zh": "你介意跟我换个座位吗？",
+   "en": "[[Would you mind]] swapping seats?",
+   "mine": "Is it convenient to change seat with me?",
+   "mark": "~",
+   "note": "方便不一定要说convenient",
+   "audio": "audio/2fa578bd4484.mp3",
+   "audio_us": "audio/e69bb60a4154.mp3"
+  },
+  {
+   "zh": "不好意思打扰一下",
+   "en": "Sorry to [[bother you]], but...",
+   "mine": "Sorry to make trouble for you.",
+   "mark": "x",
+   "note": "make trouble=惹麻烦",
+   "audio": "audio/e177ef5981d6.mp3",
+   "audio_us": "audio/c87097f2e783.mp3"
+  },
+  {
+   "zh": "你能帮我看一下这个吗？",
+   "en": "Could you [[take a look at]] this?",
+   "mine": "Can you help me see this?",
+   "mark": "x",
+   "note": "help me + 动词常被滥用",
+   "audio": "audio/9089b384b7fe.mp3",
+   "audio_us": "audio/a5ff6e68f973.mp3"
+  },
+  {
+   "zh": "能顺路送我回家吗？",
+   "en": "Could you [[give me a lift]] home?",
+   "mine": "Can you send me home?",
+   "mark": "x",
+   "note": "send是寄送，送人用lift",
+   "us": {
+    "en": "Could you [[give me a ride]] home?",
+    "note": "send是寄送，送人用ride"
+   },
+   "audio": "audio/814bc183ce78.mp3",
+   "audio_us": "audio/89b29664bb24.mp3"
+  },
+  {
+   "zh": "要帮忙吗？",
+   "en": "[[Want a hand]]?",
+   "mine": "Do you need my help?",
+   "mark": "~",
+   "note": "need my help听起来有点居高临下",
+   "audio": "audio/152a90ace045.mp3",
+   "audio_us": "audio/01ef39b51599.mp3"
+  },
+  {
+   "zh": "交给我吧",
+   "en": "[[Leave it with me]].",
+   "mine": "Give it to me.",
+   "mark": "~",
+   "note": "表示我来负责处理",
+   "us": {
+    "en": "[[I'll take care of it]]."
+   },
+   "audio": "audio/a516b9a1b2d5.mp3",
+   "audio_us": "audio/7e8751c15b20.mp3"
+  },
+  {
+   "zh": "别客气，小事",
+   "en": "It's [[no trouble at all]].",
+   "mine": "Don't be polite, it's a small thing.",
+   "mark": "x",
+   "note": "别客气不是don't be polite",
+   "audio": "audio/c276fbd81273.mp3",
+   "audio_us": "audio/6d8fd0cd1a1d.mp3"
+  },
+  {
+   "zh": "这次欠你个人情",
+   "en": "I [[owe you one]].",
+   "mine": "I owe you a favour.",
+   "mark": "~",
+   "note": "口语直接说owe you one",
+   "us": {
+    "mine": "I owe you a favor."
+   },
+   "audio": "audio/2aed0a07f895.mp3",
+   "audio_us": "audio/fe9600d6b2cf.mp3"
+  },
+  {
+   "zh": "这次我就不去了",
+   "en": "I'll [[have to pass]] this time.",
+   "mine": "This time maybe I can't.",
+   "mark": "~",
+   "note": "pass=婉拒",
+   "audio": "audio/148b0e524205.mp3",
+   "audio_us": "audio/aec891827ee1.mp3"
+  },
+  {
+   "zh": "我很想去，但是去不了",
+   "en": "I'd love to, but I [[can't make it]].",
+   "mine": "I'm very want to go, but I have no time.",
+   "mark": "x",
+   "note": "can't make it=赶不上/去不了",
+   "audio": "audio/2147fa5ab116.mp3",
+   "audio_us": "audio/fde53b141dbe.mp3"
+  },
+  {
+   "zh": "这周我真的挤不出时间",
+   "en": "I [[can't squeeze it in]] this week.",
+   "mine": "I really can't take out time this week.",
+   "mark": "x",
+   "note": "take out time是中式直译",
+   "audio": "audio/86e607ccce08.mp3",
+   "audio_us": "audio/a43534b87ce8.mp3"
+  },
+  {
+   "zh": "我现在手上事情太多了",
+   "en": "I've got [[too much on my plate]] right now.",
+   "mine": "I have too many things on my hands now.",
+   "mark": "~",
+   "note": "",
+   "audio": "audio/603240c443ce.mp3",
+   "audio_us": "audio/db7e840c5123.mp3"
+  },
+  {
+   "zh": "下班后我尽量不碰工作",
+   "en": "I try to [[switch off]] after hours.",
+   "mine": "I don't check work messages after work time.",
+   "mark": "~",
+   "note": "switch off=下班彻底放空",
+   "audio": "audio/5e5674ec2111.mp3",
+   "audio_us": "audio/d5c036f50081.mp3"
+  },
+  {
+   "zh": "能稍微往后推一下吗？",
+   "en": "Can we [[push it back]] a bit?",
+   "mine": "Can we change a time?",
+   "mark": "~",
+   "note": "push back=推迟",
+   "audio": "audio/847f9ce083de.mp3",
+   "audio_us": "audio/fb1f53878ed6.mp3"
+  },
+  {
+   "zh": "这次先算了，下次吧",
+   "en": "Can I [[take a rain check]]?",
+   "mine": "Can we next time?",
+   "mark": "x",
+   "note": "rain check=改天再约",
+   "audio": "audio/7adb8e035eb9.mp3",
+   "audio_us": "audio/54c06138b6e7.mp3"
+  },
+  {
+   "zh": "不好意思临时放你鸽子",
+   "en": "Sorry for [[bailing on you]] last minute.",
+   "mine": "Sorry I cancel you suddenly.",
+   "mark": "x",
+   "note": "bail on sb=放某人鸽子",
+   "audio": "audio/445ca16efda9.mp3",
+   "audio_us": "audio/d5c037088a68.mp3"
+  },
+  {
+   "zh": "都怪我",
+   "en": "That's [[on me]].",
+   "mine": "It's all my wrong.",
+   "mark": "x",
+   "note": "wrong不能当名词这么用",
+   "audio": "audio/58f4a9f7289c.mp3",
+   "audio_us": "audio/30a75bf6ea6c.mp3"
+  },
+  {
+   "zh": "不好意思，那件事我给忘了",
+   "en": "Sorry, I [[dropped the ball]] on that.",
+   "mine": "Sorry, I forgot that thing.",
+   "mark": "~",
+   "note": "dropped the ball=失职漏掉",
+   "audio": "audio/ee168f42bf22.mp3",
+   "audio_us": "audio/d0bea4d38e0d.mp3"
+  },
+  {
+   "zh": "不方便的话也没关系",
+   "en": "[[No pressure]] if you can't.",
+   "mine": "If you can't, it doesn't matter.",
+   "mark": "~",
+   "note": "No pressure 让对方好拒绝",
+   "audio": "audio/667bbf222748.mp3",
+   "audio_us": "audio/6de424c6b624.mp3"
+  },
+  {
+   "zh": "让你久等了",
+   "en": "Sorry to [[keep you waiting]].",
+   "mine": "Sorry to let you wait so long.",
+   "mark": "x",
+   "note": "",
+   "audio": "audio/c914a43f787e.mp3",
+   "audio_us": "audio/de2239458536.mp3"
+  },
+  {
+   "zh": "能帮我看一下包吗？",
+   "en": "Could you [[keep an eye on]] my bag?",
+   "mine": "Can you help me look at my bag?",
+   "mark": "x",
+   "note": "看着东西用keep an eye on",
+   "audio": "audio/898434082ee5.mp3",
+   "audio_us": "audio/11c472e62fed.mp3"
+  },
+  {
+   "zh": "不用了谢谢，我自己可以",
+   "en": "[[I'm good]], thanks. I can manage.",
+   "mine": "No need, thank you.",
+   "mark": "~",
+   "note": "no need有点生硬",
+   "audio": "audio/0a5eac7be3dc.mp3",
+   "audio_us": "audio/e9cd04d8c087.mp3"
+  },
+  {
+   "zh": "那个时间我不太方便",
+   "en": "That time [[doesn't really work for me]].",
+   "mine": "That time is not convenient for me.",
+   "mark": "~",
+   "note": "work for me更自然",
+   "audio": "audio/330ef473358a.mp3",
+   "audio_us": "audio/b0b531853bcf.mp3"
+  },
+  {
+   "zh": "不急，你有空再看",
+   "en": "[[No rush]], whenever you get a chance.",
+   "mine": "Not urgent, when you are free.",
+   "mark": "~",
+   "note": "",
+   "audio": "audio/716a935aeb2d.mp3",
+   "audio_us": "audio/5c7a8b85ea37.mp3"
+  }
+ ]
+}

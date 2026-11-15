@@ -241,6 +241,144 @@
    "note": "",
    "audio": "audio/a6366e53f984.mp3",
    "audio_us": "audio/1510fe408e60.mp3"
+  },
+  {
+   "zh": "再等一两分钟，等大家进来",
+   "en": "Let's [[give it a minute or two]] for people to join.",
+   "mine": "Let's wait for everybody to come in.",
+   "mark": "~",
+   "note": "",
+   "audio": "audio/759e1c75417b.mp3",
+   "audio_us": "audio/e20ff76f8925.mp3"
+  },
+  {
+   "zh": "我们按议程来吧",
+   "en": "Let's [[stick to the agenda]].",
+   "mine": "Let's follow the meeting list.",
+   "mark": "x",
+   "note": "",
+   "audio": "audio/2fb1eda4e272.mp3",
+   "audio_us": "audio/3b7d5b0621a9.mp3"
+  },
+  {
+   "zh": "我们是不是跑题了？",
+   "en": "I think we've [[gone off on a tangent]].",
+   "mine": "I think we are off the topic.",
+   "mark": "~",
+   "note": "off topic 不用 the",
+   "audio": "audio/48f12c7c862d.mp3",
+   "audio_us": "audio/567f65bc23ee.mp3"
+  },
+  {
+   "zh": "我这边简单同步一下进展",
+   "en": "[[Quick update]] from my side.",
+   "mine": "I make a simple sync of the progress.",
+   "mark": "x",
+   "note": "",
+   "audio": "audio/d35d057685a0.mp3",
+   "audio_us": "audio/3716dd5406b0.mp3"
+  },
+  {
+   "zh": "进度稍微有点落后",
+   "en": "We're [[running a bit behind]].",
+   "mine": "We are a little bit delayed.",
+   "mark": "~",
+   "note": "",
+   "audio": "audio/71255d3d9449.mp3",
+   "audio_us": "audio/9ca3566f63f7.mp3"
+  },
+  {
+   "zh": "我们卡在另一个团队那边",
+   "en": "We're [[blocked on]] another team.",
+   "mine": "We're stuck by another team.",
+   "mark": "x",
+   "note": "被谁卡住用 blocked on",
+   "audio": "audio/489c992288c4.mp3",
+   "audio_us": "audio/f40489378077.mp3"
+  },
+  {
+   "zh": "我补充一点",
+   "en": "[[Just to add to that]]...",
+   "mine": "I want to supplement one point.",
+   "mark": "x",
+   "note": "supplement 很书面",
+   "audio": "audio/f04631b6e5c2.mp3",
+   "audio_us": "audio/8ce2ec38af95.mp3"
+  },
+  {
+   "zh": "能展开讲讲吗？",
+   "en": "Could you [[expand on]] that?",
+   "mine": "Can you say more details?",
+   "mark": "~",
+   "note": "",
+   "audio": "audio/e8f120b5159a.mp3",
+   "audio_us": "audio/58dc2374e394.mp3"
+  },
+  {
+   "zh": "我的看法有点不一样",
+   "en": "I [[see it a bit differently]].",
+   "mine": "My idea is different from yours.",
+   "mark": "~",
+   "note": "比 I disagree 委婉",
+   "audio": "audio/e2a583268bc9.mp3",
+   "audio_us": "audio/ecceff30efe3.mp3"
+  },
+  {
+   "zh": "你有空聊几分钟吗？",
+   "en": "Have you [[got a sec]]?",
+   "mine": "Do you have free time for a few minutes?",
+   "mark": "~",
+   "note": "",
+   "audio": "audio/4f41ab3f0cef.mp3",
+   "audio_us": "audio/a02097a202c7.mp3"
+  },
+  {
+   "zh": "我有什么可以做得更好的吗？",
+   "en": "Is there anything I [[could be doing better]]?",
+   "mine": "What are my improvement points?",
+   "mark": "x",
+   "note": "",
+   "audio": "audio/5a06cc0c4680.mp3",
+   "audio_us": "audio/250b10650933.mp3"
+  },
+  {
+   "zh": "你直说就行，没关系",
+   "en": "Feel free to [[be blunt]].",
+   "mine": "You can speak directly, no problem.",
+   "mark": "~",
+   "note": "",
+   "audio": "audio/811fc05b8ef4.mp3",
+   "audio_us": "audio/260e9229a165.mp3"
+  },
+  {
+   "zh": "我想聊聊我的职业发展",
+   "en": "I'd love to chat about my [[career progression]].",
+   "mine": "I want to discuss my career development route.",
+   "mark": "~",
+   "note": "",
+   "us": {
+    "en": "I'd love to chat about my [[career growth]]."
+   },
+   "audio": "audio/85d3b520a49a.mp3",
+   "audio_us": "audio/fc11072c1ce8.mp3"
+  },
+  {
+   "zh": "会议纪要我来发",
+   "en": "I'll [[send out the notes]].",
+   "mine": "I will send the meeting summary to everyone.",
+   "mark": "~",
+   "note": "",
+   "audio": "audio/42cde359bb4c.mp3",
+   "audio_us": "audio/323db1e9dd1f.mp3"
+  },
+  {
+   "zh": "今天提前十分钟结束吧",
+   "en": "Let's [[give everyone ten minutes back]].",
+   "mine": "We can finish the meeting ten minutes earlier.",
+   "mark": "~",
+   "note": "常见的提前散会说法",
+   "audio": "audio/d5bfeb1198c0.mp3",
+   "audio_us": "audio/89635e3311c6.mp3"
   }
  ]
 }

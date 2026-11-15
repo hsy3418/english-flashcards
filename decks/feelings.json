@@ -1,0 +1,249 @@
+{
+ "id": "feelings",
+ "title": "情绪 & 安慰别人",
+ "emoji": "🫶",
+ "cards": [
+  {
+   "zh": "我最近压力好大",
+   "en": "I've been [[really stressed out]] lately.",
+   "mine": "Recently my pressure is very big.",
+   "mark": "x",
+   "note": "压力大不说pressure is big",
+   "audio": "audio/6256e05dc1d8.mp3",
+   "audio_us": "audio/2a7467d36bca.mp3"
+  },
+  {
+   "zh": "事情太多了，我有点招架不住",
+   "en": "I'm feeling [[a bit overwhelmed]] at the moment.",
+   "mine": "I can't handle so many things now.",
+   "mark": "~",
+   "note": "overwhelmed=被事情淹没",
+   "audio": "audio/4ff8620eff22.mp3",
+   "audio_us": "audio/67366248ae81.mp3"
+  },
+  {
+   "zh": "面试前好紧张",
+   "en": "I've got [[butterflies]] about the interview.",
+   "mine": "I'm very tension about the interview.",
+   "mark": "x",
+   "note": "tension是名词，形容词用tense",
+   "audio": "audio/589b3358920e.mp3",
+   "audio_us": "audio/9fc19db197bd.mp3"
+  },
+  {
+   "zh": "终于搞定了，松了一口气",
+   "en": "That's [[a weight off my shoulders]].",
+   "mine": "Finally I feel relaxed now.",
+   "mark": "~",
+   "note": "",
+   "audio": "audio/fcdf50f5b28d.mp3",
+   "audio_us": "audio/7c4b4ccd64ae.mp3"
+  },
+  {
+   "zh": "没抢到票，好失望",
+   "en": "I'm [[gutted]] I missed out on tickets.",
+   "mine": "I'm so disappointed I didn't grab the tickets.",
+   "mark": "~",
+   "note": "gutted比disappointed更口语更强烈",
+   "us": {
+    "en": "I'm so [[bummed]] I missed out on tickets.",
+    "note": "bummed是美式口语的失望"
+   },
+   "audio": "audio/950339c69df6.mp3",
+   "audio_us": "audio/2d5ca31d8a9d.mp3"
+  },
+  {
+   "zh": "他真的很让我烦",
+   "en": "He really [[gets on my nerves]].",
+   "mine": "He makes me very annoying.",
+   "mark": "x",
+   "note": "annoying是让人烦，annoyed才是我烦",
+   "audio": "audio/4e6a1b80cf22.mp3",
+   "audio_us": "audio/214cfee907a9.mp3"
+  },
+  {
+   "zh": "我真的快撑不住了",
+   "en": "I'm [[at the end of my tether]].",
+   "mine": "I'm going to collapse.",
+   "mark": "x",
+   "note": "collapse多指身体倒下",
+   "us": {
+    "en": "I'm [[at the end of my rope]]."
+   },
+   "audio": "audio/04de3abbc242.mp3",
+   "audio_us": "audio/c3fb9df5c8fd.mp3"
+  },
+  {
+   "zh": "今天心情有点低落",
+   "en": "I'm [[feeling a bit down]] today.",
+   "mine": "My mood is a bit low today.",
+   "mark": "~",
+   "note": "",
+   "audio": "audio/b6951f325abe.mp3",
+   "audio_us": "audio/a82142d34224.mp3"
+  },
+  {
+   "zh": "我现在状态不太对",
+   "en": "I'm [[not in a great headspace]] right now.",
+   "mine": "My state is not right now.",
+   "mark": "x",
+   "note": "headspace=心理状态",
+   "audio": "audio/09c6f589991a.mp3",
+   "audio_us": "audio/db1bee61e79e.mp3"
+  },
+  {
+   "zh": "那件事挺让我不爽的",
+   "en": "That [[really bugged me]].",
+   "mine": "That thing made me very angry.",
+   "mark": "~",
+   "note": "bugged比angry轻，日常更常用",
+   "audio": "audio/127f2bb4ebb1.mp3",
+   "audio_us": "audio/be99ed8fcb1f.mp3"
+  },
+  {
+   "zh": "这件事我想了一整周",
+   "en": "It's been [[playing on my mind]] all week.",
+   "mine": "I keep thinking this thing all week.",
+   "mark": "x",
+   "note": "think后面要接about",
+   "us": {
+    "en": "It's been [[weighing on me]] all week."
+   },
+   "audio": "audio/3669e6737710.mp3",
+   "audio_us": "audio/b696abd1c0c1.mp3"
+  },
+  {
+   "zh": "我就是想发泄一下",
+   "en": "I just need to [[vent]] for a sec.",
+   "mine": "I just need to express my emotions.",
+   "mark": "~",
+   "note": "vent=吐槽发泄",
+   "audio": "audio/07397d9476f7.mp3",
+   "audio_us": "audio/8d025fb1e2cd.mp3"
+  },
+  {
+   "zh": "这几天一直心神不宁",
+   "en": "I've been [[on edge]] all week.",
+   "mine": "I feel uneasy these few days.",
+   "mark": "~",
+   "note": "",
+   "audio": "audio/7e71795bb82a.mp3",
+   "audio_us": "audio/67920653f110.mp3"
+  },
+  {
+   "zh": "我心里有点不是滋味",
+   "en": "It [[didn't sit right with me]].",
+   "mine": "I feel a bit uncomfortable about it.",
+   "mark": "~",
+   "note": "指觉得不对劲、不舒服",
+   "audio": "audio/568a325875d8.mp3",
+   "audio_us": "audio/39c1727e52cd.mp3"
+  },
+  {
+   "zh": "我现在没心情",
+   "en": "I'm [[not in the mood]].",
+   "mine": "I have no mood now.",
+   "mark": "x",
+   "note": "mood不说have no",
+   "audio": "audio/d2bee9263095.mp3",
+   "audio_us": "audio/0655cc495b61.mp3"
+  },
+  {
+   "zh": "太丢人了，想找个地缝钻进去",
+   "en": "I wanted the ground to [[swallow me up]].",
+   "mine": "I lost my face so much.",
+   "mark": "x",
+   "note": "lose face偏指丢面子、失威信",
+   "audio": "audio/ace365ac13d9.mp3",
+   "audio_us": "audio/6302c47bb825.mp3"
+  },
+  {
+   "zh": "你看起来不太对劲，没事吧？",
+   "en": "You seem [[a bit off]]. Everything okay?",
+   "mine": "You look not normal today. Are you OK?",
+   "mark": "x",
+   "note": "a bit off=状态不对",
+   "audio": "audio/c7fca7e7b258.mp3",
+   "audio_us": "audio/af8a1cdfcb01.mp3"
+  },
+  {
+   "zh": "有我在，需要就说",
+   "en": "I'm [[here if you need me]].",
+   "mine": "If you need, I'm always here.",
+   "mark": "~",
+   "note": "",
+   "audio": "audio/a79c8365d6d5.mp3",
+   "audio_us": "audio/d93e26220bdc.mp3"
+  },
+  {
+   "zh": "别太自责了",
+   "en": "Don't [[be too hard on yourself]].",
+   "mine": "Don't blame yourself too much.",
+   "mark": "~",
+   "note": "hard on yourself更温柔",
+   "audio": "audio/e1bbe46e6634.mp3",
+   "audio_us": "audio/c6a67ca120dd.mp3"
+  },
+  {
+   "zh": "换我也会这么想",
+   "en": "I'd feel the same [[in your shoes]].",
+   "mine": "If I am you, I will also feel like this.",
+   "mark": "x",
+   "note": "in your shoes=站在你的位置",
+   "audio": "audio/dd6d823027ac.mp3",
+   "audio_us": "audio/2424a4a63444.mp3"
+  },
+  {
+   "zh": "会好起来的",
+   "en": "It'll [[work itself out]].",
+   "mine": "Everything will become better.",
+   "mark": "~",
+   "note": "",
+   "audio": "audio/9ce0d3d2f387.mp3",
+   "audio_us": "audio/4f1c3809f73e.mp3"
+  },
+  {
+   "zh": "先照顾好自己啊",
+   "en": "[[Look after yourself]], okay?",
+   "mine": "Take care your body, okay?",
+   "mark": "x",
+   "note": "take care后面要加of",
+   "us": {
+    "en": "[[Take care of yourself]], okay?"
+   },
+   "audio": "audio/049499cb73a4.mp3",
+   "audio_us": "audio/4c29fb53a16b.mp3"
+  },
+  {
+   "zh": "听起来真的很不容易",
+   "en": "That sounds [[really tough]].",
+   "mine": "It sounds very hard.",
+   "mark": "~",
+   "note": "tough更口语，带同理心",
+   "audio": "audio/04332a482866.mp3",
+   "audio_us": "audio/9f2b555cefa5.mp3"
+  },
+  {
+   "zh": "有什么需要随时找我",
+   "en": "Just [[give me a shout]] if you need anything.",
+   "mine": "If you need anything, you can find me anytime.",
+   "mark": "~",
+   "note": "give me a shout=叫我一声",
+   "us": {
+    "en": "Just [[let me know]] if you need anything.",
+    "note": ""
+   },
+   "audio": "audio/fc8e8b97e4e2.mp3",
+   "audio_us": "audio/02150cb59eab.mp3"
+  },
+  {
+   "zh": "别想太多了",
+   "en": "Try not to [[overthink it]].",
+   "mine": "Don't think too much.",
+   "mark": "~",
+   "note": "think too much很中式",
+   "audio": "audio/682f78415760.mp3",
+   "audio_us": "audio/9ad1cb748efa.mp3"
+  }
+ ]
+}

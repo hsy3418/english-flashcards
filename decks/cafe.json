@@ -263,6 +263,155 @@
    "note": "",
    "audio": "audio/163d56081614.mp3",
    "audio_us": "audio/960882eeeecc.mp3"
+  },
+  {
+   "zh": "牛排有点煎老了",
+   "en": "The steak's [[a bit overdone]].",
+   "mine": "The steak is too old.",
+   "mark": "x",
+   "note": "老 不能直译 old",
+   "audio": "audio/79a7082d5611.mp3",
+   "audio_us": "audio/1726b1aff134.mp3"
+  },
+  {
+   "zh": "我们的主菜还没上",
+   "en": "We're [[still waiting on]] our mains.",
+   "mine": "Our dishes still not come.",
+   "mark": "x",
+   "note": "",
+   "us": {
+    "en": "We're [[still waiting on]] our entrées.",
+    "note": "美国 entrée 是主菜"
+   },
+   "audio": "audio/22e25b08cb70.mp3",
+   "audio_us": "audio/c09f3433241d.mp3"
+  },
+  {
+   "zh": "酱汁能分开放吗？",
+   "en": "Can I get the sauce [[on the side]]?",
+   "mine": "Can you put the sauce separately?",
+   "mark": "~",
+   "note": "",
+   "audio": "audio/e7d42f969da0.mp3",
+   "audio_us": "audio/2e4171f60e94.mp3"
+  },
+  {
+   "zh": "这个是无麸质的吗？",
+   "en": "Is this [[gluten-free]]?",
+   "mine": "Does this have no gluten?",
+   "mark": "~",
+   "note": "",
+   "audio": "audio/e418283e6c99.mp3",
+   "audio_us": "audio/8b8092b31892.mp3"
+  },
+  {
+   "zh": "能做得不那么辣吗？",
+   "en": "Can you [[make it mild]]?",
+   "mine": "Can you make it not spicy?",
+   "mark": "~",
+   "note": "",
+   "audio": "audio/770986bae2ce.mp3",
+   "audio_us": "audio/38d2d3beee22.mp3"
+  },
+  {
+   "zh": "鸡蛋要水波蛋",
+   "en": "Can I get the eggs [[poached]]?",
+   "mine": "Can the eggs be boiled in water?",
+   "mark": "x",
+   "note": "水波蛋 = poached eggs",
+   "audio": "audio/da7aee78d594.mp3",
+   "audio_us": "audio/8668504c8953.mp3"
+  },
+  {
+   "zh": "再加一份牛油果",
+   "en": "Can I [[add a side of]] avo?",
+   "mine": "Can I add one more portion avocado?",
+   "mark": "x",
+   "note": "avo 是澳洲口语",
+   "us": {
+    "en": "Can I [[add a side of]] avocado?",
+    "note": ""
+   },
+   "audio": "audio/d5ca440a9d36.mp3",
+   "audio_us": "audio/99c0fbb29efe.mp3"
+  },
+  {
+   "zh": "这里是去柜台点单吗？",
+   "en": "Do we [[order at the counter]]?",
+   "mine": "Do we order at the front desk?",
+   "mark": "x",
+   "note": "front desk 是酒店前台",
+   "audio": "audio/1c584c056d54.mp3",
+   "audio_us": "audio/1fe1d22c7580.mp3"
+  },
+  {
+   "zh": "不好意思，能帮我热一下吗？",
+   "en": "Sorry, could you [[warm this up]] a bit?",
+   "mine": "Can you make it hot again?",
+   "mark": "~",
+   "note": "",
+   "audio": "audio/33c2af4bc055.mp3",
+   "audio_us": "audio/bbce04c077b7.mp3"
+  },
+  {
+   "zh": "有点偏咸",
+   "en": "It's [[a bit on the salty side]].",
+   "mine": "It's too salty.",
+   "mark": "~",
+   "note": "on the ... side 很委婉",
+   "audio": "audio/25e4d26a3e46.mp3",
+   "audio_us": "audio/43b963196ede.mp3"
+  },
+  {
+   "zh": "我们能换张桌子吗？",
+   "en": "Could we [[move to]] a different table?",
+   "mine": "Can we change a table?",
+   "mark": "x",
+   "note": "",
+   "audio": "audio/e29e16419f19.mp3",
+   "audio_us": "audio/80040942d203.mp3"
+  },
+  {
+   "zh": "这轮我请",
+   "en": "It's [[my round]].",
+   "mine": "This round I treat.",
+   "mark": "x",
+   "note": "",
+   "us": {
+    "en": "[[I've got]] this round."
+   },
+   "audio": "audio/d8745e638a82.mp3",
+   "audio_us": "audio/5599c03d5594.mp3"
+  },
+  {
+   "zh": "你们有什么生啤？",
+   "en": "What've you got [[on tap]]?",
+   "mine": "What draft beer do you have?",
+   "mark": "~",
+   "note": "",
+   "audio": "audio/39df95ce7ef2.mp3",
+   "audio_us": "audio/c2d17b51b5ab.mp3"
+  },
+  {
+   "zh": "我今天开车，就喝饮料了",
+   "en": "I'm driving, so I'll [[stick to]] soft drinks.",
+   "mine": "I drive today, so I don't drink alcohol.",
+   "mark": "~",
+   "note": "",
+   "audio": "audio/8749ac96edb4.mp3",
+   "audio_us": "audio/daa5bca4b7a9.mp3"
+  },
+  {
+   "zh": "再来一杯一样的",
+   "en": "[[Same again]], thanks.",
+   "mine": "One more the same, please.",
+   "mark": "~",
+   "note": "",
+   "us": {
+    "en": "[[I'll have another]], thanks."
+   },
+   "audio": "audio/110b6d8fda95.mp3",
+   "audio_us": "audio/4f80e08be916.mp3"
   }
  ]
 }

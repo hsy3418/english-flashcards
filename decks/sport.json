@@ -1,0 +1,243 @@
+{
+ "id": "sport",
+ "title": "运动：健身、帆船、潜水",
+ "emoji": "⛵",
+ "cards": [
+  {
+   "zh": "这个动作我做得对吗？",
+   "en": "Is my [[form]] OK on this one?",
+   "mine": "Is my posture right for this action?",
+   "mark": "~",
+   "note": "健身姿势叫 form",
+   "audio": "audio/84b9aae42505.mp3",
+   "audio_us": "audio/cdf312cd43e3.mp3"
+  },
+  {
+   "zh": "我腰不好，这个能做吗？",
+   "en": "I've got a [[dodgy back]]. Is this OK?",
+   "mine": "My waist is not good. Can I do this?",
+   "mark": "x",
+   "note": "腰疼是 back，不是 waist",
+   "us": {
+    "en": "I've got a [[bad back]]. Is this OK?"
+   },
+   "audio": "audio/95c157a13db9.mp3",
+   "audio_us": "audio/02bcaea5bca3.mp3"
+  },
+  {
+   "zh": "能帮我保护一下吗？",
+   "en": "Could you [[spot me]]?",
+   "mine": "Can you protect me?",
+   "mark": "x",
+   "note": "spot = 卧推时帮忙保护",
+   "audio": "audio/59f7ad6acb69.mp3",
+   "audio_us": "audio/5d8c7f86b4f4.mp3"
+  },
+  {
+   "zh": "明天肯定要酸痛了",
+   "en": "I'm going to be [[so sore]] tomorrow.",
+   "mine": "My muscle will be sour tomorrow.",
+   "mark": "x",
+   "note": "肌肉酸是 sore，不是 sour",
+   "audio": "audio/0739e082fe76.mp3",
+   "audio_us": "audio/640a77935205.mp3"
+  },
+  {
+   "zh": "核心收紧",
+   "en": "[[Brace your core]].",
+   "mine": "Hold your belly strongly.",
+   "mark": "x",
+   "note": "",
+   "audio": "audio/019a8ee84b0d.mp3",
+   "audio_us": "audio/b6bab22f9859.mp3"
+  },
+  {
+   "zh": "我想慢慢加量",
+   "en": "I want to [[build up]] slowly.",
+   "mine": "I want to step by step.",
+   "mark": "x",
+   "note": "",
+   "audio": "audio/51bab50db3c6.mp3",
+   "audio_us": "audio/cac7f6a91ce9.mp3"
+  },
+  {
+   "zh": "我这周练得太猛了",
+   "en": "I [[overdid it]] this week.",
+   "mine": "I trained too hard this week.",
+   "mark": "~",
+   "note": "overdo it = 用力过猛",
+   "audio": "audio/d966ca958c8f.mp3",
+   "audio_us": "audio/98fae93ac6b9.mp3"
+  },
+  {
+   "zh": "今天又翻船了两次",
+   "en": "I [[capsized]] twice today.",
+   "mine": "My boat turned over two times today.",
+   "mark": "~",
+   "note": "",
+   "audio": "audio/b038e7f67169.mp3",
+   "audio_us": "audio/d672e564db9e.mp3"
+  },
+  {
+   "zh": "怎么把船扶正？",
+   "en": "How do I [[right the boat]]?",
+   "mine": "How do I turn the boat back?",
+   "mark": "~",
+   "note": "right 作动词 = 扶正",
+   "audio": "audio/594efb64679d.mp3",
+   "audio_us": "audio/372f44a2c615.mp3"
+  },
+  {
+   "zh": "我迎风换舷时老是停住",
+   "en": "I keep [[getting stuck in irons]] when I tack.",
+   "mine": "My boat always stops when I turn.",
+   "mark": "~",
+   "note": "in irons = 船头顶风失速",
+   "audio": "audio/7ecd6133b6ed.mp3",
+   "audio_us": "audio/c76d7fa11f8c.mp3"
+  },
+  {
+   "zh": "顺风换舷还是有点吓人",
+   "en": "[[Gybing]] still freaks me out.",
+   "mine": "Turning with the wind behind is scary.",
+   "mark": "~",
+   "note": "澳洲拼 gybe",
+   "us": {
+    "en": "[[Jibing]] still freaks me out.",
+    "note": "美国拼 jibe"
+   },
+   "audio": "audio/05647a0c91ab.mp3",
+   "audio_us": "audio/5f45c011d7d4.mp3"
+  },
+  {
+   "zh": "今天阵风太大了",
+   "en": "It's [[too gusty]] for me today.",
+   "mine": "Today the wind is too big.",
+   "mark": "x",
+   "note": "风大用 strong/gusty",
+   "audio": "audio/b5c81af9d610.mp3",
+   "audio_us": "audio/89376f7f6f84.mp3"
+  },
+  {
+   "zh": "能帮我看看索具装得对不对？",
+   "en": "Could you [[check my rigging]]?",
+   "mine": "Can you check my sail installation?",
+   "mark": "x",
+   "note": "rigging = 帆船索具",
+   "audio": "audio/660b666140c3.mp3",
+   "audio_us": "audio/7e7ac1889211.mp3"
+  },
+  {
+   "zh": "帆要不要再收一点？",
+   "en": "Should I [[sheet in]] a bit more?",
+   "mine": "Should I pull the rope tighter?",
+   "mark": "~",
+   "note": "sheet 是控帆绳",
+   "audio": "audio/d7134f637bdc.mp3",
+   "audio_us": "audio/cbb7007b7407.mp3"
+  },
+  {
+   "zh": "小心帆杆！",
+   "en": "[[Watch the boom]]!",
+   "mine": "Careful the stick!",
+   "mark": "x",
+   "note": "boom = 帆杆",
+   "audio": "audio/f210aeb7c2e0.mp3",
+   "audio_us": "audio/c703bbffd203.mp3"
+  },
+  {
+   "zh": "我得再往外压舷",
+   "en": "I need to [[hike out]] more.",
+   "mine": "I need to lean outside more.",
+   "mark": "~",
+   "note": "hike out = 压舷",
+   "audio": "audio/afb454062da1.mp3",
+   "audio_us": "audio/8aa3ec70df36.mp3"
+  },
+  {
+   "zh": "能再给我讲一遍吗？",
+   "en": "Could you [[run me through]] that again?",
+   "mine": "Can you demonstrate again?",
+   "mark": "~",
+   "note": "",
+   "audio": "audio/635220898f43.mp3",
+   "audio_us": "audio/6a4d14eb9d64.mp3"
+  },
+  {
+   "zh": "我们回岸吧",
+   "en": "Let's [[head back in]].",
+   "mine": "Let's go back to the land.",
+   "mark": "x",
+   "note": "",
+   "audio": "audio/4481d4353714.mp3",
+   "audio_us": "audio/a1810b2f527a.mp3"
+  },
+  {
+   "zh": "下水前我们互相检查一下装备",
+   "en": "Let's do a [[buddy check]] first.",
+   "mine": "Let's check each other's equipment.",
+   "mark": "~",
+   "note": "",
+   "audio": "audio/f0bf2345607c.mp3",
+   "audio_us": "audio/f07ed060e326.mp3"
+  },
+  {
+   "zh": "我耳压平衡不过来",
+   "en": "I can't [[equalise]].",
+   "mine": "My ear can't balance.",
+   "mark": "x",
+   "note": "耳压平衡叫 equalise",
+   "us": {
+    "en": "I can't [[equalize]].",
+    "note": "耳压平衡叫 equalize"
+   },
+   "audio": "audio/03e43d2cd871.mp3",
+   "audio_us": "audio/c5a52727ff98.mp3"
+  },
+  {
+   "zh": "我只剩 100 bar 了",
+   "en": "I'm [[down to]] 100 bar.",
+   "mine": "My air remains 100 bar.",
+   "mark": "x",
+   "note": "",
+   "audio": "audio/e7b0ea68d174.mp3",
+   "audio_us": "audio/ce7dbfbb34a8.mp3"
+  },
+  {
+   "zh": "我的中性浮力还要多练",
+   "en": "My [[buoyancy control]] still [[needs work]].",
+   "mine": "My floating control is not good.",
+   "mark": "x",
+   "note": "",
+   "audio": "audio/eb73ba541e7d.mp3",
+   "audio_us": "audio/10cc139f01e4.mp3"
+  },
+  {
+   "zh": "我们做个安全停留",
+   "en": "Let's do our [[safety stop]].",
+   "mine": "Let's stop for safety.",
+   "mark": "~",
+   "note": "通常 5 米停 3 分钟",
+   "audio": "audio/931294804906.mp3",
+   "audio_us": "audio/1e03ec7910d5.mp3"
+  },
+  {
+   "zh": "水下能见度怎么样？",
+   "en": "How's the [[vis]] down there?",
+   "mine": "How is the seeing distance?",
+   "mark": "x",
+   "note": "潜水员口语 vis = visibility",
+   "audio": "audio/f93523ee230c.mp3",
+   "audio_us": "audio/c346f00d1bb3.mp3"
+  },
+  {
+   "zh": "这个潜点水流大吗？",
+   "en": "Is there [[much current]] at this site?",
+   "mine": "Does this dive point have big flow?",
+   "mark": "x",
+   "note": "水流叫 current",
+   "audio": "audio/08cdfb7bac8e.mp3",
+   "audio_us": "audio/0c48252219a0.mp3"
+  }
+ ]
+}

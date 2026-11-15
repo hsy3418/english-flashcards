@@ -22,7 +22,8 @@ button{font:inherit;cursor:pointer;border:none;border-radius:12px}
 .wrap{width:100%;max-width:520px}
 .decks{display:grid;gap:12px}
 .deck{background:var(--card);border:1px solid var(--line);padding:18px;text-align:left;color:var(--ink);display:flex;justify-content:space-between;align-items:center;font-size:18px}
-.deck small{color:var(--muted);font-size:14px}
+.deck small{color:var(--muted);font-size:14px;white-space:nowrap;margin-left:10px}
+.src{font-size:12px;color:var(--muted);margin-bottom:10px}
 .mode{display:flex;gap:8px;margin:18px 0 6px;flex-wrap:wrap}
 .mode button{background:var(--card);border:1px solid var(--line);color:var(--ink);padding:8px 12px;font-size:14px}
 .mode button.on{background:var(--accent);border-color:var(--accent);color:#fff}
@@ -71,6 +72,7 @@ button{font:inherit;cursor:pointer;border:none;border-radius:12px}
     <div class="count" id="count"></div>
 
     <div class="card" id="card">
+      <div class="src" id="src"></div>
       <div class="zh" id="zh"></div>
       <div class="hint" id="tapHint">先自己说一遍，再点开看答案</div>
       <div class="back hidden" id="back">
@@ -105,7 +107,16 @@ let deck, queue = [], cur = null, flipped = false, mode = 'due', total = 0, voic
 const KEY = 'efc-progress';
 const prog = JSON.parse(localStorage.getItem(KEY) || '{}');
 const save = () => localStorage.setItem(KEY, JSON.stringify(prog));
-const k = c => deck.id + ':' + c.zh;
+const k = c => c._deck + ':' + c.zh;
+const WKEY = 'efc-wrong';
+const wrong = new Set(JSON.parse(localStorage.getItem(WKEY) || '[]'));
+const saveWrong = () => localStorage.setItem(WKEY, JSON.stringify([...wrong]));
+let LIST = [];
+const cache = {};
+async function getDeck(id){
+  if (!cache[id]){ const d = await (await fetch(`decks/${id}.json`)).json(); d.cards.forEach(c => c._deck = id); cache[id] = d; }
+  return cache[id];
+}
 
 function pickVoice(){
   if (!('speechSynthesis' in window)) return;
@@ -133,18 +144,31 @@ function speak(text, rate = 1){
   speechSynthesis.speak(u);
 }
 
-async function loadIndex(){
-  const list = await (await fetch('decks/index.json')).json();
-  $('decks').innerHTML = list.map(d => {
-    return `<button class="deck" data-id="${d.id}"><span>${d.emoji} ${esc(d.title)}</span><small>${d.count} 张</small></button>`;
-  }).join('');
+function renderPicker(){
+  const known = id => Object.keys(prog).filter(x => x.startsWith(id + ':') && prog[x] >= 2).length;
+  const total = LIST.reduce((n, d) => n + d.count, 0);
+  const special = [
+    `<button class="deck" data-id="mix"><span>🔀 全部混合</span><small>${total} 张</small></button>`,
+    `<button class="deck" data-id="wrong"><span>📕 错题本</span><small>${wrong.size} 张</small></button>`];
+  $('decks').innerHTML = special.join('') + LIST.map(d =>
+    `<button class="deck" data-id="${d.id}"><span>${d.emoji} ${esc(d.title)}</span><small>${known(d.id) ? `记住 ${known(d.id)} / ` : ''}${d.count} 张</small></button>`).join('');
   document.querySelectorAll('.deck').forEach(b => b.onclick = () => openDeck(b.dataset.id));
+}
+
+async function loadIndex(){
+  LIST = await (await fetch('decks/index.json')).json();
+  renderPicker();
   const want = new URLSearchParams(location.search).get('deck');
   if (want) openDeck(want);
 }
 
 async function openDeck(id){
-  deck = await (await fetch(`decks/${id}.json`)).json();
+  if (id === 'mix' || id === 'wrong'){
+    const all = (await Promise.all(LIST.map(d => getDeck(d.id)))).flatMap(d => d.cards);
+    deck = id === 'mix' ? {id, emoji:'🔀', title:'全部混合', cards: all}
+                        : {id, emoji:'📕', title:'错题本', cards: all.filter(c => wrong.has(k(c)))};
+    if (id === 'wrong') mode = 'all';
+  } else deck = await getDeck(id);
   $('title').textContent = `${deck.emoji} ${deck.title}`;
   $('picker').classList.add('hidden'); $('study').classList.remove('hidden'); $('home').classList.remove('hidden');
   history.replaceState(null, '', `?deck=${id}`);
@@ -166,7 +190,7 @@ function next(){
   if (!queue.length){
     $('card').classList.add('hidden'); $('actions').classList.add('hidden'); $('done').classList.remove('hidden');
     const known = deck.cards.filter(c => (prog[k(c)]||0) >= 2).length;
-    $('doneText').textContent = `这一轮练完了！已经记住 ${known} / ${deck.cards.length} 张`;
+    $('doneText').textContent = deck.cards.length ? `这一轮练完了！已经记住 ${known} / ${deck.cards.length} 张` : (deck.id === 'wrong' ? '错题本是空的，答错的卡会自动收进来' : '这里还没有卡片');
     return;
   }
   cur = queue[0]; flipped = false;
@@ -176,6 +200,8 @@ function next(){
 
 function render(){
   const v = view(cur);
+  const meta = LIST.find(d => d.id === cur._deck);
+  $('src').textContent = (deck.id === 'mix' || deck.id === 'wrong') && meta ? `${meta.emoji} ${meta.title}` : '';
   $('zh').textContent = v.zh;
   $('en').innerHTML = fmt(v.en);
   const tag = v.mark === 'x' ? '<span class="tag x">不地道</span>' : '<span class="tag w">能用，但不够自然</span>';
@@ -193,9 +219,9 @@ function flip(){
 function answer(ok){
   if (!flipped) return;
   const c = queue.shift();
-  if (ok){ prog[k(c)] = (prog[k(c)]||0) + 1; }
-  else { prog[k(c)] = 0; queue.splice(Math.min(3, queue.length), 0, c); } // 没记住：过几张再出现
-  save(); next();
+  if (ok){ prog[k(c)] = (prog[k(c)]||0) + 1; if (prog[k(c)] >= 2) wrong.delete(k(c)); }
+  else { prog[k(c)] = 0; wrong.add(k(c)); queue.splice(Math.min(3, queue.length), 0, c); } // 没记住：过几张再出现
+  save(); saveWrong(); next();
 }
 
 function updateBar(){
@@ -217,7 +243,7 @@ document.querySelectorAll('#accent button').forEach(b => b.onclick = () => {
 $('again').onclick = () => answer(false);
 $('good').onclick = () => answer(true);
 $('restart').onclick = () => { mode = 'all'; setMode(); start(); };
-$('home').onclick = () => { $('study').classList.add('hidden'); $('picker').classList.remove('hidden'); $('home').classList.add('hidden'); $('title').textContent = '🐰 地道英文卡片'; history.replaceState(null,'',location.pathname); };
+$('home').onclick = () => { $('study').classList.add('hidden'); $('picker').classList.remove('hidden'); $('home').classList.add('hidden'); $('title').textContent = '🐰 地道英文卡片'; renderPicker(); history.replaceState(null,'',location.pathname); };
 function setMode(){ document.querySelectorAll('#modes button[data-m]').forEach(b => b.classList.toggle('on', b.dataset.m === mode)); }
 document.querySelectorAll('#modes button[data-m]').forEach(b => b.onclick = () => {
   if (b.dataset.m === 'reset'){ if (!confirm('清空这个主题的进度？')) return; deck.cards.forEach(c => delete prog[k(c)]); save(); mode = 'all'; }

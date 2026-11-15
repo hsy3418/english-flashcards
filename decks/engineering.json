@@ -1,0 +1,238 @@
+{
+ "id": "engineering",
+ "title": "工程师：on-call & code review",
+ "emoji": "🛠️",
+ "cards": [
+  {
+   "zh": "先回滚，回头再查原因",
+   "en": "Let's [[roll back]] first and dig in after.",
+   "mine": "Let's rollback first, then find the reason.",
+   "mark": "~",
+   "note": "动词是 roll back，名词才连写",
+   "audio": "audio/c6883544f784.mp3",
+   "audio_us": "audio/5c3b526fc622.mp3"
+  },
+  {
+   "zh": "线上挂了，大家先上个会",
+   "en": "Prod's down, can everyone [[jump on a call]]?",
+   "mine": "Production is dead, everyone please join the meeting.",
+   "mark": "~",
+   "note": "",
+   "audio": "audio/ec12d05f0b50.mp3",
+   "audio_us": "audio/d2a9fc25b6ce.mp3"
+  },
+  {
+   "zh": "我们还在排查",
+   "en": "We're still [[looking into]] it.",
+   "mine": "We are still checking the problem.",
+   "mark": "~",
+   "note": "",
+   "audio": "audio/191b14cf800e.mp3",
+   "audio_us": "audio/8520a95c2f78.mp3"
+  },
+  {
+   "zh": "已经止血了，根因还在查",
+   "en": "It's [[mitigated]], but we're still chasing root cause.",
+   "mine": "We already stopped bleeding, but still finding the root cause.",
+   "mark": "x",
+   "note": "止血用 mitigate 更地道",
+   "audio": "audio/4af0d80a92f3.mp3",
+   "audio_us": "audio/84a6493512b8.mp3"
+  },
+  {
+   "zh": "我本地能复现",
+   "en": "I can [[reproduce]] it locally.",
+   "mine": "I can repeat this problem locally.",
+   "mark": "x",
+   "note": "口语也常缩写成 repro",
+   "audio": "audio/6a9a46322678.mp3",
+   "audio_us": "audio/c72ab87cf2a7.mp3"
+  },
+  {
+   "zh": "你接 on-call 之前我们交接一下",
+   "en": "Let's do [[the handover]] before you go on call.",
+   "mine": "Let me transfer the on-call to you.",
+   "mark": "~",
+   "note": "",
+   "us": {
+    "en": "Let's do [[the handoff]] before you go on call."
+   },
+   "audio": "audio/d581450d7149.mp3",
+   "audio_us": "audio/eca2263d7452.mp3"
+  },
+  {
+   "zh": "我昨晚三点被叫起来了",
+   "en": "I got [[paged]] at 3am last night.",
+   "mine": "I was called up at 3am last night.",
+   "mark": "x",
+   "note": "called up 是被征召的意思",
+   "audio": "audio/a5c0901f4730.mp3",
+   "audio_us": "audio/b6e22fc57f05.mp3"
+  },
+  {
+   "zh": "这个告警太吵了",
+   "en": "This alert is [[way too noisy]].",
+   "mine": "This alarm is too loud.",
+   "mark": "x",
+   "note": "告警太多叫 noisy，不是 loud",
+   "audio": "audio/d798a675d05d.mp3",
+   "audio_us": "audio/090618a0a25e.mp3"
+  },
+  {
+   "zh": "小建议，不影响合并",
+   "en": "[[Nit]]: maybe rename this variable.",
+   "mine": "Small suggestion, not important: maybe rename this variable.",
+   "mark": "~",
+   "note": "nit 表示小意见，不阻塞合并",
+   "audio": "audio/33365a92a9fb.mp3",
+   "audio_us": "audio/8f2e31733293.mp3"
+  },
+  {
+   "zh": "这个改动太大了，能拆开吗？",
+   "en": "Could you [[split this up]] into smaller PRs?",
+   "mine": "Can you separate this PR to some small PRs?",
+   "mark": "x",
+   "note": "拆成几份用 into",
+   "audio": "audio/604b845c98c1.mp3",
+   "audio_us": "audio/532424b15a46.mp3"
+  },
+  {
+   "zh": "我看没问题，批了",
+   "en": "[[LGTM]], approved.",
+   "mine": "I agree this PR.",
+   "mark": "x",
+   "note": "LGTM = looks good to me",
+   "audio": "audio/c7c01d4b5546.mp3",
+   "audio_us": "audio/3d9096e3b791.mp3"
+  },
+  {
+   "zh": "大概要多久，给个粗略估计？",
+   "en": "Can you give me [[a ballpark]] on this?",
+   "mine": "Can you give me a rough time estimation?",
+   "mark": "~",
+   "note": "ballpark 指粗略估计",
+   "audio": "audio/2c631e3de9d1.mp3",
+   "audio_us": "audio/540425ff01bd.mp3"
+  },
+  {
+   "zh": "这是技术债，迟早要还",
+   "en": "That's [[tech debt]] we'll need to [[pay down]].",
+   "mine": "This is technical debt, we need to return it later.",
+   "mark": "x",
+   "note": "还债用 pay down / pay off",
+   "audio": "audio/a3b1d2007ecc.mp3",
+   "audio_us": "audio/253f14de6d0b.mp3"
+  },
+  {
+   "zh": "这个不在这次的范围内",
+   "en": "That's [[out of scope]] for this sprint.",
+   "mine": "This is not in this time's range.",
+   "mark": "x",
+   "note": "",
+   "audio": "audio/bd964cf7cdc2.mp3",
+   "audio_us": "audio/e5d73a795a25.mp3"
+  },
+  {
+   "zh": "要是加这个需求，上线就得推迟",
+   "en": "If we take that on, the release will [[slip]].",
+   "mine": "If we add this requirement, the release must delay.",
+   "mark": "x",
+   "note": "进度往后拖，口语说 slip",
+   "audio": "audio/84130d182eb4.mp3",
+   "audio_us": "audio/0c97cae10328.mp3"
+  },
+  {
+   "zh": "周五下午别上线",
+   "en": "Let's not [[push to prod]] on a Friday arvo.",
+   "mine": "Don't go online on Friday afternoon.",
+   "mark": "x",
+   "note": "上线不是 go online",
+   "us": {
+    "en": "Let's not [[push to prod]] on a Friday afternoon."
+   },
+   "audio": "audio/4ceb347e9b0a.mp3",
+   "audio_us": "audio/070da64c6142.mp3"
+  },
+  {
+   "zh": "在我电脑上是好的啊",
+   "en": "It [[works on my machine]].",
+   "mine": "On my side it is okay.",
+   "mark": "~",
+   "note": "程序员经典梗",
+   "audio": "audio/c0428ff88107.mp3",
+   "audio_us": "audio/f546dcaf6358.mp3"
+  },
+  {
+   "zh": "那个测试时好时坏",
+   "en": "That test is [[flaky]].",
+   "mine": "That test is unstable sometimes.",
+   "mark": "~",
+   "note": "时好时坏的测试叫 flaky",
+   "audio": "audio/b54a6a87dbe7.mp3",
+   "audio_us": "audio/a9c706defca1.mp3"
+  },
+  {
+   "zh": "周六谁能帮我顶一下 on-call？",
+   "en": "Can someone [[cover]] my on-call shift on Saturday?",
+   "mine": "Can someone replace my on-call on Saturday?",
+   "mark": "~",
+   "note": "替班用 cover",
+   "audio": "audio/16651971d845.mp3",
+   "audio_us": "audio/7e501ba56ac1.mp3"
+  },
+  {
+   "zh": "这次得做个复盘",
+   "en": "We should do [[a post-mortem]] on this.",
+   "mine": "We should do a review meeting for this accident.",
+   "mark": "x",
+   "note": "事故用 incident，不说 accident",
+   "audio": "audio/2c3007f4560d.mp3",
+   "audio_us": "audio/d9e1a5f83d3d.mp3"
+  },
+  {
+   "zh": "这只是个临时方案",
+   "en": "It's just a [[band-aid]] fix for now.",
+   "mine": "This is only a temporary repairing.",
+   "mark": "x",
+   "note": "治标不治本的临时修复",
+   "audio": "audio/09b175adeb2d.mp3",
+   "audio_us": "audio/5d64b42d6118.mp3"
+  },
+  {
+   "zh": "修复已经上了，我在盯着监控",
+   "en": "The fix is out, I'm [[watching the dashboards]].",
+   "mine": "The fix is released, I'm watching on it.",
+   "mark": "x",
+   "note": "watch 后面不加 on",
+   "audio": "audio/4a945b4a2dd5.mp3",
+   "audio_us": "audio/e6b148320f65.mp3"
+  },
+  {
+   "zh": "这个时间线我得提点异议",
+   "en": "I'm going to [[push back]] on that timeline.",
+   "mine": "I can't accept this timeline.",
+   "mark": "~",
+   "note": "push back 礼貌地表示反对",
+   "audio": "audio/45f77c5146da.mp3",
+   "audio_us": "audio/56617ab71102.mp3"
+  },
+  {
+   "zh": "出问题的话影响范围多大？",
+   "en": "What's the [[blast radius]] if this goes wrong?",
+   "mine": "What's the influence range if it fails?",
+   "mark": "x",
+   "note": "",
+   "audio": "audio/a7583d2db47e.mp3",
+   "audio_us": "audio/a767f86e6690.mp3"
+  },
+  {
+   "zh": "能不能先把这个功能开关关掉？",
+   "en": "Can we just [[turn]] the feature flag [[off]]?",
+   "mine": "Can we close the feature switch?",
+   "mark": "x",
+   "note": "关开关用 turn off，不用 close",
+   "audio": "audio/d141b12d2dda.mp3",
+   "audio_us": "audio/f7b716b7f9cf.mp3"
+  }
+ ]
+}

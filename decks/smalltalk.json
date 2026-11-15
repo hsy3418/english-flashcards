@@ -264,6 +264,163 @@
     "note": "在美国 football 指美式橄榄球"
    },
    "audio_us": "audio/5792b126b58d.mp3"
+  },
+  {
+   "zh": "终于周五了，这周好漫长",
+   "en": "It's [[been a long week]].",
+   "mine": "This week is very long.",
+   "mark": "~",
+   "note": "",
+   "audio": "audio/6846012ae8bd.mp3",
+   "audio_us": "audio/327abd631001.mp3"
+  },
+  {
+   "zh": "你在吃什么？好香啊",
+   "en": "That [[smells amazing]], what is it?",
+   "mine": "What are you eating? It's very fragrant.",
+   "mark": "x",
+   "note": "香 别直译 fragrant",
+   "audio": "audio/98569d1be5f9.mp3",
+   "audio_us": "audio/caf980cd7ecd.mp3"
+  },
+  {
+   "zh": "咖啡机又坏了",
+   "en": "The coffee machine's [[on the blink]] again.",
+   "mine": "The coffee machine is broken again.",
+   "mark": "~",
+   "note": "",
+   "us": {
+    "en": "The coffee machine's [[on the fritz]] again."
+   },
+   "audio": "audio/4c266f835062.mp3",
+   "audio_us": "audio/7be07d8e33e1.mp3"
+  },
+  {
+   "zh": "听说周末要下雨",
+   "en": "Apparently it's [[meant to]] rain on the weekend.",
+   "mine": "I heard it will rain this weekend.",
+   "mark": "~",
+   "note": "meant to = 据说会",
+   "us": {
+    "en": "Apparently it's [[supposed to]] rain this weekend.",
+    "note": ""
+   },
+   "audio": "audio/827c61dd33e0.mp3",
+   "audio_us": "audio/f7a54417e0e8.mp3"
+  },
+  {
+   "zh": "你看昨晚的比赛了吗？",
+   "en": "Did you [[catch the game]] last night?",
+   "mine": "Did you watch the match yesterday night?",
+   "mark": "~",
+   "note": "yesterday night 不自然",
+   "audio": "audio/e992d6d50e1c.mp3",
+   "audio_us": "audio/479e66d23653.mp3"
+  },
+  {
+   "zh": "你支持哪个队？",
+   "en": "[[Who do you go for]]?",
+   "mine": "Which team do you root for?",
+   "mark": "x",
+   "note": "澳洲别说 root for！",
+   "us": {
+    "en": "[[Who do you root for]]?",
+    "mine": "Which team do you support?",
+    "mark": "~",
+    "note": ""
+   },
+   "audio": "audio/f5d359433123.mp3",
+   "audio_us": "audio/26bae13baa5a.mp3"
+  },
+  {
+   "zh": "我对板球一窍不通",
+   "en": "I [[don't know the first thing about]] cricket.",
+   "mine": "I know nothing about cricket at all.",
+   "mark": "~",
+   "note": "",
+   "audio": "audio/3b4a23ca7bdd.mp3",
+   "audio_us": "audio/2b920f8800de.mp3"
+  },
+  {
+   "zh": "你什么时候休假？",
+   "en": "When are you [[taking leave]]?",
+   "mine": "When is your holiday?",
+   "mark": "~",
+   "note": "",
+   "us": {
+    "en": "When are you [[taking time off]]?"
+   },
+   "audio": "audio/b4060e2b5f20.mp3",
+   "audio_us": "audio/d6a609c45a49.mp3"
+  },
+  {
+   "zh": "你晒黑了，去哪玩了？",
+   "en": "You've [[got a tan]], been somewhere nice?",
+   "mine": "You became darker, where did you go?",
+   "mark": "x",
+   "note": "",
+   "audio": "audio/c3cf2d2d6790.mp3",
+   "audio_us": "audio/439992a8742d.mp3"
+  },
+  {
+   "zh": "刚度假回来，还没收心",
+   "en": "I'm still [[in holiday mode]].",
+   "mine": "I'm still not recovered from the holiday.",
+   "mark": "~",
+   "note": "",
+   "us": {
+    "en": "I'm still [[in vacation mode]]."
+   },
+   "audio": "audio/dff8560fca58.mp3",
+   "audio_us": "audio/0532bd2f913d.mp3"
+  },
+  {
+   "zh": "不耽误你了",
+   "en": "I'll [[let you get back to it]].",
+   "mine": "I won't waste your time.",
+   "mark": "x",
+   "note": "waste your time 听着像自贬",
+   "audio": "audio/b4dc79a66cef.mp3",
+   "audio_us": "audio/5be143e568a6.mp3"
+  },
+  {
+   "zh": "跟你聊天很开心",
+   "en": "[[Good chatting]] with you.",
+   "mine": "Nice to talk with you.",
+   "mark": "~",
+   "note": "Nice to... 多用于初次见面",
+   "audio": "audio/b1880216a553.mp3",
+   "audio_us": "audio/80722d70f5db.mp3"
+  },
+  {
+   "zh": "我得走了，要去开会",
+   "en": "I've [[got to run]], I've got a meeting.",
+   "mine": "I need to go to attend a meeting.",
+   "mark": "x",
+   "note": "",
+   "audio": "audio/aedc897d6a6d.mp3",
+   "audio_us": "audio/44b40cb62261.mp3"
+  },
+  {
+   "zh": "长周末有什么安排？",
+   "en": "Doing anything for the [[long weekend]]?",
+   "mine": "Any plan for the three-day holiday?",
+   "mark": "x",
+   "note": "",
+   "audio": "audio/633527bcb353.mp3",
+   "audio_us": "audio/cb6e118f867b.mp3"
+  },
+  {
+   "zh": "下班去喝一杯吗？",
+   "en": "[[Keen for]] a drink after work?",
+   "mine": "Do you want to drink after work?",
+   "mark": "x",
+   "note": "drink 单用像要喝醉",
+   "us": {
+    "en": "[[Want to grab]] a drink after work?"
+   },
+   "audio": "audio/71025f1f43a0.mp3",
+   "audio_us": "audio/0e79af9d30af.mp3"
   }
  ]
 }

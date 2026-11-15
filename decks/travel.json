@@ -1,0 +1,255 @@
+{
+ "id": "travel",
+ "title": "旅行：机场 & 酒店",
+ "emoji": "✈️",
+ "cards": [
+  {
+   "zh": "我要托运一个行李",
+   "en": "I've got [[one bag to check]].",
+   "mine": "I want to consign one luggage.",
+   "mark": "x",
+   "note": "luggage 不可数，用 bag 更口语",
+   "audio": "audio/406ae7a17e08.mp3",
+   "audio_us": "audio/bdc9828974b2.mp3"
+  },
+  {
+   "zh": "能给我靠过道的位置吗？",
+   "en": "Could I get an [[aisle seat]]?",
+   "mine": "Can I sit beside the walkway?",
+   "mark": "x",
+   "note": "aisle 读 /aɪl/，s 不发音",
+   "audio": "audio/2a924408e114.mp3",
+   "audio_us": "audio/7655fc27cf1e.mp3"
+  },
+  {
+   "zh": "我行李超重了吗？",
+   "en": "Am I [[over the weight limit]]?",
+   "mine": "Is my luggage beyond the weight?",
+   "mark": "x",
+   "note": "",
+   "audio": "audio/b5203a3bf4ba.mp3",
+   "audio_us": "audio/4942e7acf78e.mp3"
+  },
+  {
+   "zh": "航班推迟了一个小时",
+   "en": "Our flight's been [[pushed back]] an hour.",
+   "mine": "Our flight is late for one hour.",
+   "mark": "x",
+   "note": "push back = 往后推迟",
+   "audio": "audio/38a4d6fb8116.mp3",
+   "audio_us": "audio/0d6cb3e23c8c.mp3"
+  },
+  {
+   "zh": "我赶不上转机了",
+   "en": "I'm going to [[miss my connection]].",
+   "mine": "I can't catch my transfer flight.",
+   "mark": "~",
+   "note": "转机航班叫 connection",
+   "audio": "audio/5f0939c48697.mp3",
+   "audio_us": "audio/cbfe273f66bc.mp3"
+  },
+  {
+   "zh": "能帮我改到下一班吗？",
+   "en": "Can you [[rebook me]] on the next flight?",
+   "mine": "Can you change my ticket to the next flight?",
+   "mark": "~",
+   "note": "",
+   "audio": "audio/c36dc21672a7.mp3",
+   "audio_us": "audio/36a63ed085de.mp3"
+  },
+  {
+   "zh": "我的行李没出来",
+   "en": "My bag [[didn't turn up]] on the carousel.",
+   "mine": "My luggage didn't come out.",
+   "mark": "~",
+   "note": "carousel = 行李转盘",
+   "audio": "audio/d124884aab55.mp3",
+   "audio_us": "audio/0af0b65deb5b.mp3"
+  },
+  {
+   "zh": "行李丢了去哪登记？",
+   "en": "Where do I [[report a lost bag]]?",
+   "mine": "Where can I register my lost luggage?",
+   "mark": "~",
+   "note": "",
+   "audio": "audio/826a7b2e131b.mp3",
+   "audio_us": "audio/dfe3047b5b2f.mp3"
+  },
+  {
+   "zh": "这个能带上飞机吗？",
+   "en": "Can I [[take this on board]]?",
+   "mine": "Can this bring onto the plane?",
+   "mark": "x",
+   "note": "",
+   "audio": "audio/42c7a9768770.mp3",
+   "audio_us": "audio/681c73456217.mp3"
+  },
+  {
+   "zh": "我已经网上值机了",
+   "en": "I've already [[checked in online]].",
+   "mine": "I already did the online check in.",
+   "mark": "~",
+   "note": "",
+   "audio": "audio/848a956c4f4d.mp3",
+   "audio_us": "audio/b922ab233c3c.mp3"
+  },
+  {
+   "zh": "我们转机时间很紧",
+   "en": "We've got [[a tight connection]].",
+   "mine": "Our transfer time is very short.",
+   "mark": "~",
+   "note": "tight = 时间紧",
+   "audio": "audio/86d7c4f82134.mp3",
+   "audio_us": "audio/9e7331648667.mp3"
+  },
+  {
+   "zh": "有机会升舱吗？",
+   "en": "Any chance of [[an upgrade]]?",
+   "mine": "Can you help us upgrade the cabin?",
+   "mark": "~",
+   "note": "Any chance of... 委婉问",
+   "audio": "audio/22f2e2d2510e.mp3",
+   "audio_us": "audio/847405ad787e.mp3"
+  },
+  {
+   "zh": "安检排队好长",
+   "en": "The [[queue for security]] is massive.",
+   "mine": "The security check line is very long.",
+   "mark": "~",
+   "note": "",
+   "us": {
+    "en": "The [[line for security]] is huge.",
+    "note": "美国排队说 line"
+   },
+   "audio": "audio/39de58e74d85.mp3",
+   "audio_us": "audio/4c1cd1d7157c.mp3"
+  },
+  {
+   "zh": "航班取消了，你们会安排住宿吗？",
+   "en": "Our flight got cancelled. Will you [[put us up]] somewhere?",
+   "mine": "Can you arrange a hotel for us?",
+   "mark": "~",
+   "note": "put sb up = 安排住处",
+   "us": {
+    "en": "Our flight got canceled. Will you [[put us up]] somewhere?"
+   },
+   "audio": "audio/04a2b2432ed1.mp3",
+   "audio_us": "audio/1b5b3d23b84e.mp3"
+  },
+  {
+   "zh": "能提前入住吗？",
+   "en": "Is [[early check-in]] possible?",
+   "mine": "Can I check in in advance?",
+   "mark": "~",
+   "note": "",
+   "audio": "audio/2e3696f079db.mp3",
+   "audio_us": "audio/2205883bd74d.mp3"
+  },
+  {
+   "zh": "能晚点退房吗？",
+   "en": "Could I get a [[late checkout]]?",
+   "mine": "Can I delay my check out?",
+   "mark": "~",
+   "note": "",
+   "audio": "audio/2f7703e4dd55.mp3",
+   "audio_us": "audio/fc88bddd30a2.mp3"
+  },
+  {
+   "zh": "房间空调坏了",
+   "en": "The air con in my room [[isn't working]].",
+   "mine": "The air conditioner is broken down.",
+   "mark": "x",
+   "note": "设备坏了常说 isn't working",
+   "us": {
+    "en": "The AC in my room [[isn't working]]."
+   },
+   "audio": "audio/3377708867b9.mp3",
+   "audio_us": "audio/e6e6b81b3f15.mp3"
+  },
+  {
+   "zh": "隔壁太吵了，能换个房间吗？",
+   "en": "It's really noisy next door. Could I [[move rooms]]?",
+   "mine": "Can I change a room?",
+   "mark": "x",
+   "note": "rooms 用复数",
+   "us": {
+    "en": "It's really noisy next door. Could I [[switch rooms]]?"
+   },
+   "audio": "audio/96e263d922cf.mp3",
+   "audio_us": "audio/d546c4f861c6.mp3"
+  },
+  {
+   "zh": "能帮我寄存一下行李吗？",
+   "en": "Could you [[hold my bags]] for a few hours?",
+   "mine": "Can you keep my luggage for me?",
+   "mark": "~",
+   "note": "",
+   "audio": "audio/7c3d5d2c5464.mp3",
+   "audio_us": "audio/2d793f00ed8b.mp3"
+  },
+  {
+   "zh": "请问火车站怎么走？",
+   "en": "How do I [[get to]] the train station?",
+   "mine": "Where is the way to the train station?",
+   "mark": "x",
+   "note": "",
+   "audio": "audio/b606c3f86c7f.mp3",
+   "audio_us": "audio/7698177e9407.mp3"
+  },
+  {
+   "zh": "我好像迷路了",
+   "en": "I think I'm [[a bit lost]].",
+   "mine": "I lost my way.",
+   "mark": "~",
+   "note": "lose my way 偏书面",
+   "audio": "audio/1bf003743c31.mp3",
+   "audio_us": "audio/56ce858628cc.mp3"
+  },
+  {
+   "zh": "所以是一直走，然后左转？",
+   "en": "So I [[keep going straight]], then turn left?",
+   "mine": "Walk straight then turn to left?",
+   "mark": "x",
+   "note": "",
+   "audio": "audio/2a13a6f31db3.mp3",
+   "audio_us": "audio/d4ae82eef758.mp3"
+  },
+  {
+   "zh": "我想租三天车",
+   "en": "I'd like to [[hire a car]] for three days.",
+   "mine": "I want to rent a car for three days.",
+   "mark": "~",
+   "note": "澳洲常说 hire a car",
+   "us": {
+    "en": "I'd like to [[rent a car]] for three days.",
+    "mine": "I want to borrow a car for three days.",
+    "mark": "x",
+    "note": "borrow 是借，不是租"
+   },
+   "audio": "audio/0c715ae279e3.mp3",
+   "audio_us": "audio/7db10f15c07b.mp3"
+  },
+  {
+   "zh": "保险的自付额是多少？",
+   "en": "What's the [[excess]] on the insurance?",
+   "mine": "How much do I pay myself if accident happens?",
+   "mark": "x",
+   "note": "澳洲叫 excess",
+   "us": {
+    "en": "What's the [[deductible]] on the insurance?",
+    "note": "美国叫 deductible"
+   },
+   "audio": "audio/60f6412165c4.mp3",
+   "audio_us": "audio/41a14f20e4b8.mp3"
+  },
+  {
+   "zh": "能在别的地方还车吗？",
+   "en": "Can I [[drop it off]] at a different location?",
+   "mine": "Can I return the car in another place?",
+   "mark": "~",
+   "note": "",
+   "audio": "audio/4bcc219c432c.mp3",
+   "audio_us": "audio/1f253510d119.mp3"
+  }
+ ]
+}

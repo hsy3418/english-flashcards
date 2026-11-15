@@ -262,6 +262,151 @@
    "note": "",
    "audio": "audio/01a766d9091d.mp3",
    "audio_us": "audio/c225eb536274.mp3"
+  },
+  {
+   "zh": "这个牌子尺码偏小",
+   "en": "This brand [[runs small]].",
+   "mine": "This brand's size is small.",
+   "mark": "x",
+   "note": "偏大就是 runs big",
+   "audio": "audio/d442173e6487.mp3",
+   "audio_us": "audio/1a98fb2ccbfd.mp3"
+  },
+  {
+   "zh": "我一般穿 S 码",
+   "en": "I'm [[usually a]] small.",
+   "mine": "I usually wear S size.",
+   "mark": "~",
+   "note": "说尺码直接 I'm a small/medium",
+   "audio": "audio/c6ca1765a9a4.mp3",
+   "audio_us": "audio/c2ebc5b9c4ac.mp3"
+  },
+  {
+   "zh": "肩膀这里有点紧",
+   "en": "It's a bit [[tight across the shoulders]].",
+   "mine": "The shoulder part is a bit tight.",
+   "mark": "~",
+   "note": "",
+   "audio": "audio/73b2be836212.mp3",
+   "audio_us": "audio/4669a3703b3a.mp3"
+  },
+  {
+   "zh": "这件洗了会缩水吗？",
+   "en": "Will it [[shrink in the wash]]?",
+   "mine": "Will it become smaller after washing?",
+   "mark": "x",
+   "note": "",
+   "audio": "audio/e273ea4c0e22.mp3",
+   "audio_us": "audio/13a9dac09060.mp3"
+  },
+  {
+   "zh": "这件已经起球了",
+   "en": "It's already [[started pilling]].",
+   "mine": "It already has small balls on it.",
+   "mark": "x",
+   "note": "起球 = pilling",
+   "audio": "audio/e61abacef7fc.mp3",
+   "audio_us": "audio/d24247b601cb.mp3"
+  },
+  {
+   "zh": "全场五折",
+   "en": "Everything's [[half price]].",
+   "mine": "Everything is 50% discount.",
+   "mark": "x",
+   "note": "五折别说 50% discount",
+   "audio": "audio/b1124a52f7c3.mp3",
+   "audio_us": "audio/aaf33a9b9950.mp3"
+  },
+  {
+   "zh": "现在买一送一",
+   "en": "It's [[buy one, get one free]].",
+   "mine": "It's buy one send one.",
+   "mark": "x",
+   "note": "送 在这里是 free",
+   "audio": "audio/c4ba51c86cf3.mp3",
+   "audio_us": "audio/760f03b6ad4f.mp3"
+  },
+  {
+   "zh": "我等节礼日打折再买",
+   "en": "I'll wait for the [[Boxing Day sales]].",
+   "mine": "I'll wait until the discount season.",
+   "mark": "~",
+   "note": "澳洲最大折扣季是 Boxing Day",
+   "us": {
+    "en": "I'll wait for the [[Black Friday sales]].",
+    "note": "美国最大折扣季是 Black Friday"
+   },
+   "audio": "audio/f7771e0915cb.mp3",
+   "audio_us": "audio/f787d364bce1.mp3"
+  },
+  {
+   "zh": "这个价格太划算了",
+   "en": "That's [[a steal]].",
+   "mine": "This price is very cost-effective.",
+   "mark": "x",
+   "note": "cost-effective 太书面",
+   "audio": "audio/a4befe6927b6.mp3",
+   "audio_us": "audio/5f00f79631db.mp3"
+  },
+  {
+   "zh": "就这质量，有点贵了",
+   "en": "It's a bit pricey [[for what it is]].",
+   "mine": "It's too expensive, not worth it.",
+   "mark": "~",
+   "note": "",
+   "audio": "audio/1f1a2e114e14.mp3",
+   "audio_us": "audio/154950213c70.mp3"
+  },
+  {
+   "zh": "我的码卖完了",
+   "en": "They've [[sold out of]] my size.",
+   "mine": "My size has no more.",
+   "mark": "x",
+   "note": "",
+   "audio": "audio/b704f946c8c9.mp3",
+   "audio_us": "audio/a5fe12908973.mp3"
+  },
+  {
+   "zh": "网上订的衣服还没到",
+   "en": "My online order [[hasn't turned up]] yet.",
+   "mine": "My online order still not arrive.",
+   "mark": "x",
+   "note": "",
+   "us": {
+    "en": "My online order [[hasn't shown up]] yet."
+   },
+   "audio": "audio/e673de8fdd60.mp3",
+   "audio_us": "audio/6705cdab6055.mp3"
+  },
+  {
+   "zh": "包邮吗？",
+   "en": "Do you do [[free shipping]]?",
+   "mine": "Is it including the post fee?",
+   "mark": "x",
+   "note": "",
+   "audio": "audio/2fc0d6d5e45c.mp3",
+   "audio_us": "audio/4214425f314b.mp3"
+  },
+  {
+   "zh": "网上买衣服就怕不合身",
+   "en": "Buying clothes online is [[hit and miss]].",
+   "mine": "Buying clothes online is very risky.",
+   "mark": "~",
+   "note": "",
+   "us": {
+    "en": "Buying clothes online is [[hit or miss]]."
+   },
+   "audio": "audio/1d8f5b8bd3b0.mp3",
+   "audio_us": "audio/1f4a9f16064b.mp3"
+  },
+  {
+   "zh": "实物跟图片完全不一样",
+   "en": "It [[looks nothing like]] the photo.",
+   "mine": "It's not the same as the picture.",
+   "mark": "~",
+   "note": "",
+   "audio": "audio/f5f3abffb2f1.mp3",
+   "audio_us": "audio/b37a6fb69dcc.mp3"
   }
  ]
 }

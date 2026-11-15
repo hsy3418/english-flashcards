@@ -1,0 +1,244 @@
+{
+ "id": "slack",
+ "title": "职场 Slack & 邮件",
+ "emoji": "✉️",
+ "cards": [
+  {
+   "zh": "想跟进一下这个的进度",
+   "en": "Just [[checking in]] on this one.",
+   "mine": "I want to ask the progress of this.",
+   "mark": "x",
+   "note": "ask the progress 不地道",
+   "audio": "audio/6c63d65b688b.mp3",
+   "audio_us": "audio/22c7055466e5.mp3"
+  },
+  {
+   "zh": "温馨提醒，这个周五截止",
+   "en": "Just a [[gentle reminder]] this is due Friday.",
+   "mine": "Warm reminder, this is due Friday.",
+   "mark": "x",
+   "note": "温馨提醒别直译成 warm reminder",
+   "audio": "audio/ae3a78ce9254.mp3",
+   "audio_us": "audio/51bf18588bee.mp3"
+  },
+  {
+   "zh": "提前跟你说一声，我今天要早走",
+   "en": "[[Just a heads-up]], I'm leaving early today.",
+   "mine": "I tell you in advance, I'm leaving early today.",
+   "mark": "~",
+   "note": "",
+   "audio": "audio/71ff201ad63a.mp3",
+   "audio_us": "audio/707ebcff3ee5.mp3"
+  },
+  {
+   "zh": "发你参考一下，上线改到周四了",
+   "en": "[[FYI]], the release has moved to Thursday.",
+   "mine": "For your reference, the release has changed to Thursday.",
+   "mark": "~",
+   "note": "FYI 口语里也常直接念出来",
+   "audio": "audio/e6139196439d.mp3",
+   "audio_us": "audio/68ebc2d87cb1.mp3"
+  },
+  {
+   "zh": "抱歉，这个我给漏掉了",
+   "en": "Sorry, this [[slipped through the cracks]].",
+   "mine": "Sorry, I missed this thing.",
+   "mark": "~",
+   "note": "",
+   "audio": "audio/cbf0fcf131ea.mp3",
+   "audio_us": "audio/e84e4d728cfd.mp3"
+  },
+  {
+   "zh": "抱歉回复晚了",
+   "en": "Sorry for the [[slow reply]].",
+   "mine": "Sorry to reply you so late.",
+   "mark": "x",
+   "note": "reply 后面要加 to",
+   "audio": "audio/55ca0b8a85bd.mp3",
+   "audio_us": "audio/05fd628841d3.mp3"
+  },
+  {
+   "zh": "你有空的时候帮我看下这个 PR",
+   "en": "Could you [[take a look]] at this PR [[when you get a chance]]?",
+   "mine": "When you are free, please help me see this PR.",
+   "mark": "x",
+   "note": "when you get a chance 更客气",
+   "audio": "audio/618ef83dd4f9.mp3",
+   "audio_us": "audio/344337229f2e.mp3"
+  },
+  {
+   "zh": "我下周休假",
+   "en": "I'll be [[on leave]] next week.",
+   "mine": "I will ask for leave next week.",
+   "mark": "x",
+   "note": "ask for leave 是申请，on leave 是在休",
+   "us": {
+    "en": "I'll be [[out of the office]] next week."
+   },
+   "audio": "audio/6334be10a23e.mp3",
+   "audio_us": "audio/1400ce24d216.mp3"
+  },
+  {
+   "zh": "有急事请联系 Sam",
+   "en": "For anything urgent, please [[reach out to]] Sam.",
+   "mine": "If urgent things, please contact with Sam.",
+   "mark": "x",
+   "note": "contact 后面不加 with",
+   "audio": "audio/030ebc85889d.mp3",
+   "audio_us": "audio/2bc16d2306e9.mp3"
+  },
+  {
+   "zh": "太感谢你帮忙搞定了",
+   "en": "Thanks heaps for [[sorting this out]].",
+   "mine": "Thank you for your help on this matter.",
+   "mark": "~",
+   "note": "on this matter 太像公文",
+   "us": {
+    "en": "Thanks so much for [[taking care of]] this."
+   },
+   "audio": "audio/b377befafb99.mp3",
+   "audio_us": "audio/d7d3b91718e6.mp3"
+  },
+  {
+   "zh": "你真是救了我",
+   "en": "You're [[a lifesaver]]!",
+   "mine": "You saved my life!",
+   "mark": "~",
+   "note": "lifesaver 更口语，不夸张",
+   "audio": "audio/f97ad82e3f43.mp3",
+   "audio_us": "audio/18ad5a43ee07.mp3"
+  },
+  {
+   "zh": "顶一下，怕被刷下去了",
+   "en": "Just [[bumping this]] in case it got buried.",
+   "mine": "I push this message up again.",
+   "mark": "x",
+   "note": "",
+   "audio": "audio/4e737f7988db.mp3",
+   "audio_us": "audio/296f31ebd7d7.mp3"
+  },
+  {
+   "zh": "我把 Chen 也拉进来了",
+   "en": "I've [[looped]] Chen [[in]].",
+   "mine": "I've added Chen into this topic.",
+   "mark": "~",
+   "note": "loop sb in 让某人知情",
+   "audio": "audio/49668515fef4.mp3",
+   "audio_us": "audio/5887c3eee743.mp3"
+  },
+  {
+   "zh": "我已经在弄了",
+   "en": "I'm [[on it]].",
+   "mine": "I am handling it now.",
+   "mark": "~",
+   "note": "最短最自然的回应",
+   "audio": "audio/927a53cbff5b.mp3",
+   "audio_us": "audio/6a4c5347a273.mp3"
+  },
+  {
+   "zh": "有个小问题想问一下",
+   "en": "[[Quick question]], is this still needed?",
+   "mine": "I have a small question want to ask you.",
+   "mark": "x",
+   "note": "开头直接 Quick question 就行",
+   "audio": "audio/92fcbb61dc55.mp3",
+   "audio_us": "audio/c521353dc292.mp3"
+  },
+  {
+   "zh": "你今天能帮忙 review 一下吗？",
+   "en": "[[Any chance]] you could review this today?",
+   "mine": "Is it possible you can review it today?",
+   "mark": "~",
+   "note": "Any chance 委婉又不卑微",
+   "audio": "audio/4e5faeaca088.mp3",
+   "audio_us": "audio/10d9c65dd128.mp3"
+  },
+  {
+   "zh": "我确认一下，周一上线对吧？",
+   "en": "[[Just so I'm clear]], we're going live Monday?",
+   "mine": "I want to confirm my understanding, the release is Monday?",
+   "mark": "~",
+   "note": "",
+   "audio": "audio/289f12e0cde5.mp3",
+   "audio_us": "audio/2ba2dd70ca27.mp3"
+  },
+  {
+   "zh": "我介绍你们俩认识一下",
+   "en": "Let me [[put you two in touch]].",
+   "mine": "Let me introduce you two to know each other.",
+   "mark": "x",
+   "note": "",
+   "audio": "audio/ab6820a4cc1d.mp3",
+   "audio_us": "audio/05ee1e2b366e.mp3"
+  },
+  {
+   "zh": "不好意思打扰一下，有空吗？",
+   "en": "Sorry to [[bug you]], but have you got a sec?",
+   "mine": "Sorry to disturb you, do you have time?",
+   "mark": "~",
+   "note": "disturb 语气偏重",
+   "us": {
+    "en": "Sorry to [[bug you]], but do you have a sec?"
+   },
+   "audio": "audio/3abb9650c20c.mp3",
+   "audio_us": "audio/31e7c75b5686.mp3"
+  },
+  {
+   "zh": "我还在等他们回复",
+   "en": "I'm still [[waiting to hear back]] from them.",
+   "mine": "I'm still waiting their reply.",
+   "mark": "x",
+   "note": "wait 后面要加 for",
+   "audio": "audio/2154c10e65a5.mp3",
+   "audio_us": "audio/d3776b242945.mp3"
+  },
+  {
+   "zh": "我这边没问题",
+   "en": "[[All good on my end]].",
+   "mine": "No problem from my side.",
+   "mark": "~",
+   "note": "",
+   "audio": "audio/67ce41f40875.mp3",
+   "audio_us": "audio/0e0b16b0e69d.mp3"
+  },
+  {
+   "zh": "谢谢你耐心等我",
+   "en": "Thanks for [[bearing with me]].",
+   "mine": "Thanks for your patient waiting.",
+   "mark": "x",
+   "note": "patient 是形容词，名词是 patience",
+   "audio": "audio/52e4533bd70c.mp3",
+   "audio_us": "audio/cb65298b25bd.mp3"
+  },
+  {
+   "zh": "周五还能按时交吗？",
+   "en": "Is this still [[on track]] for Friday?",
+   "mine": "Is this still in the plan for Friday?",
+   "mark": "~",
+   "note": "",
+   "audio": "audio/707db50fef33.mp3",
+   "audio_us": "audio/09ffda4e6d6a.mp3"
+  },
+  {
+   "zh": "我把会议提前到周三了",
+   "en": "I've [[brought]] the meeting [[forward]] to Wednesday.",
+   "mine": "I've advanced the meeting to Wednesday.",
+   "mark": "x",
+   "note": "提前不用 advance",
+   "us": {
+    "en": "I've [[moved]] the meeting [[up]] to Wednesday."
+   },
+   "audio": "audio/b2d84ab4828b.mp3",
+   "audio_us": "audio/00da1cda8fe9.mp3"
+  },
+  {
+   "zh": "你帮我把把关？",
+   "en": "Could you [[sanity check]] this for me?",
+   "mine": "Can you help me check this?",
+   "mark": "~",
+   "note": "快速看有没有明显问题",
+   "audio": "audio/8755a97c00d9.mp3",
+   "audio_us": "audio/8e5bd0a85cfd.mp3"
+  }
+ ]
+}

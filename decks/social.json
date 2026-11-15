@@ -1,0 +1,255 @@
+{
+ "id": "social",
+ "title": "约饭 & 社交邀约",
+ "emoji": "🎉",
+ "cards": [
+  {
+   "zh": "周五要不要来我家吃饭？",
+   "en": "Do you want to [[come over]] for dinner on Friday?",
+   "mine": "Do you want to come to my home to eat?",
+   "mark": "~",
+   "note": "come over = 来家里",
+   "audio": "audio/b8299f490ac6.mp3",
+   "audio_us": "audio/5a9440500d93.mp3"
+  },
+  {
+   "zh": "算我一个！",
+   "en": "[[Count me in]]!",
+   "mine": "Add me one!",
+   "mark": "x",
+   "note": "",
+   "audio": "audio/f129eb8c79eb.mp3",
+   "audio_us": "audio/ea4f26969ebf.mp3"
+  },
+  {
+   "zh": "我看看那天有没有事",
+   "en": "Let me [[check what I've got on]].",
+   "mine": "I need to see my schedule.",
+   "mark": "~",
+   "note": "have sth on = 有安排",
+   "audio": "audio/44cd34b319bb.mp3",
+   "audio_us": "audio/66c891fb3e84.mp3"
+  },
+  {
+   "zh": "我得先问问我对象",
+   "en": "Let me [[run it by]] my partner.",
+   "mine": "I need to ask my partner's opinion first.",
+   "mark": "~",
+   "note": "run sth by sb = 先问问某人的意见",
+   "audio": "audio/60ee4b2d5dfc.mp3",
+   "audio_us": "audio/abcfa9021793.mp3"
+  },
+  {
+   "zh": "可以自带酒吗？",
+   "en": "Is it [[BYO]]?",
+   "mine": "Can we bring our own wine?",
+   "mark": "~",
+   "note": "BYO = bring your own",
+   "audio": "audio/544eaf3291f4.mp3",
+   "audio_us": "audio/40a769123553.mp3"
+  },
+  {
+   "zh": "每人带一道菜就行",
+   "en": "Just [[bring a plate]].",
+   "mine": "Everyone brings one dish.",
+   "mark": "~",
+   "note": "澳洲说法",
+   "us": {
+    "en": "It's a [[potluck]].",
+    "note": "美国叫 potluck"
+   },
+   "audio": "audio/a7e1bfcd2aa9.mp3",
+   "audio_us": "audio/211413ccf06d.mp3"
+  },
+  {
+   "zh": "我要迟到十分钟",
+   "en": "I'm [[running ten minutes late]].",
+   "mine": "I will be late ten minutes.",
+   "mark": "x",
+   "note": "",
+   "audio": "audio/20c39bbbf0cb.mp3",
+   "audio_us": "audio/281463ae052e.mp3"
+  },
+  {
+   "zh": "不好意思，今晚我去不了了",
+   "en": "Sorry, I'm going to [[have to bail]] tonight.",
+   "mine": "Sorry, I can't go tonight anymore.",
+   "mark": "~",
+   "note": "bail = 临时不去了",
+   "audio": "audio/45bb9824e7ee.mp3",
+   "audio_us": "audio/93cfe67a74f0.mp3"
+  },
+  {
+   "zh": "你又临时放我鸽子！",
+   "en": "You [[piked]] on me again!",
+   "mine": "You broke your promise again!",
+   "mark": "~",
+   "note": "pike 澳洲口语 = 临时退出",
+   "us": {
+    "en": "You [[flaked]] on me again!",
+    "note": "flake = 爽约"
+   },
+   "audio": "audio/7fd82344ce03.mp3",
+   "audio_us": "audio/5de51788a24d.mp3"
+  },
+  {
+   "zh": "别客气，随便坐",
+   "en": "[[Make yourself at home]].",
+   "mine": "Don't be polite, sit randomly.",
+   "mark": "x",
+   "note": "",
+   "audio": "audio/129cd73c210e.mp3",
+   "audio_us": "audio/fcd9a8174438.mp3"
+  },
+  {
+   "zh": "自己拿，别客气",
+   "en": "[[Help yourself]].",
+   "mine": "Take by yourself, don't be shy.",
+   "mark": "x",
+   "note": "",
+   "audio": "audio/ef316c5d74ea.mp3",
+   "audio_us": "audio/b33490455fe0.mp3"
+  },
+  {
+   "zh": "我们要办个乔迁派对",
+   "en": "We're having a [[housewarming]].",
+   "mine": "We're having a new house party.",
+   "mark": "x",
+   "note": "",
+   "audio": "audio/ab8226cf9336.mp3",
+   "audio_us": "audio/a5936e3606b5.mp3"
+  },
+  {
+   "zh": "周五给 Sam 办个送别酒",
+   "en": "We're doing [[farewell drinks]] for Sam on Friday.",
+   "mine": "We have a goodbye party for Sam.",
+   "mark": "~",
+   "note": "",
+   "us": {
+    "en": "We're doing [[going-away drinks]] for Sam on Friday."
+   },
+   "audio": "audio/be75a8716354.mp3",
+   "audio_us": "audio/d196d20f68ba.mp3"
+  },
+  {
+   "zh": "我就过来坐一下，喝一杯就走",
+   "en": "I'll just [[pop in]] for one.",
+   "mine": "I can only stay a short time.",
+   "mark": "~",
+   "note": "pop in = 顺便来一下",
+   "us": {
+    "en": "I'll just [[stop by]] for one."
+   },
+   "audio": "audio/121520214344.mp3",
+   "audio_us": "audio/fa502241994f.mp3"
+  },
+  {
+   "zh": "我差不多该撤了",
+   "en": "I think I'll [[call it a night]].",
+   "mine": "I want to go home now.",
+   "mark": "~",
+   "note": "",
+   "audio": "audio/5fee6a5ff40c.mp3",
+   "audio_us": "audio/f0d86e436d01.mp3"
+  },
+  {
+   "zh": "谢谢款待",
+   "en": "Thanks for [[having me]].",
+   "mine": "Thank you for your hospitality.",
+   "mark": "~",
+   "note": "太正式，像写信",
+   "audio": "audio/8890cf5f457f.mp3",
+   "audio_us": "audio/2aa7c3661aa5.mp3"
+  },
+  {
+   "zh": "下次来我家",
+   "en": "[[Next time's at mine]].",
+   "mine": "Next time come to my home.",
+   "mark": "~",
+   "note": "at mine = 在我家",
+   "audio": "audio/6d580f53a541.mp3",
+   "audio_us": "audio/6f6c3203c3eb.mp3"
+  },
+  {
+   "zh": "我能带个朋友吗？",
+   "en": "Mind if I [[bring a mate]]?",
+   "mine": "Can I take my friend together?",
+   "mark": "x",
+   "note": "",
+   "us": {
+    "en": "Mind if I [[bring a friend]]?"
+   },
+   "audio": "audio/459e01023794.mp3",
+   "audio_us": "audio/6a2a5a333460.mp3"
+  },
+  {
+   "zh": "我们几点过去比较好？",
+   "en": "What time should we [[rock up]]?",
+   "mine": "What time is suitable to arrive?",
+   "mark": "x",
+   "note": "rock up 澳洲口语 = 到场",
+   "us": {
+    "en": "What time should we [[show up]]?"
+   },
+   "audio": "audio/70fbd22b464e.mp3",
+   "audio_us": "audio/c19856efbfb6.mp3"
+  },
+  {
+   "zh": "要不要一起凑钱买个礼物？",
+   "en": "Should we all [[chip in]] for a gift?",
+   "mine": "Should we collect money to buy a gift?",
+   "mark": "~",
+   "note": "chip in = 凑钱",
+   "audio": "audio/a807840c37fd.mp3",
+   "audio_us": "audio/a2d181507f14.mp3"
+  },
+  {
+   "zh": "人不多，就几个朋友",
+   "en": "It's [[pretty low-key]], just a few people.",
+   "mine": "It's a small party, not many people.",
+   "mark": "~",
+   "note": "",
+   "audio": "audio/48f27a054702.mp3",
+   "audio_us": "audio/093f184377cd.mp3"
+  },
+  {
+   "zh": "开吃吧！",
+   "en": "[[Dig in]]!",
+   "mine": "Let's start to eat!",
+   "mark": "x",
+   "note": "",
+   "audio": "audio/a1d241defd2b.mp3",
+   "audio_us": "audio/50dfc4b211bf.mp3"
+  },
+  {
+   "zh": "我那天已经有约了",
+   "en": "I've [[already got plans]].",
+   "mine": "I already have an appointment.",
+   "mark": "x",
+   "note": "appointment 多指看医生等",
+   "audio": "audio/1cb5c74780c9.mp3",
+   "audio_us": "audio/45c6d3ea1f19.mp3"
+  },
+  {
+   "zh": "你们先吃，别等我",
+   "en": "[[Start without me]].",
+   "mine": "You eat first.",
+   "mark": "~",
+   "note": "",
+   "audio": "audio/6d8c32e0cfd2.mp3",
+   "audio_us": "audio/23141b86e6fa.mp3"
+  },
+  {
+   "zh": "我到你家门口了",
+   "en": "I'm [[out the front]].",
+   "mine": "I am at your door.",
+   "mark": "~",
+   "note": "",
+   "us": {
+    "en": "I'm [[out front]]."
+   },
+   "audio": "audio/d2b1fb0e2847.mp3",
+   "audio_us": "audio/66d6a0a8da8c.mp3"
+  }
+ ]
+}

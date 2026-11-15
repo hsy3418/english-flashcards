@@ -232,6 +232,172 @@
     "note": "澳洲说 share house / housemates"
    },
    "audio_us": "audio/f41bb7dab53f.mp3"
+  },
+  {
+   "zh": "我想申请这套房",
+   "en": "I'd like to [[put in an application]].",
+   "mine": "I want to apply this house.",
+   "mark": "x",
+   "note": "apply for，别漏 for",
+   "audio": "audio/5e070c03ba6e.mp3",
+   "audio_us": "audio/dbb977be84cd.mp3"
+  },
+  {
+   "zh": "需要收入证明吗？",
+   "en": "Do you need [[proof of income]]?",
+   "mine": "Do I need to give a salary certificate?",
+   "mark": "~",
+   "note": "",
+   "audio": "audio/ccf6a5c2c960.mp3",
+   "audio_us": "audio/bf6134403104.mp3"
+  },
+  {
+   "zh": "我的申请通过了吗？",
+   "en": "Has my application [[gone through]]?",
+   "mine": "Did my application pass?",
+   "mark": "x",
+   "note": "",
+   "audio": "audio/c95e91d581e9.mp3",
+   "audio_us": "audio/3cc9f294bfd4.mp3"
+  },
+  {
+   "zh": "我能写你做推荐人吗？",
+   "en": "Can I [[put you down as a reference]]?",
+   "mine": "Can you be my recommender?",
+   "mark": "x",
+   "note": "",
+   "audio": "audio/e10ee598783b.mp3",
+   "audio_us": "audio/a8171f0d4c1d.mp3"
+  },
+  {
+   "zh": "洗碗机不工作了",
+   "en": "The dishwasher's [[stopped working]].",
+   "mine": "The dishwasher is broken down.",
+   "mark": "~",
+   "note": "break down 多用于车",
+   "audio": "audio/a597255d9f20.mp3",
+   "audio_us": "audio/9f042f65b466.mp3"
+  },
+  {
+   "zh": "水槽堵了",
+   "en": "The sink's [[blocked]].",
+   "mine": "The sink is jammed.",
+   "mark": "x",
+   "note": "",
+   "us": {
+    "en": "The sink's [[clogged]]."
+   },
+   "audio": "audio/baed24a3e3a2.mp3",
+   "audio_us": "audio/ad204f1fdf9f.mp3"
+  },
+  {
+   "zh": "师傅什么时候能来？",
+   "en": "When can a [[tradie]] come out?",
+   "mine": "When can the worker come?",
+   "mark": "~",
+   "note": "tradie = 澳洲各种维修师傅",
+   "us": {
+    "en": "When can [[someone come out]]?",
+    "note": ""
+   },
+   "audio": "audio/81836d53d9c7.mp3",
+   "audio_us": "audio/e33243a00de3.mp3"
+  },
+  {
+   "zh": "邻居半夜很吵",
+   "en": "The neighbours are [[making a racket]] late at night.",
+   "mine": "My neighbour is very noisy at midnight.",
+   "mark": "~",
+   "note": "",
+   "us": {
+    "en": "The neighbors are [[making a racket]] late at night.",
+    "mine": "My neighbor is very noisy at midnight."
+   },
+   "audio": "audio/39ae2d61395c.mp3",
+   "audio_us": "audio/d132165e25b5.mp3"
+  },
+  {
+   "zh": "你好，我刚搬到隔壁",
+   "en": "Hi, I've [[just moved in]] next door.",
+   "mine": "Hello, I'm your new neighbour, I just moved here.",
+   "mark": "~",
+   "note": "",
+   "us": {
+    "mine": "Hello, I'm your new neighbor, I just moved here."
+   },
+   "audio": "audio/fd843eeb1b53.mp3",
+   "audio_us": "audio/975f50160a7e.mp3"
+  },
+  {
+   "zh": "能帮我留意一下快递吗？",
+   "en": "Could you [[keep an eye out for]] a parcel for me?",
+   "mine": "Can you help me receive my package?",
+   "mark": "~",
+   "note": "",
+   "us": {
+    "en": "Could you [[keep an eye out for]] a package for me?"
+   },
+   "audio": "audio/9076e384ee09.mp3",
+   "audio_us": "audio/934f0655a077.mp3"
+  },
+  {
+   "zh": "我下周末搬家",
+   "en": "I'm [[moving house]] next weekend.",
+   "mine": "I will move my home next weekend.",
+   "mark": "x",
+   "note": "",
+   "us": {
+    "en": "I'm [[moving]] next weekend.",
+    "note": "美国直接说 moving"
+   },
+   "audio": "audio/cb87323f5fca.mp3",
+   "audio_us": "audio/4e3c3e543a04.mp3"
+  },
+  {
+   "zh": "我得约个搬家公司",
+   "en": "I need to [[book removalists]].",
+   "mine": "I need to find a moving company.",
+   "mark": "~",
+   "note": "澳洲叫 removalists",
+   "us": {
+    "en": "I need to [[hire movers]].",
+    "note": "美国叫 movers"
+   },
+   "audio": "audio/bfcf5b31a314.mp3",
+   "audio_us": "audio/0ac092664ffb.mp3"
+  },
+  {
+   "zh": "退租前我会请人做清洁",
+   "en": "I'll [[get an end-of-lease clean]] done.",
+   "mine": "I'll hire someone to clean the house when leaving.",
+   "mark": "~",
+   "note": "",
+   "us": {
+    "en": "I'll [[get a move-out cleaning]] done."
+   },
+   "audio": "audio/1229f7042b29.mp3",
+   "audio_us": "audio/dc713dab677f.mp3"
+  },
+  {
+   "zh": "我得把电开通",
+   "en": "I need to [[get the power connected]].",
+   "mine": "I need to open the electricity.",
+   "mark": "x",
+   "note": "开通 不是 open",
+   "us": {
+    "en": "I need to [[get the electricity turned on]]."
+   },
+   "audio": "audio/30ab8c96aa32.mp3",
+   "audio_us": "audio/43547fb897c6.mp3"
+  },
+  {
+   "zh": "能把账单转到我名下吗？",
+   "en": "Can I [[put the bills in my name]]?",
+   "mine": "Can I change the bills to my name?",
+   "mark": "~",
+   "note": "",
+   "audio": "audio/d0467dd7c62c.mp3",
+   "audio_us": "audio/ea88e6733657.mp3"
   }
  ]
 }

@@ -3,36 +3,90 @@
   "id": "shopping",
   "title": "逛街买衣服",
   "emoji": "🛍️",
-  "count": 25
+  "count": 40
  },
  {
   "id": "meetings",
   "title": "上班开会",
   "emoji": "💼",
-  "count": 25
+  "count": 40
  },
  {
   "id": "cafe",
   "title": "咖啡店 & 餐厅",
   "emoji": "☕",
-  "count": 25
+  "count": 40
  },
  {
   "id": "smalltalk",
   "title": "闲聊 Small talk",
   "emoji": "💬",
-  "count": 25
+  "count": 40
  },
  {
   "id": "doctor",
   "title": "看医生 & 理疗",
   "emoji": "🩺",
-  "count": 20
+  "count": 35
  },
  {
   "id": "renting",
   "title": "租房",
   "emoji": "🏠",
-  "count": 20
+  "count": 35
+ },
+ {
+  "id": "slack",
+  "title": "职场 Slack & 邮件",
+  "emoji": "✉️",
+  "count": 25
+ },
+ {
+  "id": "engineering",
+  "title": "工程师：on-call & code review",
+  "emoji": "🛠️",
+  "count": 25
+ },
+ {
+  "id": "phone",
+  "title": "打电话 & 客服",
+  "emoji": "📞",
+  "count": 25
+ },
+ {
+  "id": "feelings",
+  "title": "情绪 & 安慰别人",
+  "emoji": "🫶",
+  "count": 25
+ },
+ {
+  "id": "opinions",
+  "title": "表达观点 & 讨论",
+  "emoji": "🧠",
+  "count": 25
+ },
+ {
+  "id": "favours",
+  "title": "请求帮忙 & 礼貌拒绝",
+  "emoji": "🙏",
+  "count": 25
+ },
+ {
+  "id": "travel",
+  "title": "旅行：机场 & 酒店",
+  "emoji": "✈️",
+  "count": 25
+ },
+ {
+  "id": "sport",
+  "title": "运动：健身、帆船、潜水",
+  "emoji": "⛵",
+  "count": 25
+ },
+ {
+  "id": "social",
+  "title": "约饭 & 社交邀约",
+  "emoji": "🎉",
+  "count": 25
  }
 ]

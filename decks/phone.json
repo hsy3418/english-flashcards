@@ -1,0 +1,241 @@
+{
+ "id": "phone",
+ "title": "打电话 & 客服",
+ "emoji": "📞",
+ "cards": [
+  {
+   "zh": "我已经等了四十分钟了",
+   "en": "I've been [[on hold]] for forty minutes.",
+   "mine": "I've been waiting in the line for 40 minutes.",
+   "mark": "~",
+   "note": "电话排队等待叫 on hold",
+   "audio": "audio/6ea7a7a4abec.mp3",
+   "audio_us": "audio/e304e093d21d.mp3"
+  },
+  {
+   "zh": "能帮我转到账单部门吗？",
+   "en": "Could you [[put me through to]] billing?",
+   "mine": "Can you transfer me to the billing department?",
+   "mark": "~",
+   "note": "",
+   "audio": "audio/f222b941d9a6.mp3",
+   "audio_us": "audio/1f791ce4b9b8.mp3"
+  },
+  {
+   "zh": "稍等一下，我找下账号",
+   "en": "[[Hang on a sec]], I'll grab my account number.",
+   "mine": "Please wait me a moment, I find my account number.",
+   "mark": "x",
+   "note": "wait 后面不直接接人",
+   "audio": "audio/f0f4e45bcdc7.mp3",
+   "audio_us": "audio/ba8aa7553bd0.mp3"
+  },
+  {
+   "zh": "刚才电话断了",
+   "en": "Sorry, we [[got cut off]] earlier.",
+   "mine": "Sorry, the phone was broken just now.",
+   "mark": "x",
+   "note": "broken 是坏了，不是断线",
+   "audio": "audio/a0c2b3b3f2b6.mp3",
+   "audio_us": "audio/cc2ea47fe9a8.mp3"
+  },
+  {
+   "zh": "你那边声音断断续续的",
+   "en": "Sorry, you're [[breaking up]] a bit.",
+   "mine": "Sorry, your signal is not good.",
+   "mark": "~",
+   "note": "",
+   "audio": "audio/83901a6f681c.mp3",
+   "audio_us": "audio/b635e5f6e76c.mp3"
+  },
+  {
+   "zh": "我想投诉",
+   "en": "I'd like to [[make a complaint]].",
+   "mine": "I want to make a complain.",
+   "mark": "x",
+   "note": "complain 是动词，名词是 complaint",
+   "audio": "audio/8018f1c5fcad.mp3",
+   "audio_us": "audio/a22258924ba6.mp3"
+  },
+  {
+   "zh": "账单上有一笔我不认识的扣费",
+   "en": "There's a charge on my bill I [[don't recognise]].",
+   "mine": "There's a fee I don't know on my bill.",
+   "mark": "~",
+   "note": "",
+   "us": {
+    "en": "There's a charge on my bill I [[don't recognize]]."
+   },
+   "audio": "audio/807c2ab7a5d6.mp3",
+   "audio_us": "audio/c45d9a29c10a.mp3"
+  },
+  {
+   "zh": "这笔扣款我有异议",
+   "en": "I'd like to [[dispute]] this charge.",
+   "mine": "I want to argue this payment.",
+   "mark": "x",
+   "note": "对扣费提出异议用 dispute",
+   "audio": "audio/8e4cc5c618c8.mp3",
+   "audio_us": "audio/9157713bbe54.mp3"
+  },
+  {
+   "zh": "这个月被扣了两次钱",
+   "en": "I've been [[charged twice]] this month.",
+   "mine": "I was double deducted this month.",
+   "mark": "x",
+   "note": "扣款用 charge",
+   "audio": "audio/d7c506968a52.mp3",
+   "audio_us": "audio/5c7435f6ffe7.mp3"
+  },
+  {
+   "zh": "我想退订",
+   "en": "I'd like to [[cancel my subscription]].",
+   "mine": "I want to unsubscribe my plan.",
+   "mark": "x",
+   "note": "unsubscribe 多用于邮件订阅",
+   "audio": "audio/1ba7b743ae38.mp3",
+   "audio_us": "audio/dc9195b564c7.mp3"
+  },
+  {
+   "zh": "我的合约什么时候到期？",
+   "en": "When am I [[out of contract]]?",
+   "mine": "When will my contract be expired?",
+   "mark": "x",
+   "note": "expire 不用被动",
+   "audio": "audio/6ef710e6fb6c.mp3",
+   "audio_us": "audio/61e947e1f534.mp3"
+  },
+  {
+   "zh": "提前解约要交违约金吗？",
+   "en": "Is there a fee to [[break the contract]]?",
+   "mine": "Is there penalty money if I cancel contract early?",
+   "mark": "~",
+   "note": "",
+   "audio": "audio/a23649681bfb.mp3",
+   "audio_us": "audio/3f5393d470ce.mp3"
+  },
+  {
+   "zh": "能把钱退回到我账户吗？",
+   "en": "Can you [[credit]] that [[back]] to my account?",
+   "mine": "Can you return the money to my account?",
+   "mark": "~",
+   "note": "",
+   "audio": "audio/9c34dcc68298.mp3",
+   "audio_us": "audio/b12cd7297d77.mp3"
+  },
+  {
+   "zh": "我要找你们主管",
+   "en": "Can I [[speak to a supervisor]]?",
+   "mine": "Can I find your leader?",
+   "mark": "x",
+   "note": "找主管说 speak to，不说 find",
+   "audio": "audio/6b40ea8d9056.mp3",
+   "audio_us": "audio/ec6ae20c22dc.mp3"
+  },
+  {
+   "zh": "这周网一直不稳定",
+   "en": "My internet's been [[patchy]] all week.",
+   "mine": "My internet is not stable these days.",
+   "mark": "~",
+   "note": "",
+   "us": {
+    "en": "My internet's been [[spotty]] all week."
+   },
+   "audio": "audio/9cc64f2cb9d0.mp3",
+   "audio_us": "audio/985caa55acc4.mp3"
+  },
+  {
+   "zh": "能换个便宜点的套餐吗？",
+   "en": "Can I [[downgrade]] my plan?",
+   "mine": "Can I change to a cheaper package?",
+   "mark": "~",
+   "note": "套餐用 plan，不用 package",
+   "audio": "audio/70108b3308f8.mp3",
+   "audio_us": "audio/5b001cd610d3.mp3"
+  },
+  {
+   "zh": "周四上午能约吗？",
+   "en": "Could I [[book in]] for Thursday morning?",
+   "mine": "I want to make a booking on Thursday morning.",
+   "mark": "~",
+   "note": "",
+   "us": {
+    "en": "Could I [[schedule something]] for Thursday morning?"
+   },
+   "audio": "audio/d50ef3c897cc.mp3",
+   "audio_us": "audio/ead88e3f3974.mp3"
+  },
+  {
+   "zh": "有没有更早一点的？",
+   "en": "Is there [[anything sooner]]?",
+   "mine": "Is there a more early time?",
+   "mark": "x",
+   "note": "early 的比较级是 earlier",
+   "audio": "audio/ebd5cc60a284.mp3",
+   "audio_us": "audio/7d06d7289232.mp3"
+  },
+  {
+   "zh": "我想改一下预约时间",
+   "en": "I need to [[reschedule]] my appointment.",
+   "mine": "I need to change the appointment time.",
+   "mark": "~",
+   "note": "",
+   "audio": "audio/f5b647840365.mp3",
+   "audio_us": "audio/2810856533fb.mp3"
+  },
+  {
+   "zh": "你们说会回电话，结果没人打",
+   "en": "I was told I'd [[get a call back]], but nobody did.",
+   "mine": "You said will call me back but nobody called.",
+   "mark": "x",
+   "note": "",
+   "audio": "audio/4e1375b0a452.mp3",
+   "audio_us": "audio/8eaab2c2075d.mp3"
+  },
+  {
+   "zh": "能在我账户上备注一下吗？",
+   "en": "Can you [[make a note on]] my account?",
+   "mine": "Can you write down it in the system?",
+   "mark": "x",
+   "note": "write it down，代词放中间",
+   "audio": "audio/7d4823505bc6.mp3",
+   "audio_us": "audio/5342b3005e8c.mp3"
+  },
+  {
+   "zh": "我在考虑换一家运营商",
+   "en": "I'm thinking of [[switching providers]].",
+   "mine": "I'm thinking of changing to other company.",
+   "mark": "x",
+   "note": "换运营商说 switch providers",
+   "audio": "audio/65a78a713f90.mp3",
+   "audio_us": "audio/42c9eb5b2420.mp3"
+  },
+  {
+   "zh": "价格上能不能再优惠点？",
+   "en": "Is there [[anything you can do]] on the price?",
+   "mine": "Can you give me some discount?",
+   "mark": "~",
+   "note": "比直接要折扣更委婉",
+   "audio": "audio/936f6aaf34de.mp3",
+   "audio_us": "audio/d4d1d050e399.mp3"
+  },
+  {
+   "zh": "能再给我念一遍吗？",
+   "en": "Could you [[read that back]] to me?",
+   "mine": "Can you say it again one more time?",
+   "mark": "~",
+   "note": "核对号码地址时常用",
+   "audio": "audio/5535e677b2a8.mp3",
+   "audio_us": "audio/c05e5261b8d4.mp3"
+  },
+  {
+   "zh": "我的卡丢了，要挂失",
+   "en": "I need to [[report]] my card [[lost]].",
+   "mine": "I lost my card, I want to stop it.",
+   "mark": "~",
+   "note": "挂失 = report it lost",
+   "audio": "audio/5d86735b97b4.mp3",
+   "audio_us": "audio/e1f45432ad5b.mp3"
+  }
+ ]
+}
