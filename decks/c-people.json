@@ -1,0 +1,152 @@
+{
+ "id": "c-people",
+ "type": "culture",
+ "title": "澳洲名人",
+ "emoji": "👤",
+ "cards": [
+  {
+   "title": "Ned Kelly",
+   "en": "Twelve bucks for a coffee? That's daylight robbery, mate. Proper [[Ned Kelly]] stuff.",
+   "zh": "一杯咖啡十二块？简直明抢啊兄弟，活脱脱 Ned Kelly 作风。",
+   "what": "Ned Kelly 是19世纪维州的丛林大盗（bushranger），带着兄弟抢银行，在 Stringybark Creek 打死三名警察。1880年在 Glenrowan 穿着自制铁甲和警察枪战被捕，同年在墨尔本监狱被绞死。",
+   "analogy": "很像台湾的廖添丁（日据时代的「义贼」）或大陆熟悉的梁山好汉：官方眼里是罪犯，民间当成反抗压迫的英雄。不像的是 Kelly 确实杀过警察，至今争议很大，不是纯粹的正面人物。",
+   "use": "抱怨东西贵时说「a bunch of Ned Kellys」，形容胆子大说「game as Ned Kelly」。他是英雄还是杀人犯，澳洲人自己吵了一百多年，别急着站队。",
+   "fact": "据记载他临刑前说了「Such is life」，但到底是不是遗言有争议，这句话现在成了澳洲人面对倒霉事的口头禅。",
+   "sure": true,
+   "audio": "audio/0ea3baa0b957.mp3",
+   "audio_us": "audio/0ea3baa0b957.mp3"
+  },
+  {
+   "title": "Don Bradman",
+   "en": "He's the [[Bradman]] of spreadsheets, nobody in the office comes close.",
+   "zh": "他是 Excel 界的 Bradman，全公司没人比得上。",
+   "what": "Sir Donald Bradman（「The Don」）是澳洲板球史上最伟大的击球手。他的测试赛平均分是 99.94，最后一局只要拿4分就能凑满100，结果0分出局。",
+   "analogy": "没有很贴切的类比。他的统治力在体育史上几乎没人能比，第二名的平均分大约只有60出头，差距大到像统计错误。硬要说的话，就是「天花板」本人。",
+   "use": "「the Bradman of X」意思是某领域公认的第一人，语气是夸人。数字 99.94 本地人一看就懂，老一辈说起他都很敬重，别开他玩笑。",
+   "fact": "ABC（澳洲国家广播公司）的邮政信箱号就是 GPO Box 9994，致敬他的平均分。",
+   "sure": true,
+   "audio": "audio/dc28edca7f74.mp3",
+   "audio_us": "audio/dc28edca7f74.mp3"
+  },
+  {
+   "title": "Steve Irwin",
+   "en": "[[Crikey]], you picked up that spider? Very [[Steve Irwin]] of you.",
+   "zh": "天哪，你把那只蜘蛛拿起来了？真够 Steve Irwin 的。",
+   "what": "Steve Irwin 外号「Crocodile Hunter」，靠同名野生动物节目红遍全球，口头禅是夸张的「Crikey!」（我的天）。2006年拍摄纪录片时在大堡礁被魟鱼刺中身亡。",
+   "analogy": "大陆观众可以想成「澳洲版贝爷」：都是在野外跟危险动物打交道的电视明星。但不像的地方很关键，贝爷讲荒野求生、啥都敢吃，Irwin 是动物保护者，节目核心是让人爱上鳄鱼和蛇。",
+   "use": "看到人徒手抓蛇抓虫，或者对动物特别热情，会被说「very Steve Irwin」，是善意调侃。他的死在澳洲是很多人的集体伤痛，别拿魟鱼开玩笑。",
+   "fact": "每年11月15日 Australia Zoo 会办 Steve Irwin Day 纪念他，动物园至今由他家人经营。",
+   "sure": true,
+   "audio": "audio/e1627f5fec8c.mp3",
+   "audio_us": "audio/e1627f5fec8c.mp3"
+  },
+  {
+   "title": "Cathy Freeman",
+   "en": "Everyone remembers where they were when [[Cathy Freeman]] won in Sydney.",
+   "zh": "每个人都记得 Cathy Freeman 在悉尼夺冠时自己在哪儿。",
+   "what": "Cathy Freeman 是原住民女子短跑运动员。2000年悉尼奥运会她点燃主火炬，几天后拿下女子400米金牌，赛后披着原住民旗和澳洲国旗绕场。",
+   "analogy": "有点像刘翔2004年雅典110米栏夺金：全国人守在电视前、那一刻变成集体记忆。不像的是 Freeman 的胜利还承载了澳洲和原住民和解的意义，分量更复杂；而且她是在本土奥运会上赢的。",
+   "use": "说起来语气通常是骄傲和感动。谈她时会自然带到原住民和解话题，可以聊，但别把她只当成「象征」，她首先是个顶级运动员。",
+   "fact": "她的外婆属于「被偷走的一代」（Stolen Generations），即被政府强行带离原住民家庭的孩子。",
+   "sure": true,
+   "audio": "audio/0accf1d514d5.mp3",
+   "audio_us": "audio/0accf1d514d5.mp3"
+  },
+  {
+   "title": "Bob Hawke",
+   "en": "Any boss who sacks anyone for not turning up today is a bum, as [[Hawkey]] said!",
+   "zh": "就像 Hawkey 说的，今天谁因为员工没来上班就炒人，谁就是混蛋！",
+   "what": "Bob Hawke 是1983到1991年的澳洲总理，工党，亲民又爱喝酒的形象深入人心。1983年澳洲赢下美洲杯帆船赛，他在电视上说「any boss who sacks anyone for not turning up today is a bum」，等于宣布全国放假一天。",
+   "analogy": "没有很贴切的类比。大陆没有国家领导人公开号召大家翘班喝酒这种事，他的亲民是澳洲特有的「larrikin」（爱闹腾、不拘小节）风格。",
+   "use": "大型体育赛事赢了或者想偷懒时，同事会半开玩笑引用这句话。他喝啤酒的视频在网上流传很广，提起他大多是怀念的语气。",
+   "fact": "常听人说他上牛津时创下 yard glass 喝啤酒的「世界纪录」，其实那只是他所在学院内部的纪录。",
+   "sure": true,
+   "audio": "audio/3575c23c73ae.mp3",
+   "audio_us": "audio/3575c23c73ae.mp3"
+  },
+  {
+   "title": "Harold Holt",
+   "en": "Where's Dave? Did a [[Harold Holt]] before the bill came, classic.",
+   "zh": "Dave 呢？买单前溜了，老套路。",
+   "what": "Harold Holt 是澳洲第17任总理。1967年12月他在维州 Cheviot Beach 下海游泳后失踪，遗体一直没找到，一般认为是溺亡。",
+   "analogy": "没有很贴切的类比。中文里没有用国家领导人失踪来造俚语的先例，最接近的是「尿遁」这种说法，但「尿遁」不涉及真人真事。",
+   "use": "「do a Harold Holt」是押韵俚语，Holt 押 bolt（溜走），常用于聚会上突然不见人。本地人觉得这是黑色幽默，但如果在场有人刚经历亲人溺水，最好别用。",
+   "fact": "墨尔本 Glen Iris 有个以他命名的游泳中心 Harold Holt Memorial Swimming Centre，用游泳池纪念一位溺亡的总理，澳洲人自己都觉得讽刺。还有阴谋论说他是被中国潜艇接走的。",
+   "sure": true,
+   "audio": "audio/e195ab8347de.mp3",
+   "audio_us": "audio/e195ab8347de.mp3"
+  },
+  {
+   "title": "Phar Lap",
+   "en": "That kid's got a heart as big as [[Phar Lap]], never gives up.",
+   "zh": "那孩子心比 Phar Lap 还大，从不放弃。",
+   "what": "Phar Lap 是新西兰出生、在澳洲成名的赛马，1930年赢下墨尔本杯。大萧条时期他给穷困的澳洲人带来希望，1932年在美国加州突然病死，至今有被毒死的说法。",
+   "analogy": "可以对照三国的赤兔马：都是家喻户晓的名马。但赤兔是演义里的传奇战马，Phar Lap 是真实存在的赛马，而且和一段经济苦难的集体记忆绑在一起。",
+   "use": "「a heart as big as Phar Lap」夸人勇敢、有毅力、不服输，是褒义。澳洲和新西兰都说他是「自己的」，聊天时可以拿来打趣新西兰同事。",
+   "fact": "他的心脏重6.2公斤，大约是普通马的两倍，现在放在堪培拉的国家博物馆；马皮标本在墨尔本博物馆，骨架在新西兰。",
+   "sure": true,
+   "audio": "audio/d9f8754e42f7.mp3",
+   "audio_us": "audio/d9f8754e42f7.mp3"
+  },
+  {
+   "title": "John Farnham",
+   "en": "Two drinks in and someone always puts on [[You're the Voice]].",
+   "zh": "喝了两杯，总有人点 You're the Voice。",
+   "what": "John Farnham 是澳洲国宝级歌手，1986年的《You're the Voice》让他事业翻红，带风笛的副歌一出来全场都会跟唱。所在专辑《Whispering Jack》是澳洲史上销量最高的专辑之一。",
+   "analogy": "就像 KTV 必点曲：聚会喝到一定程度一定有人点，全场合唱，像大陆人一起吼《朋友》、香港人唱《海阔天空》。不像的是这首歌在澳洲还常被当成团结场合的「非官方国歌」。",
+   "use": "酒吧、婚礼、公司年会都可能突然响起，跟着吼「Whoa-oh-oh」就对了。他外号「Farnsy」或「The Voice」，语气亲切。",
+   "fact": "他2002年办过「告别巡演」后又多次复出，所以有句调侃叫「more comebacks than John Farnham」。",
+   "sure": true,
+   "audio": "audio/12b3aa0d771c.mp3",
+   "audio_us": "audio/12b3aa0d771c.mp3"
+  },
+  {
+   "title": "Kylie Minogue",
+   "en": "Did you know [[Kylie]] started out as a mechanic on Neighbours?",
+   "zh": "你知道 Kylie 最早是在《Neighbours》里演汽修工吗？",
+   "what": "Kylie Minogue 是墨尔本长大的流行天后。1986到1988年她在肥皂剧《Neighbours》演女汽修工 Charlene 走红，随后出唱片，后来在英国和欧洲也成了巨星。",
+   "analogy": "有点像从 TVB 剧集红起来再转去唱歌的香港艺人。不像的是她后来火出澳洲，在英国几乎是国民级偶像，这种跨国程度港台艺人很少有。",
+   "use": "本地人直接叫她「Kylie」，不用说姓。墨尔本人尤其把她当「自己人」，提起来是骄傲的语气。",
+   "fact": "《Neighbours》的取景街道在墨尔本东南的 Vermont South，至今有旅游团去打卡。",
+   "sure": true,
+   "audio": "audio/316fb3488572.mp3",
+   "audio_us": "audio/316fb3488572.mp3"
+  },
+  {
+   "title": "John So",
+   "en": "Remember when [[John So]] was Lord Mayor? Everyone had those \"he's our bro\" shirts.",
+   "zh": "还记得 John So 当市长的时候吗？大家都穿「他是我们兄弟」的T恤。",
+   "what": "John So（苏震西）生于香港，17岁移民墨尔本，2001到2008年任墨尔本市长，是第一位华裔市长，也是第一位由市民直选的市长。2006年墨尔本办英联邦运动会时他人气爆棚，还拿过「世界市长」奖。",
+   "analogy": "可以对照美国的骆家辉（第一位华裔州长）：都是华人移民在西方主流政坛的「第一人」。不同的是 John So 的人气带点「偶像崇拜」味道，年轻人把他当吉祥物一样喜欢。",
+   "use": "老墨尔本人提起他多是怀念和喜爱。他的英文有很重的广东口音，以前有人模仿，现在当面学口音会被认为不礼貌，别跟着学。",
+   "fact": "当年街上真有人卖「John So, he's our bro'」和「John So for PM」的T恤。",
+   "sure": true,
+   "audio": "audio/3e654b38301f.mp3",
+   "audio_us": "audio/3e654b38301f.mp3"
+  },
+  {
+   "title": "Crocodile Dundee",
+   "en": "He pulled out a tiny pocketknife and I said, [[that's not a knife]].",
+   "zh": "他掏出一把小折刀，我说：这也叫刀？",
+   "what": "《Crocodile Dundee》是1986年的澳洲电影，Paul Hogan 演一个从内陆来到纽约的鳄鱼猎人。最经典的台词是他看到劫匪亮出小刀，掏出自己的大猎刀说「That's not a knife. That's a knife.」",
+   "analogy": "这句的流行程度有点像周星驰电影台词，大家张口就来、不用解释出处。不像的是它代表的是「澳洲人粗犷、见过大场面」的自我形象，带点自嘲。",
+   "use": "任何东西被比下去都能用：「That's not a [X]. THIS is a [X].」语气轻松搞笑。注意这部片里的澳洲形象很刻板，本地人自己玩可以，外国人当真会被笑。",
+   "fact": "Paul Hogan 之前拍过旅游广告「I'll slip an extra shrimp on the barbie」，但澳洲人其实管虾叫 prawn，不叫 shrimp。",
+   "sure": true,
+   "audio": "audio/0ba0c6e5a18a.mp3",
+   "audio_us": "audio/0ba0c6e5a18a.mp3"
+  },
+  {
+   "title": "Shane Warne",
+   "en": "That pitch came out of nowhere, a proper [[ball of the century]].",
+   "zh": "那个提案来得太突然，简直是「世纪之球」。",
+   "what": "Shane Warne 是澳洲传奇旋转球投手。1993年他在英格兰 Old Trafford 的灰烬杯（Ashes）首场比赛里，投出对英格兰的第一球，球大幅拐弯击中 Mike Gatting 的三柱门，被称为「Ball of the Century」。他2022年在泰国突然去世。",
+   "analogy": "可以对照足球界马拉多纳1986年的「世纪进球」：都是一个动作就封神。不同的是 Warne 是在面对宿敌英格兰时投出的，所以澳洲人特别得意。",
+   "use": "形容一个出乎意料、让人措手不及的完美一击，可以说「ball of the century」。他场外绯闻不少，本地人说起来又爱又调侃，但他去世才几年，语气别太刻薄。",
+   "fact": "他是测试赛史上第一位拿下700个三柱门的投手。",
+   "sure": true,
+   "audio": "audio/1322577d3700.mp3",
+   "audio_us": "audio/1322577d3700.mp3"
+  }
+ ]
+}

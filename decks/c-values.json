@@ -1,0 +1,152 @@
+{
+ "id": "c-values",
+ "type": "culture",
+ "title": "澳洲性格",
+ "emoji": "🦘",
+ "cards": [
+  {
+   "title": "Tall poppy syndrome",
+   "en": "Don't let [[tall poppy syndrome]] stop you posting about your promotion.",
+   "zh": "别因为怕被人眼红，就不敢发你升职的消息。",
+   "what": "指成就突出、显得高人一等的人会被大家挖苦、拉下来。说法来自古罗马史家 Livy 的故事：国王 Tarquin 用棍子打掉花园里最高的罂粟花，暗示儿子除掉城里最显赫的人。",
+   "analogy": "像大陆说的「枪打出头鸟」，日本也有「出头的钉子挨锤」。不同的是中文更多是提醒提防上面或环境，澳洲版是同辈之间的平等主义，你成功没问题，摆架子才会被砍。",
+   "use": "职场里分享成绩没问题，但要低调、多说团队功劳。很多人也批评这种风气打击创业和冒尖。",
+   "fact": "",
+   "sure": true,
+   "audio": "audio/80fad7b281e4.mp3",
+   "audio_us": "audio/80fad7b281e4.mp3"
+  },
+  {
+   "title": "She'll be right",
+   "en": "Forgot the charger? [[She'll be right]], we'll grab one on the way.",
+   "zh": "忘带充电器了？没事，路上买一个。",
+   "what": "意思是「没事，会好的，别担心」。这里的 she 不指人，泛指事情、情况。体现澳洲人放松、不爱瞎操心的态度。",
+   "analogy": "像「船到桥头自然直」。它的阴暗面像胡适笔下的「差不多先生」，该准备的不准备，出事了才发现不 right。",
+   "use": "日常安慰人很常用，语气暖。但在安全、合规、截止日期这类事上，同事说「she'll be right」你可以温和地追问一句具体计划。",
+   "fact": "",
+   "sure": true,
+   "audio": "audio/5aa352bc2085.mp3",
+   "audio_us": "audio/5aa352bc2085.mp3"
+  },
+  {
+   "title": "Mateship",
+   "en": "That's real [[mateship]], he drove three hours to help me move.",
+   "zh": "这才是真兄弟，他开了三小时车来帮我搬家。",
+   "what": "指伙伴之间的忠诚、互助和平等，根源常被追溯到殖民时期的丛林劳动者和一战的 ANZAC 士兵。它被视为澳洲民族性格的核心之一。",
+   "analogy": "像「兄弟义气」，都讲有难同当。不同的是 mateship 不讲大哥小弟的等级，也不讲结拜和人情债，重点是平起平坐、互相照应；也有人批评它历史上偏男性、排斥女性和非白人。",
+   "use": "政客、ANZAC Day 纪念和体育报道里经常出现。谈到战争纪念时语气要庄重，别拿来调侃。",
+   "fact": "1999 年总理 John Howard 曾想把 mateship 写进宪法序言，遭反对后删掉了。",
+   "sure": true,
+   "audio": "audio/18edef2412ec.mp3",
+   "audio_us": "audio/18edef2412ec.mp3"
+  },
+  {
+   "title": "A fair go",
+   "en": "Come on, give the new grad [[a fair go]].",
+   "zh": "别这样，给新来的毕业生一个公平的机会。",
+   "what": "意思是人人都应该得到公平的机会和公正的对待，不看出身。澳洲常自称「the land of the fair go」。",
+   "analogy": "有点像「英雄不问出处」。但它更强调制度和大家都该给人机会，也常用作抗议：「Fair go, mate!」就是「讲点道理吧」「别太过分」。",
+   "use": "政治演讲、讨论移民和工资时很常见，日常用于觉得某事不公平时。是正面价值，用它拉近距离很自然。",
+   "fact": "",
+   "sure": true,
+   "audio": "audio/942e560409e8.mp3",
+   "audio_us": "audio/942e560409e8.mp3"
+  },
+  {
+   "title": "Larrikin",
+   "en": "Steve Irwin was a true [[larrikin]], cheeky but with a heart of gold.",
+   "zh": "Steve Irwin 是个真正的 larrikin，调皮捣蛋但心地善良。",
+   "what": "指不守常规、爱恶作剧、对权威不太恭敬，但本性善良的人。19 世纪的墨尔本，这个词本来指街头小流氓，后来才变成褒义。",
+   "analogy": "更像济公：不守清规、嘲弄装腔作势的人，但心肠好。不像韦小宝，韦小宝靠圆滑算计占便宜，larrikin 重点是真性情、不装。",
+   "use": "大多是夸人，「a bit of a larrikin」就是「有点皮但可爱」。Steve Irwin、Paul Hogan 常被举为典型。",
+   "fact": "",
+   "sure": true,
+   "audio": "audio/966219578c98.mp3",
+   "audio_us": "audio/966219578c98.mp3"
+  },
+  {
+   "title": "Bogan",
+   "en": "My cousin's a proud [[bogan]], mullet, ute, the lot.",
+   "zh": "我表哥是个骄傲的 bogan，鲻鱼头、皮卡，全套齐了。",
+   "what": "指品味、穿着、说话被认为土气、没文化的人，经典形象是鲻鱼头（前短后长）、皮卡 ute、背心和人字拖。这个词 1980 年代起流行，来源不明。",
+   "analogy": "很像台湾的「台客」或大陆说的「土味」：本来是贬义，后来很多人自嘲着用，甚至引以为傲。",
+   "use": "自称 bogan 没问题，说别人要小心，带一点阶级上的看不起，算轻微冒犯。有「cashed-up bogan」的说法，指有钱但品味土的人。",
+   "fact": "地区变体：布里斯班一带叫 Bevan，堪培拉一带叫 Booner。",
+   "sure": true,
+   "audio": "audio/9d1665af6c4b.mp3",
+   "audio_us": "audio/9d1665af6c4b.mp3"
+  },
+  {
+   "title": "Cultural cringe",
+   "en": "Why do we only rate our musicians after they make it overseas? Pure [[cultural cringe]].",
+   "zh": "为什么我们的音乐人要在国外红了才被认可？纯粹是文化自卑。",
+   "what": "墨尔本评论家 A.A. Phillips 1950 年在文学杂志 Meanjin 上提出的说法，指澳洲人默认本国的文学、艺术、思想比不上英美。",
+   "analogy": "很像「外来的和尚好念经」，也接近「崇洋媚外」里的自卑那一面。不同的是 cultural cringe 主要是对自己文化的不自信，不一定有讨好外国的意思。",
+   "use": "讨论本地艺术家、电影、科技公司要先在海外成名才被认可时会提。现在常被拿来自我反省或吐槽。",
+   "fact": "诗人 Henry Lawson 早在 1894 年就抱怨过，澳洲作家要先在伦敦被认可才算数。",
+   "sure": true,
+   "audio": "audio/09596ec00413.mp3",
+   "audio_us": "audio/09596ec00413.mp3"
+  },
+  {
+   "title": "Taking the piss",
+   "en": "Relax, he's just [[taking the piss]], it means he likes you.",
+   "zh": "放轻松，他就是在逗你，说明他喜欢你。",
+   "what": "意思是开玩笑、挖苦、损人。「Are you taking the piss?」是「你逗我呢？」；也可以指占便宜，比如「15 块一杯咖啡，太宰人了」也能说 taking the piss。",
+   "analogy": "像港台说的「损友」、北方人之间的互损贫嘴：越熟越损，损你说明把你当自己人。",
+   "use": "同事损你，最好的回应是轻轻损回去，别当真生气。但涉及种族、外貌、口音的玩笑如果让你不舒服，直接说出来是可以的。",
+   "fact": "",
+   "sure": true,
+   "audio": "audio/ad3f35249368.mp3",
+   "audio_us": "audio/ad3f35249368.mp3"
+  },
+  {
+   "title": "Reverse nicknames",
+   "en": "We call him [[Bluey]] because he's got the reddest hair in the office.",
+   "zh": "我们叫他 Bluey，因为他是办公室里头发最红的。",
+   "what": "澳洲人爱起反讽绰号：红头发叫 Bluey，高个子叫 Shorty，光头叫 Curly。另一种常见做法是名字砍短加 -o 或 -y，比如 Davo、Thommo、Robbo。",
+   "analogy": "没有很贴切的类比。中文绰号多半是直给，胖子就叫胖子、戴眼镜叫四眼，很少故意说反话。",
+   "use": "给你起绰号通常说明你被接纳了，是好事。绰号多半善意，但如果你不喜欢，可以直接说。",
+   "fact": "",
+   "sure": true,
+   "audio": "audio/0a6d7a899bfa.mp3",
+   "audio_us": "audio/0a6d7a899bfa.mp3"
+  },
+  {
+   "title": "Fair dinkum",
+   "en": "You finished the whole project in a weekend? [[Fair dinkum]]?",
+   "zh": "你一个周末就把整个项目做完了？真的假的？",
+   "what": "意思是「真的、地道的、货真价实的」，作疑问句就是「真的假的？」。最早的书面记录在 1879 年，来自英格兰中部已消失的方言词 dinkum，原意是「辛苦活、公平的活」。",
+   "analogy": "像「货真价实」「实打实」，问句接近「真的假的」。",
+   "use": "有点老派，年轻人常带点自嘲或夸张口吻说，「a fair dinkum Aussie」就是「地道澳洲人」。",
+   "fact": "流传说它来自淘金时代华人说的「顶金」，但语言学家基本不认同这个说法。",
+   "sure": true,
+   "audio": "audio/99d781164934.mp3",
+   "audio_us": "audio/99d781164934.mp3"
+  },
+  {
+   "title": "Straya (shortening everything)",
+   "en": "See you this [[arvo]], I'll grab brekkie at Macca's first.",
+   "zh": "下午见，我先去麦当劳吃个早餐。",
+   "what": "澳洲英语爱把词砍短再加 -o 或 -ie：arvo 是下午，brekkie 是早餐，servo 是加油站，Macca's 是麦当劳，Straya 就是 Australia 本身。",
+   "analogy": "Macca's 跟香港人把麦当劳叫「麦记」几乎一样，都是亲昵的简称。",
+   "use": "职场里也很常用，内部邮件写「this arvo」完全正常。连麦当劳澳洲自己的广告都用 Macca's。",
+   "fact": "",
+   "sure": true,
+   "audio": "audio/7c398a8cb272.mp3",
+   "audio_us": "audio/7c398a8cb272.mp3"
+  },
+  {
+   "title": "Not big-noting yourself",
+   "en": "She never [[big-notes herself]], just says the team did all right.",
+   "zh": "她从来不吹自己，只说团队做得还行。",
+   "what": "「big-note yourself」是澳洲说法，指吹嘘自己、抬高身价。澳洲职场欣赏低调的能干和自嘲，太爱夸自己会被说「up yourself」（自以为是）。",
+   "analogy": "表面像中国的「谦虚是美德」，但不一样：中文的谦虚常是客套（「过奖过奖」），澳洲版是用幽默自嘲，把成绩说得轻描淡写，比如「not bad」「did all right」。",
+   "use": "绩效评估、面试里还是要讲清楚成绩，只是用事实陈述、多说「we」、带点自嘲，效果比直接夸自己好。这和 tall poppy syndrome 是一体两面。",
+   "fact": "",
+   "sure": true,
+   "audio": "audio/0919e7dd6f99.mp3",
+   "audio_us": "audio/0919e7dd6f99.mp3"
+  }
+ ]
+}

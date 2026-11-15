@@ -1,0 +1,152 @@
+{
+ "id": "c-events",
+ "type": "culture",
+ "title": "节日和日常",
+ "emoji": "🎉",
+ "cards": [
+  {
+   "title": "Melbourne Cup",
+   "en": "Did you put in for the office [[Melbourne Cup]] sweep?",
+   "zh": "你参加了办公室的墨尔本杯抽签吗？",
+   "what": "每年11月第一个星期二下午3点，在墨尔本 Flemington 赛马场举行的3200米赛马，从1861年办到现在。号称 \"the race that stops a nation\"，墨尔本这一天放公众假期。",
+   "analogy": "让人想到香港「马照跑，舞照跳」，赛马是城市生活的一部分。但墨尔本杯更像全民一起看的节目，全国停下来看三分多钟。",
+   "use": "办公室常搞 sweep：每人出几块钱抽一匹马，抽中冠军的拿奖池。很多人戴礼帽、小头饰（fascinator）去看。也有人因为赌博和马匹福利问题抵制它，别人不参与不必勉强。",
+   "fact": "第一届冠军的奖品是一块金表。",
+   "sure": true,
+   "audio": "audio/dfb3f8e8b3ad.mp3",
+   "audio_us": "audio/dfb3f8e8b3ad.mp3"
+  },
+  {
+   "title": "AFL Grand Final & footy tipping",
+   "en": "I'm last in the office [[footy tipping]] again, my picks are hopeless.",
+   "zh": "我在办公室的球赛竞猜里又是倒数第一，我选的全错。",
+   "what": "AFL（澳式足球）总决赛通常在9月最后一个周六或10月初在 MCG 举行。从2015年起，维州把总决赛前的星期五定为公众假期（Grand Final Friday），当天市中心有球员巡游。",
+   "analogy": "Footy tipping 有点像世界杯期间办公室里的竞猜，但它整个赛季每周都猜，持续半年。",
+   "use": "在墨尔本，\"Who do you barrack for?\"（你支持哪队？）是很常见的寒暄。新来的人可以随便挑一队，大家会很乐意给你讲。",
+   "fact": "",
+   "sure": true,
+   "audio": "audio/783c2900a382.mp3",
+   "audio_us": "audio/783c2900a382.mp3"
+  },
+  {
+   "title": "Boxing Day Test",
+   "en": "We just have [[the Boxing Day Test]] on in the background all afternoon.",
+   "zh": "我们整个下午都开着节礼日板球赛当背景音。",
+   "what": "每年12月26日在墨尔本 MCG 开打的板球 Test 比赛，Test 一场最多可以打五天，还可能打平。这已经是很多澳洲家庭圣诞节后的固定节目。",
+   "analogy": "有点像大陆过年时开着电视当背景音，未必认真看，但它是节日气氛的一部分。",
+   "use": "圣诞假期里聊它很自然。看不懂板球很正常，说 \"I'm still learning the rules\" 就好。",
+   "fact": "一场 Test 打满五天仍然可能是平局（draw）。",
+   "sure": true,
+   "audio": "audio/09138603bf4a.mp3",
+   "audio_us": "audio/09138603bf4a.mp3"
+  },
+  {
+   "title": "State of Origin",
+   "en": "Sydney goes mad for [[State of Origin]], Melbourne barely notices.",
+   "zh": "悉尼人为州际起源赛疯狂，墨尔本人几乎没感觉。",
+   "what": "每年冬天新南威尔士（NSW Blues，蓝色）对昆士兰（QLD Maroons，栗色）的橄榄球联盟（rugby league）三场系列赛，从1980年开始。球员按出身的州而不是所属俱乐部来代表。",
+   "analogy": "有点像足球迷心里的「京沪德比」，带着两地互相看不顺眼的味道，但它是州对州、一年只有三场。",
+   "use": "在悉尼和布里斯班是大事，墨尔本是 AFL 的地盘，关心的人少很多。和 NSW、QLD 同事聊时可以问一句 \"Blues or Maroons?\"。",
+   "fact": "",
+   "sure": true,
+   "audio": "audio/2d707bb6061d.mp3",
+   "audio_us": "audio/2d707bb6061d.mp3"
+  },
+  {
+   "title": "Australia Day / Invasion Day",
+   "en": "Are you doing anything for the [[Australia Day]] long weekend?",
+   "zh": "澳洲国庆日的长周末你有什么安排吗？",
+   "what": "1月26日是澳洲国庆日，纪念1788年 First Fleet 抵达悉尼湾。很多原住民和支持者把这天叫作 Invasion Day（入侵日）或 Survival Day，每年都有游行，也一直有 \"change the date\"（换日子）的讨论。",
+   "analogy": "没有很贴切的类比。可以理解为同一个日子，对不同群体意味着完全不同的东西。",
+   "use": "多数人把它当作夏天的假期，烧烤、去海边。职场上最好不要主动表态，有同事可能会去参加游行，尊重就好。",
+   "fact": "triple j 的 Hottest 100 就是因为这个争议，2018年起不再在1月26日播出。",
+   "sure": true,
+   "audio": "audio/494400891741.mp3",
+   "audio_us": "audio/494400891741.mp3"
+  },
+  {
+   "title": "Anzac Day",
+   "en": "Want to come to the pub for [[two-up]] after the Anzac Day march?",
+   "zh": "Anzac 日游行之后要不要去酒吧玩 two-up？",
+   "what": "每年4月25日纪念 Gallipoli 登陆和所有参战军人，是全国公众假期。清晨有黎明纪念仪式（dawn service），墨尔本最大的在 Shrine of Remembrance，白天有老兵游行。",
+   "analogy": "上午的气氛有点像清明节的肃穆，下午就轻松很多：去酒吧玩 two-up（抛两枚硬币猜正反的赌博游戏），平时它在多数地方是违法的。",
+   "use": "早上的仪式要安静、尊重。Anzac biscuit 是燕麦加金色糖浆做的饼干，几乎每家都会做。当天 MCG 还有 Collingwood 对 Essendon 的经典 AFL 比赛。",
+   "fact": "按规定 Anzac biscuit 在商业上只能叫 biscuit，不能叫 cookie。",
+   "sure": true,
+   "audio": "audio/a41b6365541e.mp3",
+   "audio_us": "audio/a41b6365541e.mp3"
+  },
+  {
+   "title": "Democracy sausage",
+   "en": "I only voted early because I wanted a [[democracy sausage]].",
+   "zh": "我早早去投票，只是为了吃一根民主香肠。",
+   "what": "澳洲选举在周六，投票站多设在学校，学校家长会会在门口烤香肠夹面包卖钱筹款，这就是 democracy sausage。澳洲联邦选举从1924年起强制投票，不投会被罚款。",
+   "analogy": "没有很贴切的类比，大陆、香港、台湾的投票日都没有这种「顺便吃根香肠」的固定仪式。",
+   "use": "选举日大家会互相问 \"Did you get your democracy sausage?\"，轻松话题，不涉及你投给谁。",
+   "fact": "2016年它被澳洲国家词典中心选为年度词。",
+   "sure": true,
+   "audio": "audio/28be436570df.mp3",
+   "audio_us": "audio/28be436570df.mp3"
+  },
+  {
+   "title": "Bunnings sausage sizzle",
+   "en": "Grabbed a [[Bunnings snag]] on the way out, best two bucks I've spent.",
+   "zh": "出门时顺手买了根 Bunnings 香肠，这是我花得最值的两块钱。",
+   "what": "Bunnings 是澳洲最大的五金建材连锁店，周末门口常有社区团体、球会、慈善组织烤香肠卖，钱用来筹款。一根香肠夹一片白面包，加洋葱和番茄酱。",
+   "analogy": "有点像便利店门口的烤肠，便宜、随手买。不同的是，这里卖香肠是为了给社区筹款。",
+   "use": "\"Snag\" 是香肠的俚语。周末逛 Bunnings 买香肠，几乎是澳洲人的日常梗。",
+   "fact": "2018年 Bunnings 曾建议把洋葱放在香肠下面，以免洋葱掉地上让人滑倒，引发全国热议。",
+   "sure": true,
+   "audio": "audio/c9ca717513dd.mp3",
+   "audio_us": "audio/c9ca717513dd.mp3"
+  },
+  {
+   "title": "triple j Hottest 100",
+   "en": "Who's your pick for number one in [[the Hottest 100]] this year?",
+   "zh": "你觉得今年 Hottest 100 的第一名会是谁？",
+   "what": "ABC 旗下的青年电台 triple j 从1989年开始的年度听众投票榜，每年1月底播出前100名。很多人会办派对，一边烧烤一边听倒数。",
+   "analogy": "有点像香港的年度劲歌金曲榜，但完全由听众投票，而且是一场全国性的夏日派对。",
+   "use": "1月同事之间常聊 \"What did you vote for?\"。冷知识：Taylor Swift 的 Shake It Off 曾因网友刷票被取消资格。",
+   "fact": "1998到2017年它都在1月26日播出，2018年起改到1月的另一个周末。",
+   "sure": true,
+   "audio": "audio/1d930ed9e402.mp3",
+   "audio_us": "audio/1d930ed9e402.mp3"
+  },
+  {
+   "title": "Welcome to Country / Acknowledgement of Country",
+   "en": "Before we start, I'd like to do an [[Acknowledgement of Country]].",
+   "zh": "开始之前，我想先做一段对这片土地传统主人的致敬。",
+   "what": "Welcome to Country 是由当地原住民长老主持的欢迎仪式。Acknowledgement of Country 则谁都可以说，常见的是：感谢这片土地的传统主人，向过去和现在的长老致敬。墨尔本一般会提到 Kulin Nation 的 Wurundjeri 等族群。",
+   "analogy": "没有很贴切的类比。它不是宗教仪式，更像一种承认：这片土地在殖民前就有主人。",
+   "use": "开会、活动开始时经常听到，安静听就好，不要开玩笑或翻白眼。如果你主持会议，也可以用公司的标准模板说一段。",
+   "fact": "",
+   "sure": true,
+   "audio": "audio/99a555a5a3da.mp3",
+   "audio_us": "audio/99a555a5a3da.mp3"
+  },
+  {
+   "title": "Christmas in summer",
+   "en": "We do [[prawns on the barbie]] and backyard cricket every Christmas.",
+   "zh": "我们每年圣诞节都在烤架上烤大虾，在后院打板球。",
+   "what": "澳洲的圣诞节在盛夏，很多家庭吃海鲜（尤其大虾）、烧烤、Pavlova 蛋白霜蛋糕，去海边或在后院打板球。很多公司在圣诞到新年之间放假关门。",
+   "analogy": "在重要性上有点像中国的春节：一年最大的家庭团聚，加上年底长假。不同的是吃冷海鲜、穿短裤。",
+   "use": "公司年底常搞 Kris Kringle（秘密圣诞老人交换礼物），聊天常问 \"Any plans for Christmas?\"。",
+   "fact": "墨尔本的 Carols by Candlelight（烛光颂歌音乐会）从1938年开始，每年平安夜举行。",
+   "sure": true,
+   "audio": "audio/5a3abf381cb8.mp3",
+   "audio_us": "audio/5a3abf381cb8.mp3"
+  },
+  {
+   "title": "Royal Melbourne Show (showbags)",
+   "en": "The kids spent all their money on [[showbags]] at the Show.",
+   "zh": "孩子们在展会上把钱全花在 showbag 上了。",
+   "what": "Royal Melbourne Show 是每年9月左右在墨尔本 Showgrounds 举行的农业展会，有家畜比赛、游乐设施和各种吃的。最出名的是 showbag，一袋装满某个品牌的糖果、玩具或周边，小孩最爱。",
+   "analogy": "很像大陆的庙会加农业博览会，逛、吃、玩一整天。Showbag 有点像小时候的「福袋」。",
+   "use": "很多人童年都有逛 Show 的回忆，提起时语气是怀旧的。大人常吐槽 showbag 越来越贵。",
+   "fact": "Showbag 最早是厂家免费派发的样品袋（sample bag）。",
+   "sure": true,
+   "audio": "audio/a9bab485634a.mp3",
+   "audio_us": "audio/a9bab485634a.mp3"
+  }
+ ]
+}

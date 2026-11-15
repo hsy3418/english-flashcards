@@ -88,5 +88,47 @@
   "title": "约饭 & 社交邀约",
   "emoji": "🎉",
   "count": 25
+ },
+ {
+  "id": "c-people",
+  "type": "culture",
+  "title": "澳洲名人",
+  "emoji": "👤",
+  "count": 12
+ },
+ {
+  "id": "c-places",
+  "type": "culture",
+  "title": "地名",
+  "emoji": "📍",
+  "count": 13
+ },
+ {
+  "id": "c-history",
+  "type": "culture",
+  "title": "历史和传说",
+  "emoji": "📜",
+  "count": 12
+ },
+ {
+  "id": "c-events",
+  "type": "culture",
+  "title": "节日和日常",
+  "emoji": "🎉",
+  "count": 12
+ },
+ {
+  "id": "c-pop",
+  "type": "culture",
+  "title": "流行文化和梗",
+  "emoji": "🍿",
+  "count": 13
+ },
+ {
+  "id": "c-values",
+  "type": "culture",
+  "title": "澳洲性格",
+  "emoji": "🦘",
+  "count": 12
  }
 ]

@@ -1,0 +1,152 @@
+{
+ "id": "c-history",
+ "type": "culture",
+ "title": "历史和传说",
+ "emoji": "📜",
+ "cards": [
+  {
+   "title": "First Fleet & convict ancestry",
+   "en": "Of course he's cheeky, his family goes back to [[the First Fleet]]. Convict blood!",
+   "zh": "他当然皮了，他家祖上是第一舰队来的，流着囚犯的血！",
+   "what": "1788年1月，Arthur Phillip 率领11艘船的 First Fleet 抵达悉尼湾，建立英国在澳洲的第一个流放殖民地。到1868年，英国一共往澳洲流放了大约16万名囚犯，很多人只是犯了偷窃之类的小罪。",
+   "analogy": "有点像大陆人说「祖上是闯关东的」，带着一点草根的自豪。不同的是，这些人是被强制流放的，不是自己去谋生。",
+   "use": "澳洲人常拿「囚犯祖先」自嘲，英国人也爱拿这个开澳洲人玩笑，现在有囚犯祖先反而有点酷。注意：对原住民来说，1788年意味着殖民的开始，不是什么好笑的事。",
+   "fact": "整个流放时期大约有16万名囚犯被送到澳洲。",
+   "sure": true,
+   "audio": "audio/0747d322b22b.mp3",
+   "audio_us": "audio/0747d322b22b.mp3"
+  },
+  {
+   "title": "Gold rush & Chinese miners",
+   "en": "Bendigo's Chinese history goes right back to [[the gold rush]].",
+   "zh": "Bendigo 的华人历史可以一直追溯到淘金热。",
+   "what": "1851年维州发现金矿，Ballarat、Bendigo 一带涌来大批淘金者，其中有很多来自广东的华人。后来殖民地政府对华人征收入境税，1901年联邦成立后又推行 White Australia policy，限制非白人移民，这项政策直到1970年代才彻底废除。",
+   "analogy": "华人把旧金山叫「金山」，澳洲发现金矿后，墨尔本一带被叫作「新金山」，旧金山的「旧」字就是这么来的。所以这段历史其实就是华人自己的历史。",
+   "use": "本地人一般以讲历史的语气提起，Bendigo 的 Golden Dragon Museum、Ballarat 的 Sovereign Hill 都会讲到华人矿工。White Australia policy 是一段公认不光彩的历史，提起时语气是反思，不是开玩笑。",
+   "fact": "1855年维州开始对每个上岸的华人征收10英镑，很多华人改在南澳的 Robe 上岸，再走几百公里去金矿。",
+   "sure": true,
+   "audio": "audio/45d0e0f610f3.mp3",
+   "audio_us": "audio/45d0e0f610f3.mp3"
+  },
+  {
+   "title": "Eureka Stockade",
+   "en": "The union marched under [[the Eureka flag]] again this morning.",
+   "zh": "今天早上工会又举着 Eureka 旗游行了。",
+   "what": "1854年12月3日，Ballarat 的淘金者因为不满昂贵的采矿执照费和警察的粗暴查牌，筑起栅栏（stockade）对抗政府，被军警很快镇压，双方都有死伤。之后被控叛国的矿工都被陪审团判无罪，执照制度也被改掉。",
+   "analogy": "有点像大陆课本里的「官逼民反」式起义，但规模小得多，冲突本身很短，而且矿工最后是靠法庭判决和制度改革赢的，不是靠打赢。",
+   "use": "被很多人视为澳洲民主的起点之一。那面蓝底白色南十字星的 Eureka flag 常被工会用作抗议标志，有时也被其他政治团体借用，所以看到这面旗要留意是谁在举。",
+   "fact": "原版 Eureka 旗的残片现在归 Art Gallery of Ballarat 所有。",
+   "sure": true,
+   "audio": "audio/80b245b0603e.mp3",
+   "audio_us": "audio/80b245b0603e.mp3"
+  },
+  {
+   "title": "Anzac & Gallipoli",
+   "en": "My great-grandfather landed at [[Gallipoli]], so we always go to the dawn service.",
+   "zh": "我曾祖父参加过加里波利登陆，所以我们每年都去黎明纪念仪式。",
+   "what": "1915年4月25日，澳新军团（ANZAC）在土耳其的 Gallipoli 半岛登陆，打了八个月没有突破，最后撤退，澳洲约有8700人战死。这是一场军事上的失败，却被看作澳洲民族认同形成的关键时刻。",
+   "analogy": "没有很贴切的类比。它的意义有点像一个刚成立的国家在苦难里认识了自己，但澳洲纪念的重点是牺牲和「mateship」（战友情），不是胜利。",
+   "use": "Anzac 是非常严肃的话题，不要拿来开玩笑。常听到 \"Lest we forget\"（勿忘）这句话，听到时安静就好。",
+   "fact": "\"Anzac\" 这个词在澳洲受法律保护，商业上不能随便用。",
+   "sure": true,
+   "audio": "audio/e31ab030d67d.mp3",
+   "audio_us": "audio/e31ab030d67d.mp3"
+  },
+  {
+   "title": "Great Emu War",
+   "en": "Good luck fixing that bug, it's like [[the Emu War]], the emus always win.",
+   "zh": "祝你修 bug 好运，跟鸸鹋战争一样，最后赢的总是鸸鹋。",
+   "what": "1932年11月到12月，西澳 Campion 一带的鸸鹋大量啃食庄稼，政府派了带着 Lewis 机枪的士兵去帮农民扑杀。鸸鹋跑得快又分散，打了一个多月效果很差，媒体称之为 Emu War，后来成了「军队打输了鸟」的经典笑话。",
+   "analogy": "很像大陆1958年「除四害」全民打麻雀，都是用大动作对付鸟，结果很荒诞。不同的是，打麻雀造成了生态灾难，Emu War 主要是丢了面子。",
+   "use": "本地人和网友都爱拿它自嘲，比喻「花大力气却搞不定一件小事」。可以放心当笑话讲。",
+   "fact": "据记载，指挥官 Meredith 的报告说己方毫无伤亡，只是丢了面子。",
+   "sure": true,
+   "audio": "audio/01a5a24d9b1f.mp3",
+   "audio_us": "audio/01a5a24d9b1f.mp3"
+  },
+  {
+   "title": "Azaria Chamberlain (\"A dingo's got my baby\")",
+   "en": "When he mimicked \"[[a dingo's got my baby]]\" the room went a bit quiet.",
+   "zh": "他学了一句「野狗叼走了我的孩子」，屋里一下子有点安静。",
+   "what": "1980年8月17日，九周大的婴儿 Azaria 在 Uluru 露营时失踪，母亲 Lindy Chamberlain 说是野狗（dingo）叼走的，却在1982年被判谋杀。1986年意外找到婴儿外衣后她才获释，1988年改判无罪，2012年的死因裁定正式确认是野狗所为。",
+   "analogy": "可以对照大陆的聂树斌案，都是冤案、都靠后来的新证据翻案。但差别很大：聂树斌已经被执行死刑，Lindy 活着出狱，而且她是被媒体和舆论「审判」的典型。",
+   "use": "这句话常被人当梗模仿（美剧、电影里也出现过），但这是真实的悲剧，Lindy 至今在世。自己最好别用，别人用时也不必跟着笑。",
+   "fact": "梅丽尔·斯特里普（Meryl Streep）在1988年的电影 A Cry in the Dark 里演了 Lindy。",
+   "sure": true,
+   "audio": "audio/91bd953cc2e5.mp3",
+   "audio_us": "audio/91bd953cc2e5.mp3"
+  },
+  {
+   "title": "The Dismissal",
+   "en": "Every time politics gets messy, someone brings up [[the Dismissal]].",
+   "zh": "每次政坛一乱，总有人提起1975年的总理被罢免事件。",
+   "what": "1975年11月11日，总督 Sir John Kerr 动用宪法权力罢免了民选总理 Gough Whitlam，任命反对党领袖 Malcolm Fraser 为看守总理。Whitlam 在国会台阶上说：\"Well may we say 'God save the Queen', because nothing will save the Governor-General.\"",
+   "analogy": "没有很贴切的类比。大陆、港台都没有「女王代表直接撤掉民选总理」这种事，它的震撼在于大家以为这个权力只是摆设。",
+   "use": "这是澳洲最有名的宪政危机，至今左右两派看法不同，也常被拿来讨论澳洲要不要变成共和国。引用 Whitlam 那句话时多半带点讽刺。",
+   "fact": "Fraser 在随后的大选中大胜。",
+   "sure": true,
+   "audio": "audio/a046b18d7a23.mp3",
+   "audio_us": "audio/a046b18d7a23.mp3"
+  },
+  {
+   "title": "Stolen Generations & the National Apology",
+   "en": "We watched [[the Apology]] in class; my teacher was in tears.",
+   "zh": "我们在课堂上看了国家道歉的直播，老师都哭了。",
+   "what": "从20世纪初到1970年代，澳洲政府和教会把大量原住民和托雷斯海峡岛民儿童强行带离家庭，这些人被称为 Stolen Generations（被偷走的一代）。2008年2月13日，总理 Kevin Rudd 代表国家在国会正式道歉，一连说了三次 \"we say sorry\"。",
+   "analogy": "没有贴切的类比，也不应该拿别的事来类比，这是一段对受害者和家庭至今仍有影响的创伤。",
+   "use": "要以尊重的语气谈，不开玩笑。2月13日前后常有纪念活动，有同事可能是亲历者的后代。",
+   "fact": "1997年的调查报告 Bringing Them Home 是推动这次道歉的重要文件。",
+   "sure": true,
+   "audio": "audio/bea96bdb1770.mp3",
+   "audio_us": "audio/bea96bdb1770.mp3"
+  },
+  {
+   "title": "Drop bears",
+   "en": "Watch out for [[drop bears]] on the hike, wear a fork in your hair!",
+   "zh": "徒步小心树上的「掉落熊」，头发里插把叉子！",
+   "what": "Drop bear 是澳洲人编出来吓游客的「动物」，说是一种凶猛的考拉，会从树上掉下来扑人。根本不存在，但澳洲博物馆官网都陪着一本正经地「介绍」过。",
+   "analogy": "很像东北人骗南方人冬天去舔铁栏杆，都是本地人一本正经地骗外地人，看你上不上当。",
+   "use": "如果同事认真提醒你小心 drop bears，说明你被当成新来的了。最好的回应是配合演下去。",
+   "fact": "流行的「防身法」包括在头发里插叉子、耳后抹 Vegemite。",
+   "sure": true,
+   "audio": "audio/9f73685ee46b.mp3",
+   "audio_us": "audio/9f73685ee46b.mp3"
+  },
+  {
+   "title": "Bunyip",
+   "en": "Kids used to be told a [[bunyip]] lived in the swamp so they'd stay away.",
+   "zh": "以前大人会说沼泽里住着 bunyip，好让孩子别靠近。",
+   "what": "Bunyip 是来自原住民传说的水怪，据说住在沼泽、河湾和 billabong（死水潭）里，晚上会发出吼声。不同地区描述的样子差别很大。",
+   "analogy": "像吉林长白山天池水怪或新疆喀纳斯湖怪，都是「湖里有怪物」的传说。不同在于 bunyip 源自原住民文化，有吓孩子远离危险水域的作用。",
+   "use": "现在常出现在儿童书和地名里，语气轻松。因为它源自原住民传说，别把它说成「土人迷信」之类。",
+   "fact": "1850年代有人讽刺想在澳洲搞贵族爵位的人是 \"bunyip aristocracy\"（假贵族），这个说法流传至今。",
+   "sure": true,
+   "audio": "audio/d9597681d84f.mp3",
+   "audio_us": "audio/d9597681d84f.mp3"
+  },
+  {
+   "title": "Yowie",
+   "en": "My uncle swears he saw a [[yowie]] in the Blue Mountains.",
+   "zh": "我叔叔发誓他在蓝山见过一只 yowie。",
+   "what": "Yowie 是澳洲版的「大脚怪」，传说是一种高大多毛的类人生物，据说出没于新南威尔士蓝山和昆士兰一带的丛林。至今没有任何可靠证据。",
+   "analogy": "几乎就是大陆的神农架野人：都是山林里的多毛类人，都有很多「目击者」，都没有实证。",
+   "use": "一般是半开玩笑的话题，也有少数爱好者很认真地去找。",
+   "fact": "",
+   "sure": true,
+   "audio": "audio/fd849b28defa.mp3",
+   "audio_us": "audio/fd849b28defa.mp3"
+  },
+  {
+   "title": "Waltzing Matilda",
+   "en": "By the end of the night the whole pub was singing [[Waltzing Matilda]].",
+   "zh": "到了深夜，整个酒吧都在唱 Waltzing Matilda。",
+   "what": "Banjo Paterson 在1895年写的歌，讲一个流浪工人（swagman）在 billabong 边宿营，偷了一只羊，警察来抓时他跳进水潭，宁死不被抓。\"Waltzing matilda\" 的意思是背着铺盖卷徒步流浪。",
+   "analogy": "地位有点像香港的《狮子山下》，人人会唱、代表本地精神。不同的是，它讲的是一个反抗权威的小人物，不是一起打拼。",
+   "use": "被视为「非官方国歌」，球赛和酒吧里常被大合唱，语气是亲切的、有点煽情。",
+   "fact": "1977年全国投票选国歌时，它以约28%的票数排第二，输给了现在的国歌 Advance Australia Fair。",
+   "sure": true,
+   "audio": "audio/281677ee6713.mp3",
+   "audio_us": "audio/281677ee6713.mp3"
+  }
+ ]
+}

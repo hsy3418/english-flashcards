@@ -23,6 +23,14 @@ button{font:inherit;cursor:pointer;border:none;border-radius:12px}
 .decks{display:grid;gap:12px}
 .deck{background:var(--card);border:1px solid var(--line);padding:18px;text-align:left;color:var(--ink);display:flex;justify-content:space-between;align-items:center;font-size:18px}
 .deck small{color:var(--muted);font-size:14px;white-space:nowrap;margin-left:10px}
+.clab{font-size:13px;color:var(--muted);font-weight:400;margin-bottom:10px}
+.cen{font-size:22px;font-weight:600;line-height:1.45}
+.cen u{text-decoration-color:var(--accent);text-decoration-thickness:3px;text-underline-offset:5px}
+.ctitle{font-size:22px;font-weight:700}
+.czh{font-size:16px;color:var(--muted);margin-top:6px}
+.cbox{text-align:left;margin-top:4px;color:var(--ink);font-size:15px;line-height:1.6}
+.crow{margin-top:12px}.crow b{display:block;font-size:14px;color:var(--accent);margin-bottom:2px}
+.ghead{font-size:14px;color:var(--muted);margin:14px 2px 0}
 .src{font-size:12px;color:var(--muted);margin-bottom:10px}
 .mode{display:flex;gap:8px;margin:18px 0 6px;flex-wrap:wrap}
 .mode button{background:var(--card);border:1px solid var(--line);color:var(--ink);padding:8px 12px;font-size:14px}
@@ -150,8 +158,10 @@ function renderPicker(){
   const special = [
     `<button class="deck" data-id="mix"><span>🔀 全部混合</span><small>${total} 张</small></button>`,
     `<button class="deck" data-id="wrong"><span>📕 错题本</span><small>${wrong.size} 张</small></button>`];
-  $('decks').innerHTML = special.join('') + LIST.map(d =>
-    `<button class="deck" data-id="${d.id}"><span>${d.emoji} ${esc(d.title)}</span><small>${known(d.id) ? `记住 ${known(d.id)} / ` : ''}${d.count} 张</small></button>`).join('');
+  const btn = d => `<button class="deck" data-id="${d.id}"><span>${d.emoji} ${esc(d.title)}</span><small>${known(d.id) ? `记住 ${known(d.id)} / ` : ''}${d.count} 张</small></button>`;
+  const phr = LIST.filter(d => d.type !== 'culture'), cul = LIST.filter(d => d.type === 'culture');
+  $('decks').innerHTML = special.join('') + `<div class="ghead">🗣️ 地道说法</div>` + phr.map(btn).join('') +
+    (cul.length ? `<div class="ghead">🦘 澳洲文化梗</div>` + cul.map(btn).join('') : '');
   document.querySelectorAll('.deck').forEach(b => b.onclick = () => openDeck(b.dataset.id));
 }
 
@@ -202,6 +212,18 @@ function render(){
   const v = view(cur);
   const meta = LIST.find(d => d.id === cur._deck);
   $('src').textContent = (deck.id === 'mix' || deck.id === 'wrong') && meta ? `${meta.emoji} ${meta.title}` : '';
+  const isC = !!v.what;
+  $('again').textContent = isC ? '✗ 不知道' : '✗ 没想到';
+  $('good').textContent = isC ? '✓ 我知道' : '✓ 说对了';
+  $('tapHint').textContent = isC ? '本地人说这句话，是什么意思？' : '先自己说一遍，再点开看答案';
+  if (isC){
+    $('zh').innerHTML = `<div class="clab">🎧 你可能会听到</div><div class="cen">${fmt(v.en)}</div>`;
+    $('en').innerHTML = `<div class="ctitle">${esc(v.title)}</div><div class="czh">${esc(v.zh)}</div>`;
+    const row = (icon, lab, t) => t ? `<div class="crow"><b>${icon} ${lab}</b>${esc(t)}</div>` : '';
+    $('mine').innerHTML = `<div class="cbox">${row('📌','是什么',v.what)}${row('🇨🇳','类比',v.analogy)}${row('💬','怎么用',v.use)}${row('✨','冷知识',v.fact)}</div>`;
+    $('note').textContent = '';
+    return;
+  }
   $('zh').textContent = v.zh;
   $('en').innerHTML = fmt(v.en);
   const tag = v.mark === 'x' ? '<span class="tag x">不地道</span>' : '<span class="tag w">能用，但不够自然</span>';

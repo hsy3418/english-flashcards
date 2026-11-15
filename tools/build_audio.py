@@ -10,7 +10,10 @@ for d in json.load(open(ROOT / "decks/index.json")):
     p = ROOT / f"decks/{d['id']}.json"
     deck = json.load(open(p))
     for c in deck["cards"]:
+      culture = deck.get("type") == "culture"   # Aussie references: always en-AU audio
       for field, voice in VOICES.items():
+        if culture and field == "audio_us":
+            c[field] = c["audio"]; continue
         en = c.get("us", {}).get("en", c["en"]) if field == "audio_us" else c["en"]
         text = re.sub(r"\[\[|\]\]", "", en)
         name = hashlib.sha1(f"{voice}:{text}".encode()).hexdigest()[:12] + ".mp3"
