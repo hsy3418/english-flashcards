@@ -1,0 +1,175 @@
+{
+ "id": "hello",
+ "title": "打招呼和邻居",
+ "emoji": "👋",
+ "cards": [
+  {
+   "dir": "say",
+   "zh": "你好，最近好吗？",
+   "en": "Hi, | how are you?",
+   "tip": "",
+   "audio": "audio/517da7b27e07.mp3",
+   "chunks": [
+    {
+     "t": "Hi,",
+     "a": "audio/9c2bbf646ec6.mp3"
+    },
+    {
+     "t": "how are you?",
+     "a": "audio/de57d3805a6c.mp3"
+    }
+   ]
+  },
+  {
+   "dir": "say",
+   "zh": "挺好的，谢谢，你呢？",
+   "en": "Good, thanks. | And you?",
+   "tip": "",
+   "audio": "audio/9b501b8d9aa9.mp3",
+   "chunks": [
+    {
+     "t": "Good, thanks.",
+     "a": "audio/7dc0cc0c6f6e.mp3"
+    },
+    {
+     "t": "And you?",
+     "a": "audio/63a5bdcff389.mp3"
+    }
+   ]
+  },
+  {
+   "dir": "say",
+   "zh": "早上好",
+   "en": "Good morning.",
+   "tip": "",
+   "audio": "audio/8d84dd3c02d0.mp3",
+   "chunks": []
+  },
+  {
+   "dir": "say",
+   "zh": "很高兴认识你",
+   "en": "Nice to meet you.",
+   "tip": "",
+   "audio": "audio/f9c022b7d908.mp3",
+   "chunks": []
+  },
+  {
+   "dir": "say",
+   "zh": "我们刚搬来",
+   "en": "We're new here.",
+   "tip": "",
+   "audio": "audio/d37cedda6cfc.mp3",
+   "chunks": []
+  },
+  {
+   "dir": "say",
+   "zh": "我们住在隔壁",
+   "en": "We live next door.",
+   "tip": "",
+   "audio": "audio/0f6cb1bde8f7.mp3",
+   "chunks": []
+  },
+  {
+   "dir": "say",
+   "zh": "今天天气真好",
+   "en": "Lovely day!",
+   "tip": "",
+   "audio": "audio/fa18f2a827c4.mp3",
+   "chunks": []
+  },
+  {
+   "dir": "say",
+   "zh": "你的花园真漂亮",
+   "en": "Your garden | is beautiful.",
+   "tip": "",
+   "audio": "audio/9e0d465a2f57.mp3",
+   "chunks": [
+    {
+     "t": "Your garden",
+     "a": "audio/36914fdfe32f.mp3"
+    },
+    {
+     "t": "is beautiful.",
+     "a": "audio/38b5ca8766ee.mp3"
+    }
+   ]
+  },
+  {
+   "dir": "say",
+   "zh": "你的狗好可爱",
+   "en": "What a cute dog!",
+   "tip": "",
+   "audio": "audio/8005a60d531f.mp3",
+   "chunks": []
+  },
+  {
+   "dir": "say",
+   "zh": "再见",
+   "en": "See you!",
+   "tip": "",
+   "audio": "audio/766113a975b0.mp3",
+   "chunks": []
+  },
+  {
+   "dir": "hear",
+   "zh": "你好吗？（澳洲人的说法）",
+   "en": "How're you going?",
+   "tip": "这是澳洲人的 How are you",
+   "reply": {
+    "en": "Good, thanks.",
+    "zh": "挺好的，谢谢",
+    "audio": "audio/7dc0cc0c6f6e.mp3"
+   },
+   "audio": "audio/cc8ef8a304ce.mp3",
+   "chunks": []
+  },
+  {
+   "dir": "hear",
+   "zh": "你是哪里人？",
+   "en": "Where are you from?",
+   "tip": "",
+   "reply": {
+    "en": "I'm from China.",
+    "zh": "我是中国人",
+    "audio": "audio/414342d11d7c.mp3"
+   },
+   "audio": "audio/767890df3f6c.mp3",
+   "chunks": []
+  },
+  {
+   "dir": "hear",
+   "zh": "天气真好，是吧？",
+   "en": "Lovely weather, | isn't it?",
+   "tip": "",
+   "reply": {
+    "en": "Yes, lovely.",
+    "zh": "是啊，真好",
+    "audio": "audio/9f8ed3be54f2.mp3"
+   },
+   "audio": "audio/2e7761a76f1f.mp3",
+   "chunks": [
+    {
+     "t": "Lovely weather,",
+     "a": "audio/166bdcedd7c1.mp3"
+    },
+    {
+     "t": "isn't it?",
+     "a": "audio/d01e27a36fc8.mp3"
+    }
+   ]
+  },
+  {
+   "dir": "hear",
+   "zh": "祝你今天愉快！",
+   "en": "Have a good day!",
+   "tip": "",
+   "reply": {
+    "en": "You too!",
+    "zh": "你也是！",
+    "audio": "audio/17ba5531619a.mp3"
+   },
+   "audio": "audio/963eaf088ece.mp3",
+   "chunks": []
+  }
+ ]
+}

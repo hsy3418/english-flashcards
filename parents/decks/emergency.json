@@ -1,0 +1,146 @@
+{
+ "id": "emergency",
+ "title": "紧急情况 000",
+ "emoji": "🚨",
+ "cards": [
+  {
+   "dir": "say",
+   "zh": "请派救护车",
+   "en": "Ambulance, | please.",
+   "tip": "打 000，先说要什么：Ambulance 救护车，Police 警察，Fire 消防",
+   "audio": "audio/bf7a2af43a01.mp3",
+   "chunks": [
+    {
+     "t": "Ambulance,",
+     "a": "audio/bb0707709af0.mp3"
+    },
+    {
+     "t": "please.",
+     "a": "audio/9338b0efd62d.mp3"
+    }
+   ]
+  },
+  {
+   "dir": "say",
+   "zh": "我需要普通话",
+   "en": "Mandarin, | please.",
+   "tip": "000 可以帮你接普通话翻译",
+   "audio": "audio/9fa4058b9d3c.mp3",
+   "chunks": [
+    {
+     "t": "Mandarin,",
+     "a": "audio/dbdcc317942d.mp3"
+    },
+    {
+     "t": "please.",
+     "a": "audio/9338b0efd62d.mp3"
+    }
+   ]
+  },
+  {
+   "dir": "say",
+   "zh": "他不能呼吸了",
+   "en": "He can't breathe.",
+   "tip": "说女的用 She",
+   "audio": "audio/f98fcf52c1b2.mp3",
+   "chunks": []
+  },
+  {
+   "dir": "say",
+   "zh": "她摔倒了",
+   "en": "She fell down.",
+   "tip": "说男的用 He",
+   "audio": "audio/864f14c0eebf.mp3",
+   "chunks": []
+  },
+  {
+   "dir": "say",
+   "zh": "他晕过去了",
+   "en": "He's unconscious.",
+   "tip": "读：un-CON-shus",
+   "audio": "audio/dde65925c33a.mp3",
+   "chunks": []
+  },
+  {
+   "dir": "say",
+   "zh": "我的地址是……",
+   "en": "My address is…",
+   "tip": "打开「我的信息卡」照着读，或者给对方看",
+   "audio": "audio/280454bb2b7b.mp3",
+   "chunks": []
+  },
+  {
+   "dir": "say",
+   "zh": "救命！",
+   "en": "Help!",
+   "tip": "",
+   "audio": "audio/70d4591e9092.mp3",
+   "chunks": []
+  },
+  {
+   "dir": "say",
+   "zh": "请帮我叫救护车",
+   "en": "Please call | an ambulance!",
+   "tip": "",
+   "audio": "audio/8c9e24101217.mp3",
+   "chunks": [
+    {
+     "t": "Please call",
+     "a": "audio/84a1e5c93371.mp3"
+    },
+    {
+     "t": "an ambulance!",
+     "a": "audio/78ec622f9f3b.mp3"
+    }
+   ]
+  },
+  {
+   "dir": "hear",
+   "zh": "你要警察、消防还是救护车？",
+   "en": "Police, fire | or ambulance?",
+   "tip": "",
+   "reply": {
+    "en": "Ambulance, please.",
+    "zh": "救护车",
+    "audio": "audio/bf7a2af43a01.mp3"
+   },
+   "audio": "audio/a0e81399f74c.mp3",
+   "chunks": [
+    {
+     "t": "Police, fire",
+     "a": "audio/a038c86d5df3.mp3"
+    },
+    {
+     "t": "or ambulance?",
+     "a": "audio/b1cfbb4ea5ca.mp3"
+    }
+   ]
+  },
+  {
+   "dir": "hear",
+   "zh": "地址是哪里？",
+   "en": "What's the address?",
+   "tip": "",
+   "reply": {
+    "en": "My address is…",
+    "zh": "我的地址是……",
+    "audio": "audio/280454bb2b7b.mp3"
+   },
+   "audio": "audio/a67c96e39666.mp3",
+   "chunks": []
+  },
+  {
+   "dir": "hear",
+   "zh": "他还有呼吸吗？",
+   "en": "Is he breathing?",
+   "tip": "",
+   "reply": {
+    "en": "Yes. / No.",
+    "zh": "有 / 没有",
+    "audio": "audio/80aa971a7b26.mp3"
+   },
+   "audio": "audio/57c0dd55d7ff.mp3",
+   "chunks": []
+  }
+ ]
+}

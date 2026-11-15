@@ -1,0 +1,185 @@
+{
+ "id": "pharmacy",
+ "title": "药房",
+ "emoji": "💊",
+ "cards": [
+  {
+   "dir": "say",
+   "zh": "我来拿处方药",
+   "en": "I have a prescription, | please.",
+   "tip": "澳洲人也把处方叫 script",
+   "audio": "audio/0c076d4cfd1e.mp3",
+   "chunks": [
+    {
+     "t": "I have a prescription,",
+     "a": "audio/f87d6275a1f6.mp3"
+    },
+    {
+     "t": "please.",
+     "a": "audio/9338b0efd62d.mp3"
+    }
+   ]
+  },
+  {
+   "dir": "say",
+   "zh": "一天吃几次？",
+   "en": "How many times | a day?",
+   "tip": "",
+   "audio": "audio/a1a6ecd518ae.mp3",
+   "chunks": [
+    {
+     "t": "How many times",
+     "a": "audio/d85f60249914.mp3"
+    },
+    {
+     "t": "a day?",
+     "a": "audio/3382f467682c.mp3"
+    }
+   ]
+  },
+  {
+   "dir": "say",
+   "zh": "饭前还是饭后？",
+   "en": "Before or after food?",
+   "tip": "",
+   "audio": "audio/086350f3f04b.mp3",
+   "chunks": []
+  },
+  {
+   "dir": "say",
+   "zh": "一次吃几片？",
+   "en": "How many tablets?",
+   "tip": "",
+   "audio": "audio/edd91241d8a0.mp3",
+   "chunks": []
+  },
+  {
+   "dir": "say",
+   "zh": "有副作用吗？",
+   "en": "Any side effects?",
+   "tip": "",
+   "audio": "audio/40a401d8ae7e.mp3",
+   "chunks": []
+  },
+  {
+   "dir": "say",
+   "zh": "有感冒药吗？",
+   "en": "Do you have something | for a cold?",
+   "tip": "",
+   "audio": "audio/292fae6fbfc4.mp3",
+   "chunks": [
+    {
+     "t": "Do you have something",
+     "a": "audio/b3087250bfe1.mp3"
+    },
+    {
+     "t": "for a cold?",
+     "a": "audio/29e20b949149.mp3"
+    }
+   ]
+  },
+  {
+   "dir": "say",
+   "zh": "我想买止痛药",
+   "en": "Something for pain, | please.",
+   "tip": "",
+   "audio": "audio/84ee90f6b6d6.mp3",
+   "chunks": [
+    {
+     "t": "Something for pain,",
+     "a": "audio/096afd41742f.mp3"
+    },
+    {
+     "t": "please.",
+     "a": "audio/9338b0efd62d.mp3"
+    }
+   ]
+  },
+  {
+   "dir": "say",
+   "zh": "有便宜一点的吗？",
+   "en": "Is there | a cheaper brand?",
+   "tip": "同样成分的便宜药叫 generic",
+   "audio": "audio/f8261b3f241e.mp3",
+   "chunks": [
+    {
+     "t": "Is there",
+     "a": "audio/33b2f6e35fa3.mp3"
+    },
+    {
+     "t": "a cheaper brand?",
+     "a": "audio/d65394dce414.mp3"
+    }
+   ]
+  },
+  {
+   "dir": "say",
+   "zh": "要等多久？",
+   "en": "How long | will it take?",
+   "tip": "",
+   "audio": "audio/c9e7e44a600f.mp3",
+   "chunks": [
+    {
+     "t": "How long",
+     "a": "audio/086484dbf9d4.mp3"
+    },
+    {
+     "t": "will it take?",
+     "a": "audio/20cf63e72b0c.mp3"
+    }
+   ]
+  },
+  {
+   "dir": "hear",
+   "zh": "一天两次，饭后吃。",
+   "en": "Twice a day, | after food.",
+   "tip": "once 一次，twice 两次，three times 三次",
+   "audio": "audio/7898660c217c.mp3",
+   "chunks": [
+    {
+     "t": "Twice a day,",
+     "a": "audio/15c73bb5e308.mp3"
+    },
+    {
+     "t": "after food.",
+     "a": "audio/ee041b76aeb1.mp3"
+    }
+   ]
+  },
+  {
+   "dir": "hear",
+   "zh": "大概要等十五分钟。",
+   "en": "It'll be about | fifteen minutes.",
+   "tip": "",
+   "reply": {
+    "en": "Okay, thank you.",
+    "zh": "好的，谢谢",
+    "audio": "audio/9c8efbd66deb.mp3"
+   },
+   "audio": "audio/5ef8099e82f4.mp3",
+   "chunks": [
+    {
+     "t": "It'll be about",
+     "a": "audio/2dfbec72cf08.mp3"
+    },
+    {
+     "t": "fifteen minutes.",
+     "a": "audio/513a58c2662b.mp3"
+    }
+   ]
+  },
+  {
+   "dir": "hear",
+   "zh": "这药是给你自己吃的吗？",
+   "en": "Is this for you?",
+   "tip": "",
+   "reply": {
+    "en": "Yes. / No, for my husband.",
+    "zh": "是 / 不是，给我老公",
+    "audio": "audio/4fef27fa393e.mp3"
+   },
+   "audio": "audio/df3cb517cca1.mp3",
+   "chunks": []
+  }
+ ]
+}

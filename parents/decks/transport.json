@@ -1,0 +1,218 @@
+{
+ "id": "transport",
+ "title": "坐车",
+ "emoji": "🚌",
+ "cards": [
+  {
+   "dir": "say",
+   "zh": "这车去市中心吗？",
+   "en": "Does this go | to the city?",
+   "tip": "city 就是市中心",
+   "audio": "audio/427d6433e2d6.mp3",
+   "chunks": [
+    {
+     "t": "Does this go",
+     "a": "audio/523d946210e4.mp3"
+    },
+    {
+     "t": "to the city?",
+     "a": "audio/3e3af8e6d2c9.mp3"
+    }
+   ]
+  },
+  {
+   "dir": "say",
+   "zh": "去这个地址怎么走？",
+   "en": "How do I get | to this address?",
+   "tip": "把地址给对方看",
+   "audio": "audio/067662795bd0.mp3",
+   "chunks": [
+    {
+     "t": "How do I get",
+     "a": "audio/ba18fdb3e41b.mp3"
+    },
+    {
+     "t": "to this address?",
+     "a": "audio/b2c16c02f63c.mp3"
+    }
+   ]
+  },
+  {
+   "dir": "say",
+   "zh": "火车站在哪里？",
+   "en": "Where's | the train station?",
+   "tip": "",
+   "audio": "audio/1d2d2f82ccde.mp3",
+   "chunks": [
+    {
+     "t": "Where's",
+     "a": "audio/d1fb91829f7f.mp3"
+    },
+    {
+     "t": "the train station?",
+     "a": "audio/5b7226fb9d1e.mp3"
+    }
+   ]
+  },
+  {
+   "dir": "say",
+   "zh": "要坐几站？",
+   "en": "How many stops?",
+   "tip": "",
+   "audio": "audio/4ac30a43e06e.mp3",
+   "chunks": []
+  },
+  {
+   "dir": "say",
+   "zh": "下一站是哪里？",
+   "en": "What's the next stop?",
+   "tip": "",
+   "audio": "audio/16b247eabd1d.mp3",
+   "chunks": []
+  },
+  {
+   "dir": "say",
+   "zh": "到了请告诉我",
+   "en": "Can you tell me | when we get there?",
+   "tip": "",
+   "audio": "audio/3966b971e6ff.mp3",
+   "chunks": [
+    {
+     "t": "Can you tell me",
+     "a": "audio/fd131dcee70e.mp3"
+    },
+    {
+     "t": "when we get there?",
+     "a": "audio/88b5e1baae0e.mp3"
+    }
+   ]
+  },
+  {
+   "dir": "say",
+   "zh": "怎么给 Myki 卡充值？",
+   "en": "How do I top up | my Myki?",
+   "tip": "Myki 是墨尔本的公交卡",
+   "audio": "audio/a47622636276.mp3",
+   "chunks": [
+    {
+     "t": "How do I top up",
+     "a": "audio/c39e4a8b4a93.mp3"
+    },
+    {
+     "t": "my Myki?",
+     "a": "audio/86b8c932deac.mp3"
+    }
+   ]
+  },
+  {
+   "dir": "say",
+   "zh": "我迷路了",
+   "en": "Sorry, | I'm lost.",
+   "tip": "",
+   "audio": "audio/089e07422d95.mp3",
+   "chunks": [
+    {
+     "t": "Sorry,",
+     "a": "audio/7b939c68257d.mp3"
+    },
+    {
+     "t": "I'm lost.",
+     "a": "audio/3ccb928c1d15.mp3"
+    }
+   ]
+  },
+  {
+   "dir": "say",
+   "zh": "我有老年卡",
+   "en": "I have | a Seniors Card.",
+   "tip": "60岁以上的PR一般可以申请维州老年卡，坐车有优惠，让孩子帮忙确认",
+   "audio": "audio/e46c3e2936be.mp3",
+   "chunks": [
+    {
+     "t": "I have",
+     "a": "audio/42ab6f8dc748.mp3"
+    },
+    {
+     "t": "a Seniors Card.",
+     "a": "audio/f825a0d727b4.mp3"
+    }
+   ]
+  },
+  {
+   "dir": "hear",
+   "zh": "上车请刷 Myki 卡。",
+   "en": "Touch on | your Myki.",
+   "tip": "上车刷卡叫 touch on",
+   "audio": "audio/c51873750748.mp3",
+   "chunks": [
+    {
+     "t": "Touch on",
+     "a": "audio/699d78803d84.mp3"
+    },
+    {
+     "t": "your Myki.",
+     "a": "audio/8aa9cfa02ed6.mp3"
+    }
+   ]
+  },
+  {
+   "dir": "hear",
+   "zh": "下一站是 Flinders Street。",
+   "en": "The next stop is | Flinders Street.",
+   "tip": "",
+   "audio": "audio/444a190bfa34.mp3",
+   "chunks": [
+    {
+     "t": "The next stop is",
+     "a": "audio/5b858bc2c5db.mp3"
+    },
+    {
+     "t": "Flinders Street.",
+     "a": "audio/c42773734954.mp3"
+    }
+   ]
+  },
+  {
+   "dir": "hear",
+   "zh": "这趟车是快车，有些站不停。",
+   "en": "This train | is running express.",
+   "tip": "听到 express，要看一下你的站停不停",
+   "audio": "audio/d5c75d0cd847.mp3",
+   "chunks": [
+    {
+     "t": "This train",
+     "a": "audio/f100dc8b5654.mp3"
+    },
+    {
+     "t": "is running express.",
+     "a": "audio/182d0a994f84.mp3"
+    }
+   ]
+  },
+  {
+   "dir": "hear",
+   "zh": "请往车厢里面走。",
+   "en": "Please move down | inside the tram.",
+   "tip": "",
+   "audio": "audio/1524af563903.mp3",
+   "chunks": [
+    {
+     "t": "Please move down",
+     "a": "audio/b5dfb915f5a1.mp3"
+    },
+    {
+     "t": "inside the tram.",
+     "a": "audio/4b294718089d.mp3"
+    }
+   ]
+  },
+  {
+   "dir": "hear",
+   "zh": "这是终点站。",
+   "en": "This is the last stop.",
+   "tip": "",
+   "audio": "audio/60c0b4beecec.mp3",
+   "chunks": []
+  }
+ ]
+}

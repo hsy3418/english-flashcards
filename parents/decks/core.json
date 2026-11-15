@@ -1,0 +1,188 @@
+{
+ "id": "core",
+ "title": "最重要的几句",
+ "emoji": "🆘",
+ "cards": [
+  {
+   "dir": "say",
+   "zh": "对不起，我不会说英语",
+   "en": "Sorry, | I don't speak English.",
+   "tip": "",
+   "audio": "audio/54fb198bb4c2.mp3",
+   "chunks": [
+    {
+     "t": "Sorry,",
+     "a": "audio/7b939c68257d.mp3"
+    },
+    {
+     "t": "I don't speak English.",
+     "a": "audio/562a1afec692.mp3"
+    }
+   ]
+  },
+  {
+   "dir": "say",
+   "zh": "我需要普通话翻译",
+   "en": "I need | a Mandarin interpreter, | please.",
+   "tip": "Mandarin 就是普通话。看病、去政府部门都可以要免费翻译",
+   "audio": "audio/48d13697b4e9.mp3",
+   "chunks": [
+    {
+     "t": "I need",
+     "a": "audio/1cca350201ee.mp3"
+    },
+    {
+     "t": "a Mandarin interpreter,",
+     "a": "audio/cc24e7793671.mp3"
+    },
+    {
+     "t": "please.",
+     "a": "audio/9338b0efd62d.mp3"
+    }
+   ]
+  },
+  {
+   "dir": "say",
+   "zh": "请说慢一点",
+   "en": "Can you speak slowly, | please?",
+   "tip": "",
+   "audio": "audio/c40679841ad2.mp3",
+   "chunks": [
+    {
+     "t": "Can you speak slowly,",
+     "a": "audio/7a1a6f05434e.mp3"
+    },
+    {
+     "t": "please?",
+     "a": "audio/9dfc33882f4b.mp3"
+    }
+   ]
+  },
+  {
+   "dir": "say",
+   "zh": "请再说一遍",
+   "en": "Sorry, | can you say that again?",
+   "tip": "",
+   "audio": "audio/7660b0c9fcab.mp3",
+   "chunks": [
+    {
+     "t": "Sorry,",
+     "a": "audio/7b939c68257d.mp3"
+    },
+    {
+     "t": "can you say that again?",
+     "a": "audio/163064c92e84.mp3"
+    }
+   ]
+  },
+  {
+   "dir": "say",
+   "zh": "请帮我写下来",
+   "en": "Can you write it down, | please?",
+   "tip": "写下来，拿回家给孩子看",
+   "audio": "audio/05ffc7fd369c.mp3",
+   "chunks": [
+    {
+     "t": "Can you write it down,",
+     "a": "audio/e0f79d449341.mp3"
+    },
+    {
+     "t": "please?",
+     "a": "audio/9dfc33882f4b.mp3"
+    }
+   ]
+  },
+  {
+   "dir": "say",
+   "zh": "我听不懂",
+   "en": "Sorry, | I don't understand.",
+   "tip": "",
+   "audio": "audio/50573550b0c7.mp3",
+   "chunks": [
+    {
+     "t": "Sorry,",
+     "a": "audio/7b939c68257d.mp3"
+    },
+    {
+     "t": "I don't understand.",
+     "a": "audio/5715e12d3c04.mp3"
+    }
+   ]
+  },
+  {
+   "dir": "say",
+   "zh": "可以帮我一下吗？",
+   "en": "Can you help me, | please?",
+   "tip": "",
+   "audio": "audio/6dd4ddd712a2.mp3",
+   "chunks": [
+    {
+     "t": "Can you help me,",
+     "a": "audio/cd9a412211f2.mp3"
+    },
+    {
+     "t": "please?",
+     "a": "audio/9dfc33882f4b.mp3"
+    }
+   ]
+  },
+  {
+   "dir": "say",
+   "zh": "请打电话给我家人，他们会说英语",
+   "en": "Please call my family. | They speak English.",
+   "tip": "配合「我的信息卡」一起用",
+   "audio": "audio/a684784459c1.mp3",
+   "chunks": [
+    {
+     "t": "Please call my family.",
+     "a": "audio/d6eaefe68d5b.mp3"
+    },
+    {
+     "t": "They speak English.",
+     "a": "audio/24d48ce6aa22.mp3"
+    }
+   ]
+  },
+  {
+   "dir": "say",
+   "zh": "谢谢",
+   "en": "Thank you.",
+   "tip": "th 发不准没关系，别人一样听得懂",
+   "audio": "audio/2e0657efee68.mp3",
+   "chunks": []
+  },
+  {
+   "dir": "say",
+   "zh": "不好意思（借过、问路、叫人）",
+   "en": "Excuse me.",
+   "tip": "问路、借过、叫服务员，都先说这句",
+   "audio": "audio/078504f5ad1f.mp3",
+   "chunks": []
+  },
+  {
+   "dir": "say",
+   "zh": "好的，谢谢 / 不用了，谢谢",
+   "en": "Yes, please. | No, thank you.",
+   "tip": "",
+   "audio": "audio/9416a14f530f.mp3",
+   "chunks": [
+    {
+     "t": "Yes, please.",
+     "a": "audio/8328f9c2f8a1.mp3"
+    },
+    {
+     "t": "No, thank you.",
+     "a": "audio/02f88359a3f8.mp3"
+    }
+   ]
+  },
+  {
+   "dir": "say",
+   "zh": "没关系",
+   "en": "That's okay.",
+   "tip": "",
+   "audio": "audio/a202129d2dab.mp3",
+   "chunks": []
+  }
+ ]
+}

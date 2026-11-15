@@ -1,0 +1,44 @@
+[
+ {
+  "id": "core",
+  "title": "最重要的几句",
+  "emoji": "🆘",
+  "count": 12
+ },
+ {
+  "id": "doctor",
+  "title": "看医生",
+  "emoji": "🩺",
+  "count": 18
+ },
+ {
+  "id": "pharmacy",
+  "title": "药房",
+  "emoji": "💊",
+  "count": 12
+ },
+ {
+  "id": "shopping",
+  "title": "买菜",
+  "emoji": "🛒",
+  "count": 15
+ },
+ {
+  "id": "transport",
+  "title": "坐车",
+  "emoji": "🚌",
+  "count": 14
+ },
+ {
+  "id": "hello",
+  "title": "打招呼和邻居",
+  "emoji": "👋",
+  "count": 14
+ },
+ {
+  "id": "emergency",
+  "title": "紧急情况 000",
+  "emoji": "🚨",
+  "count": 11
+ }
+]

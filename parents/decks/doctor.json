@@ -1,0 +1,225 @@
+{
+ "id": "doctor",
+ "title": "看医生",
+ "emoji": "🩺",
+ "cards": [
+  {
+   "dir": "say",
+   "zh": "我想约医生",
+   "en": "I'd like to | see a doctor, | please.",
+   "tip": "澳洲的家庭医生叫 GP",
+   "audio": "audio/b5a75aa69f1c.mp3",
+   "chunks": [
+    {
+     "t": "I'd like to",
+     "a": "audio/820634bbfc68.mp3"
+    },
+    {
+     "t": "see a doctor,",
+     "a": "audio/6e1756538b77.mp3"
+    },
+    {
+     "t": "please.",
+     "a": "audio/9338b0efd62d.mp3"
+    }
+   ]
+  },
+  {
+   "dir": "say",
+   "zh": "这是我的 Medicare 卡",
+   "en": "Here's my Medicare card.",
+   "tip": "",
+   "audio": "audio/6fe8b71cd163.mp3",
+   "chunks": []
+  },
+  {
+   "dir": "say",
+   "zh": "我这里疼",
+   "en": "It hurts here.",
+   "tip": "一边说一边指着疼的地方",
+   "audio": "audio/93d4cece166a.mp3",
+   "chunks": []
+  },
+  {
+   "dir": "say",
+   "zh": "我头疼",
+   "en": "I have a headache.",
+   "tip": "",
+   "audio": "audio/bd97134b711a.mp3",
+   "chunks": []
+  },
+  {
+   "dir": "say",
+   "zh": "我发烧了",
+   "en": "I have a fever.",
+   "tip": "",
+   "audio": "audio/585083c95970.mp3",
+   "chunks": []
+  },
+  {
+   "dir": "say",
+   "zh": "我咳嗽",
+   "en": "I have a cough.",
+   "tip": "",
+   "audio": "audio/c81316219de8.mp3",
+   "chunks": []
+  },
+  {
+   "dir": "say",
+   "zh": "我头晕",
+   "en": "I feel dizzy.",
+   "tip": "",
+   "audio": "audio/d6e059df75b6.mp3",
+   "chunks": []
+  },
+  {
+   "dir": "say",
+   "zh": "已经三天了",
+   "en": "For three days.",
+   "tip": "",
+   "audio": "audio/e684120cc4b8.mp3",
+   "chunks": []
+  },
+  {
+   "dir": "say",
+   "zh": "我有高血压",
+   "en": "I have | high blood pressure.",
+   "tip": "",
+   "audio": "audio/5d1abe6238c5.mp3",
+   "chunks": [
+    {
+     "t": "I have",
+     "a": "audio/42ab6f8dc748.mp3"
+    },
+    {
+     "t": "high blood pressure.",
+     "a": "audio/8831b9f1155d.mp3"
+    }
+   ]
+  },
+  {
+   "dir": "say",
+   "zh": "我有糖尿病",
+   "en": "I have diabetes.",
+   "tip": "diabetes 读：dai-a-BEE-tees",
+   "audio": "audio/e7e12fd04669.mp3",
+   "chunks": []
+  },
+  {
+   "dir": "say",
+   "zh": "我对青霉素过敏",
+   "en": "I'm allergic | to penicillin.",
+   "tip": "",
+   "audio": "audio/47095f0b50fc.mp3",
+   "chunks": [
+    {
+     "t": "I'm allergic",
+     "a": "audio/cf1de421ef19.mp3"
+    },
+    {
+     "t": "to penicillin.",
+     "a": "audio/b368b39277fa.mp3"
+    }
+   ]
+  },
+  {
+   "dir": "say",
+   "zh": "我在吃这些药",
+   "en": "I take | these medicines.",
+   "tip": "把药盒带去给医生看",
+   "audio": "audio/07a6e6ff5bc4.mp3",
+   "chunks": [
+    {
+     "t": "I take",
+     "a": "audio/db47788a321e.mp3"
+    },
+    {
+     "t": "these medicines.",
+     "a": "audio/1d942f99c098.mp3"
+    }
+   ]
+  },
+  {
+   "dir": "hear",
+   "zh": "你的出生日期是什么？",
+   "en": "What's your date of birth?",
+   "tip": "澳洲说日期：日 在前，月 在后",
+   "reply": {
+    "en": "Fifth of May, 1960.",
+    "zh": "1960年5月5日（换成你自己的）",
+    "audio": "audio/76f972264897.mp3"
+   },
+   "audio": "audio/a8b0cd04242c.mp3",
+   "chunks": []
+  },
+  {
+   "dir": "hear",
+   "zh": "你以前来过这里吗？",
+   "en": "Have you been here before?",
+   "tip": "",
+   "reply": {
+    "en": "No, it's my first time.",
+    "zh": "没有，第一次来",
+    "audio": "audio/4ba629d25497.mp3"
+   },
+   "audio": "audio/82aaf6bcd644.mp3",
+   "chunks": []
+  },
+  {
+   "dir": "hear",
+   "zh": "请坐，医生会叫你。",
+   "en": "Take a seat. | The doctor will call you.",
+   "tip": "",
+   "reply": {
+    "en": "Thank you.",
+    "zh": "谢谢",
+    "audio": "audio/2e0657efee68.mp3"
+   },
+   "audio": "audio/eb2986cffc7a.mp3",
+   "chunks": [
+    {
+     "t": "Take a seat.",
+     "a": "audio/9c0a8a8388fa.mp3"
+    },
+    {
+     "t": "The doctor will call you.",
+     "a": "audio/e3181f9c7c05.mp3"
+    }
+   ]
+  },
+  {
+   "dir": "hear",
+   "zh": "哪里疼？",
+   "en": "Where does it hurt?",
+   "tip": "",
+   "reply": {
+    "en": "Here.",
+    "zh": "这里（指着）",
+    "audio": "audio/710500b5f0dd.mp3"
+   },
+   "audio": "audio/a632ac53bc88.mp3",
+   "chunks": []
+  },
+  {
+   "dir": "hear",
+   "zh": "你有过敏吗？",
+   "en": "Any allergies?",
+   "tip": "",
+   "reply": {
+    "en": "No. / Yes, penicillin.",
+    "zh": "没有 / 有，青霉素",
+    "audio": "audio/70c838b00d69.mp3"
+   },
+   "audio": "audio/a620e0d96599.mp3",
+   "chunks": []
+  },
+  {
+   "dir": "hear",
+   "zh": "深呼吸。",
+   "en": "Take a deep breath.",
+   "tip": "",
+   "audio": "audio/91112f782439.mp3",
+   "chunks": []
+  }
+ ]
+}

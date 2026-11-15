@@ -1,0 +1,224 @@
+{
+ "id": "shopping",
+ "title": "买菜",
+ "emoji": "🛒",
+ "cards": [
+  {
+   "dir": "say",
+   "zh": "请问米在哪里？",
+   "en": "Excuse me, | where is the rice?",
+   "tip": "把 rice 换成：milk 牛奶，eggs 鸡蛋，bread 面包",
+   "audio": "audio/33cae24d8331.mp3",
+   "chunks": [
+    {
+     "t": "Excuse me,",
+     "a": "audio/eacadef97a0f.mp3"
+    },
+    {
+     "t": "where is the rice?",
+     "a": "audio/53bb89c1ae53.mp3"
+    }
+   ]
+  },
+  {
+   "dir": "say",
+   "zh": "这个多少钱？",
+   "en": "How much is this?",
+   "tip": "",
+   "audio": "audio/a1aa1f0ff6f7.mp3",
+   "chunks": []
+  },
+  {
+   "dir": "say",
+   "zh": "我要这个",
+   "en": "This one, | please.",
+   "tip": "",
+   "audio": "audio/b189dd6e680c.mp3",
+   "chunks": [
+    {
+     "t": "This one,",
+     "a": "audio/02877ee81ada.mp3"
+    },
+    {
+     "t": "please.",
+     "a": "audio/9338b0efd62d.mp3"
+    }
+   ]
+  },
+  {
+   "dir": "say",
+   "zh": "请给我半公斤",
+   "en": "Half a kilo, | please.",
+   "tip": "肉柜、熟食柜买东西用",
+   "audio": "audio/573294376e82.mp3",
+   "chunks": [
+    {
+     "t": "Half a kilo,",
+     "a": "audio/86ffd8a52956.mp3"
+    },
+    {
+     "t": "please.",
+     "a": "audio/9338b0efd62d.mp3"
+    }
+   ]
+  },
+  {
+   "dir": "say",
+   "zh": "够了，谢谢",
+   "en": "That's enough, | thanks.",
+   "tip": "",
+   "audio": "audio/35dd99f63c5e.mp3",
+   "chunks": [
+    {
+     "t": "That's enough,",
+     "a": "audio/ea5a5fdccb71.mp3"
+    },
+    {
+     "t": "thanks.",
+     "a": "audio/e008d869fb33.mp3"
+    }
+   ]
+  },
+  {
+   "dir": "say",
+   "zh": "不要袋子，谢谢",
+   "en": "No bag, | thanks.",
+   "tip": "",
+   "audio": "audio/807f5af8ecff.mp3",
+   "chunks": [
+    {
+     "t": "No bag,",
+     "a": "audio/8ddd2c91fb84.mp3"
+    },
+    {
+     "t": "thanks.",
+     "a": "audio/e008d869fb33.mp3"
+    }
+   ]
+  },
+  {
+   "dir": "say",
+   "zh": "这台机器不动了，能帮我一下吗？",
+   "en": "Can you help me | with this machine?",
+   "tip": "自助结账机出问题时用",
+   "audio": "audio/08cb94100594.mp3",
+   "chunks": [
+    {
+     "t": "Can you help me",
+     "a": "audio/ec1f3c9f4e06.mp3"
+    },
+    {
+     "t": "with this machine?",
+     "a": "audio/747539aba9f5.mp3"
+    }
+   ]
+  },
+  {
+   "dir": "say",
+   "zh": "这个在打折吗？",
+   "en": "Is this on special?",
+   "tip": "澳洲超市说 on special，黄色价签就是打折",
+   "audio": "audio/207ae16f79cd.mp3",
+   "chunks": []
+  },
+  {
+   "dir": "hear",
+   "zh": "你要袋子吗？",
+   "en": "Do you need a bag?",
+   "tip": "",
+   "reply": {
+    "en": "No, thanks.",
+    "zh": "不用，谢谢",
+    "audio": "audio/b6a934c95809.mp3"
+   },
+   "audio": "audio/4d45c82c81bd.mp3",
+   "chunks": []
+  },
+  {
+   "dir": "hear",
+   "zh": "你有会员卡吗？",
+   "en": "Have you got | a Flybuys card?",
+   "tip": "Coles 的会员卡叫 Flybuys，Woolworths 的叫 Everyday Rewards",
+   "reply": {
+    "en": "No, thanks.",
+    "zh": "没有，谢谢",
+    "audio": "audio/b6a934c95809.mp3"
+   },
+   "audio": "audio/c23dbb69c0d0.mp3",
+   "chunks": [
+    {
+     "t": "Have you got",
+     "a": "audio/df5312421c3b.mp3"
+    },
+    {
+     "t": "a Flybuys card?",
+     "a": "audio/104a028a7892.mp3"
+    }
+   ]
+  },
+  {
+   "dir": "hear",
+   "zh": "把卡贴在这里刷。",
+   "en": "Tap your card here.",
+   "tip": "",
+   "audio": "audio/58d467ef5d0d.mp3",
+   "chunks": []
+  },
+  {
+   "dir": "hear",
+   "zh": "你要小票吗？",
+   "en": "Would you like | your receipt?",
+   "tip": "",
+   "reply": {
+    "en": "Yes, please. / No, thanks.",
+    "zh": "要 / 不要",
+    "audio": "audio/ce95b60a20dd.mp3"
+   },
+   "audio": "audio/121c1f5f599f.mp3",
+   "chunks": [
+    {
+     "t": "Would you like",
+     "a": "audio/451a73c43fa8.mp3"
+    },
+    {
+     "t": "your receipt?",
+     "a": "audio/cfbb28b9a053.mp3"
+    }
+   ]
+  },
+  {
+   "dir": "hear",
+   "zh": "你今天好吗？（只是打招呼）",
+   "en": "How are you today?",
+   "tip": "收银员都这样打招呼，不用多说",
+   "reply": {
+    "en": "Good, thanks.",
+    "zh": "挺好的，谢谢",
+    "audio": "audio/7dc0cc0c6f6e.mp3"
+   },
+   "audio": "audio/2ae8b43f14c8.mp3",
+   "chunks": []
+  },
+  {
+   "dir": "hear",
+   "zh": "还要别的吗？",
+   "en": "Anything else?",
+   "tip": "",
+   "reply": {
+    "en": "That's all, | thanks.",
+    "zh": "就这些，谢谢",
+    "audio": "audio/e2adcf63802d.mp3"
+   },
+   "audio": "audio/4a4890512c39.mp3",
+   "chunks": []
+  },
+  {
+   "dir": "hear",
+   "zh": "一共 12 块 50。",
+   "en": "That's twelve fifty.",
+   "tip": "价格常这样读：12.50 读 twelve fifty",
+   "audio": "audio/ca5ef2d0cace.mp3",
+   "chunks": []
+  }
+ ]
+}

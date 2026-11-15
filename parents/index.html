@@ -1,0 +1,304 @@
+<!doctype html>
+<html lang="zh">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="theme-color" content="#fff8ec">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-title" content="生活英语">
+<title>澳洲生活英语</title>
+<style>
+:root{--bg:#fff8ec;--card:#fff;--ink:#1b1b1b;--muted:#5f6b76;--line:#e8dcc6;--accent:#d98a00;--blue:#1565c0;--red:#c62828;--green:#2e7d32}
+*{box-sizing:border-box;-webkit-tap-highlight-color:transparent}
+html{font-size:20px}
+body{margin:0;font-family:-apple-system,"PingFang SC","Helvetica Neue",Arial,sans-serif;background:var(--bg);color:var(--ink);padding:env(safe-area-inset-top) 14px calc(env(safe-area-inset-bottom) + 20px)}
+.wrap{max-width:560px;margin:0 auto}
+button{font:inherit;cursor:pointer;border:none;border-radius:16px;color:inherit}
+header{display:flex;align-items:center;justify-content:space-between;padding:14px 0 10px;min-height:64px}
+header h1{font-size:1.3rem;margin:0}
+.back{background:var(--card);border:2px solid var(--line);padding:10px 16px;font-size:1rem}
+.tiles{display:grid;grid-template-columns:1fr 1fr;gap:14px}
+.tile{background:var(--card);border:2px solid var(--line);padding:20px 10px;font-size:1.1rem;display:flex;flex-direction:column;align-items:center;gap:8px;min-height:130px;justify-content:center}
+.tile .em{font-size:2.6rem}
+.tile.wide{grid-column:1/-1;flex-direction:row;min-height:80px;gap:14px}
+.tile.wide .em{font-size:2rem}
+.help{margin-top:18px;font-size:.85rem;color:var(--muted);line-height:1.6;background:var(--card);border-radius:16px;padding:14px 16px;border:2px dashed var(--line)}
+.pos{text-align:center;color:var(--muted);font-size:.9rem;margin-bottom:6px}
+.card{background:var(--card);border:2px solid var(--line);border-radius:22px;padding:26px 18px;text-align:center;min-height:300px;display:flex;flex-direction:column;justify-content:center;gap:14px}
+.kind{font-size:.85rem;color:var(--muted)}
+.zh{font-size:1.6rem;font-weight:700;line-height:1.4}
+.en{font-size:1.75rem;font-weight:700;line-height:1.35;color:var(--blue)}
+.tip{font-size:.9rem;color:var(--muted);background:var(--bg);border-radius:12px;padding:10px 12px;line-height:1.5}
+.reply{border-top:2px dashed var(--line);padding-top:14px}
+.reply .lab{font-size:.85rem;color:var(--muted)}
+.reply .ren{font-size:1.35rem;font-weight:700;color:var(--green);margin:6px 0}
+.big{width:100%;padding:18px;font-size:1.15rem;background:var(--accent);color:#fff;margin-top:14px}
+.btns{display:grid;grid-template-columns:1fr 1fr;gap:10px;margin-top:14px}
+.btns button{background:var(--card);border:2px solid var(--line);padding:16px 8px;font-size:1rem}
+.btns button.rec{border-color:var(--red);color:var(--red)}
+.btns button.recording{background:var(--red);color:#fff;border-color:var(--red)}
+.btns button.on{background:#fff3d6;border-color:var(--accent)}
+.nav{display:grid;grid-template-columns:1fr 1fr;gap:10px;margin-top:14px}
+.nav button{padding:18px;font-size:1.1rem;background:var(--ink);color:#fff}
+.nav button:first-child{background:var(--card);color:var(--ink);border:2px solid var(--line)}
+.chunks{display:flex;flex-wrap:wrap;gap:6px;justify-content:center}
+.chunks span{padding:4px 10px;border-radius:10px;background:var(--bg);font-size:1.05rem;color:var(--blue)}
+.chunks span.lit{background:var(--accent);color:#fff}
+.show{position:fixed;inset:0;background:#fff;z-index:10;display:flex;flex-direction:column;justify-content:center;align-items:center;padding:30px 22px;text-align:center;gap:24px}
+.show .txt{font-size:2.3rem;font-weight:800;line-height:1.3;color:#000;white-space:pre-line}
+.show .txt.small{font-size:1.4rem;text-align:left}
+.show .row{display:flex;gap:12px;width:100%;max-width:520px}
+.show .row button{flex:1;padding:18px;font-size:1.1rem}
+.show .play{background:var(--blue);color:#fff}
+.show .close{background:#eee}
+form label{display:block;margin:14px 0 6px;font-size:1rem}
+form input,form textarea{width:100%;font:inherit;font-size:1.05rem;padding:14px;border-radius:14px;border:2px solid var(--line);background:var(--card)}
+form small{color:var(--muted);font-size:.8rem}
+.hidden{display:none!important}
+.empty{text-align:center;color:var(--muted);padding:40px 10px;line-height:1.7}
+</style>
+</head>
+<body>
+<div class="wrap">
+<header><h1 id="title">🐰 澳洲生活英语</h1><button class="back hidden" id="back">← 返回</button></header>
+
+<section id="home">
+  <div class="tiles" id="tiles"></div>
+  <div class="help">
+    <b>怎么用：</b>点一个场景，先看中文，想一想，再点「看英文」。<br>
+    🔊 听一遍　🐢 慢慢听　🧩 一段一段听<br>
+    🎙️ 自己说一遍，再和原声比一比<br>
+    📱 说不出来？直接把手机给对方看<br>
+    <b>小建议：</b>用 Safari 打开，点下面的「分享」，再点「添加到主屏幕」，以后像 app 一样打开。
+  </div>
+</section>
+
+<section id="study" class="hidden">
+  <div class="pos" id="pos"></div>
+  <div class="card" id="card"></div>
+  <div class="btns hidden" id="btns">
+    <button id="bPlay">🔊 听一遍</button>
+    <button id="bSlow">🐢 慢慢听</button>
+    <button id="bChunk">🧩 一段一段听</button>
+    <button id="bRec" class="rec">🎙️ 我来说</button>
+    <button id="bMine" class="hidden">👂 听我的录音</button>
+    <button id="bShow">📱 给对方看</button>
+    <button id="bFav">☆ 加到常用</button>
+  </div>
+  <button class="big" id="reveal">看英文</button>
+  <div class="nav"><button id="prev">← 上一张</button><button id="next">下一张 →</button></div>
+</section>
+
+<section id="info" class="hidden">
+  <form id="infoForm" onsubmit="return false">
+    <p class="tip">这些信息<b>只存在这部手机里</b>，不会上传。需要的时候点「给对方看」，或者打 000 时照着读。</p>
+    <label>名字（拼音，像护照上那样）</label><input id="iName" placeholder="ZHANG San" autocomplete="off">
+    <label>住址（英文）</label><textarea id="iAddr" rows="2" placeholder="12 Example St, Box Hill VIC 3128"></textarea>
+    <label>家人电话</label><input id="iPhone" type="tel" placeholder="04xx xxx xxx">
+    <label>过敏 / 长期病（英文，可以不填）</label><input id="iMed" placeholder="Allergic to penicillin. High blood pressure.">
+    <small>不会填可以让孩子帮忙填。</small>
+    <button class="big" id="iSave">保存</button>
+    <button class="big" id="iShow" style="background:var(--blue)">📱 给对方看</button>
+    <a id="iCall" class="hidden"><button class="big" style="background:var(--green)" type="button">📞 打给家人</button></a>
+  </form>
+</section>
+</div>
+
+<div class="show hidden" id="show">
+  <div class="txt" id="showTxt"></div>
+  <div class="row"><button class="play" id="showPlay">🔊 放给对方听</button><button class="close" id="showClose">✕ 关掉</button></div>
+</div>
+
+<script>
+const $ = id => document.getElementById(id);
+const esc = s => String(s).replace(/[&<>"]/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]));
+const plain = s => s.split('|').map(x => x.trim()).join(' ');
+let LIST = [], deck = null, cards = [], i = 0, revealed = false, mineURL = null, rec = null, showSpeak = null;
+const cache = {};
+const FAV = 'pe-fav';
+const fav = new Set(JSON.parse(localStorage.getItem(FAV) || '[]'));
+const saveFav = () => localStorage.setItem(FAV, JSON.stringify([...fav]));
+const fk = c => c._deck + ':' + c.en;
+
+// ---------- audio ----------
+const player = new Audio();
+let playToken = 0;
+function playSrc(src, rate){
+  return new Promise(res => {
+    player.pause(); player.src = src; player.playbackRate = rate; player.preservesPitch = true;
+    player.onended = res; player.onerror = res;
+    player.play().catch(res);
+  });
+}
+const wait = ms => new Promise(r => setTimeout(r, ms));
+async function playCard(rate){ playToken++; litChunk(-1); const c = cards[i]; if (c) await playSrc(c.audio, rate); }
+async function playChunks(){
+  const t = ++playToken, c = cards[i];
+  if (!c.chunks || !c.chunks.length) return playCard(0.8);
+  for (let k = 0; k < c.chunks.length; k++){
+    if (t !== playToken) return;
+    litChunk(k); await playSrc(c.chunks[k].a, 0.8); await wait(900);
+  }
+  litChunk(-1);
+}
+function litChunk(k){ document.querySelectorAll('.chunks span').forEach((s, n) => s.classList.toggle('lit', n === k)); }
+function speakText(text){
+  if (!('speechSynthesis' in window)) return;
+  speechSynthesis.cancel();
+  const u = new SpeechSynthesisUtterance(text); u.lang = 'en-AU'; u.rate = 0.85;
+  const v = speechSynthesis.getVoices().find(v => v.lang === 'en-AU') || speechSynthesis.getVoices().find(v => v.lang.startsWith('en'));
+  if (v) u.voice = v;
+  speechSynthesis.speak(u);
+}
+
+// ---------- recording ----------
+const canRec = !!(navigator.mediaDevices && window.MediaRecorder);
+async function toggleRec(){
+  if (rec){ rec.stop(); return; }
+  try {
+    const stream = await navigator.mediaDevices.getUserMedia({audio: true});
+    const chunks = [], at = i;
+    rec = new MediaRecorder(stream);
+    rec.ondataavailable = e => e.data.size && chunks.push(e.data);
+    rec.onstop = async () => {
+      stream.getTracks().forEach(t => t.stop());
+      rec = null; $('bRec').classList.remove('recording');
+      if (at !== i || !revealed) return;
+      $('bRec').textContent = '🎙️ 再说一遍';
+      if (mineURL) URL.revokeObjectURL(mineURL);
+      mineURL = URL.createObjectURL(new Blob(chunks, {type: chunks[0] ? chunks[0].type : 'audio/mp4'}));
+      $('bMine').classList.remove('hidden');
+      await playSrc(mineURL, 1); await wait(500); await playCard(1);
+    };
+    rec.start();
+    playToken++; player.pause();
+    $('bRec').classList.add('recording'); $('bRec').textContent = '⏹ 说完了';
+  } catch (e) { alert('需要允许使用麦克风。请用 Safari 打开，再试一次。'); }
+}
+
+// ---------- views ----------
+function view(name){
+  ['home','study','info'].forEach(v => $(v).classList.toggle('hidden', v !== name));
+  $('back').classList.toggle('hidden', name === 'home');
+  if (name === 'home') $('title').textContent = '🐰 澳洲生活英语';
+  playToken++; player.pause();
+  window.scrollTo(0, 0);
+}
+
+function renderHome(){
+  $('tiles').innerHTML =
+    LIST.map(d => `<button class="tile" data-id="${d.id}"><span class="em">${d.emoji}</span>${esc(d.title)}</button>`).join('') +
+    `<button class="tile wide" data-id="fav"><span class="em">⭐</span>我的常用（${fav.size}）</button>` +
+    `<button class="tile wide" data-id="info"><span class="em">📇</span>我的信息卡</button>`;
+  document.querySelectorAll('.tile').forEach(b => b.onclick = () => b.dataset.id === 'info' ? openInfo() : openDeck(b.dataset.id));
+}
+
+async function getDeck(id){
+  if (!cache[id]){ const d = await (await fetch(`decks/${id}.json`)).json(); d.cards.forEach(c => c._deck = id); cache[id] = d; }
+  return cache[id];
+}
+
+async function openDeck(id){
+  if (id === 'fav'){
+    const all = (await Promise.all(LIST.map(d => getDeck(d.id)))).flatMap(d => d.cards);
+    deck = {id, title: '我的常用', emoji: '⭐'}; cards = all.filter(c => fav.has(fk(c)));
+  } else { deck = await getDeck(id); cards = deck.cards; }
+  $('title').textContent = `${deck.emoji} ${deck.title}`;
+  i = 0; view('study'); render();
+}
+
+function render(){
+  revealed = false; mineURL = null;
+  $('bMine').classList.add('hidden'); $('bRec').textContent = '🎙️ 我来说';
+  $('btns').classList.add('hidden'); $('reveal').classList.remove('hidden');
+  if (!cards.length){
+    $('pos').textContent = '';
+    $('card').innerHTML = `<div class="empty">这里还是空的。<br>练习的时候点「☆ 加到常用」，<br>常用的句子就会出现在这里。</div>`;
+    $('reveal').classList.add('hidden'); return;
+  }
+  const c = cards[i];
+  $('pos').textContent = `第 ${i + 1} 张，共 ${cards.length} 张`;
+  if (c.dir === 'hear'){
+    $('card').innerHTML = `<div class="kind">👂 听一听：对方在说什么？</div><div class="zh" style="font-size:3rem">🔊</div><div class="kind">点下面「再听一遍」可以多听几次</div>`;
+    $('reveal').textContent = '看意思';
+    $('btns').classList.remove('hidden'); setBtns(c, false);
+    playCard(1);
+  } else {
+    $('card').innerHTML = `<div class="kind">🗣️ 用英语怎么说？</div><div class="zh">${esc(c.zh)}</div>`;
+    $('reveal').textContent = '看英文';
+  }
+}
+
+function setBtns(c, full){
+  $('bPlay').textContent = c.dir === 'hear' && !full ? '🔊 再听一遍' : '🔊 听一遍';
+  $('bChunk').classList.toggle('hidden', !(c.chunks && c.chunks.length));
+  $('bRec').classList.toggle('hidden', !full || !canRec || c.dir === 'hear');
+  $('bShow').classList.toggle('hidden', !full || c.dir === 'hear');
+  $('bFav').classList.toggle('hidden', !full);
+  $('bFav').textContent = fav.has(fk(c)) ? '⭐ 已在常用' : '☆ 加到常用';
+  $('bFav').classList.toggle('on', fav.has(fk(c)));
+}
+
+function reveal(){
+  const c = cards[i]; if (!c || revealed) return; revealed = true;
+  const chunks = c.chunks && c.chunks.length ? `<div class="chunks">${c.chunks.map(x => `<span>${esc(x.t)}</span>`).join('')}</div>` : '';
+  const tip = c.tip ? `<div class="tip">💡 ${esc(c.tip)}</div>` : '';
+  if (c.dir === 'hear'){
+    const r = c.reply ? `<div class="reply"><div class="lab">你可以这样回答：</div><div class="ren">${esc(plain(c.reply.en))}</div><div>${esc(c.reply.zh)}</div><button class="back" id="rPlay" style="margin-top:10px">🔊 听回答</button></div>` : '';
+    $('card').innerHTML = `<div class="kind">👂 对方说的是：</div><div class="en">${esc(plain(c.en))}</div>${chunks}<div class="zh">${esc(c.zh)}</div>${tip}${r}`;
+    if (c.reply) $('rPlay').onclick = () => { playToken++; playSrc(c.reply.audio, 0.85); };
+  } else {
+    $('card').innerHTML = `<div class="kind">${esc(c.zh)}</div><div class="en">${esc(plain(c.en))}</div>${chunks}${tip}`;
+    playCard(0.85);
+  }
+  $('reveal').classList.add('hidden'); $('btns').classList.remove('hidden'); setBtns(c, true);
+}
+
+function showBig(text, onPlay, small){
+  $('showTxt').textContent = text; $('showTxt').classList.toggle('small', !!small);
+  showSpeak = onPlay; $('show').classList.remove('hidden');
+}
+
+// ---------- info card ----------
+const INFO = 'pe-info';
+function loadInfo(){ return JSON.parse(localStorage.getItem(INFO) || '{}'); }
+function infoText(d){
+  const lines = [];
+  if (d.name) lines.push(`My name is ${d.name}.`);
+  lines.push(`I don't speak English.`);
+  if (d.phone) lines.push(`Please call my family: ${d.phone}`);
+  if (d.addr) lines.push(`My address is ${d.addr}`);
+  if (d.med) lines.push(d.med);
+  return lines.join('\n');
+}
+function openInfo(){
+  const d = loadInfo();
+  $('iName').value = d.name || ''; $('iAddr').value = d.addr || ''; $('iPhone').value = d.phone || ''; $('iMed').value = d.med || '';
+  updCall(d);
+  $('title').textContent = '📇 我的信息卡'; view('info');
+}
+function readInfo(){ return {name: $('iName').value.trim(), addr: $('iAddr').value.trim(), phone: $('iPhone').value.trim(), med: $('iMed').value.trim()}; }
+function updCall(d){ $('iCall').classList.toggle('hidden', !d.phone); if (d.phone) $('iCall').href = 'tel:' + d.phone.replace(/\s/g, ''); }
+$('iSave').onclick = () => { const d = readInfo(); localStorage.setItem(INFO, JSON.stringify(d)); updCall(d); $('iSave').textContent = '✅ 已保存'; setTimeout(() => $('iSave').textContent = '保存', 1500); };
+$('iShow').onclick = () => { const d = readInfo(); localStorage.setItem(INFO, JSON.stringify(d)); const t = infoText(d); showBig(t, () => speakText(t.replace(/\n/g, ' ')), true); };
+
+// ---------- wiring ----------
+$('back').onclick = () => { renderHome(); view('home'); };
+$('reveal').onclick = reveal;
+$('card').onclick = e => { if (!revealed && !e.target.closest('button')) reveal(); };
+$('bPlay').onclick = () => playCard(1);
+$('bSlow').onclick = () => playCard(0.7);
+$('bChunk').onclick = playChunks;
+$('bRec').onclick = toggleRec;
+$('bMine').onclick = () => { playToken++; if (mineURL) playSrc(mineURL, 1); };
+$('bShow').onclick = () => { const c = cards[i]; showBig(plain(c.en), () => { playToken++; playSrc(c.audio, 0.9); }); };
+$('bFav').onclick = () => { const c = cards[i], key = fk(c); fav.has(key) ? fav.delete(key) : fav.add(key); saveFav(); setBtns(c, true); };
+$('prev').onclick = () => { if (rec) rec.stop(); if (cards.length){ i = (i - 1 + cards.length) % cards.length; render(); } };
+$('next').onclick = () => { if (rec) rec.stop(); if (cards.length){ i = (i + 1) % cards.length; render(); } };
+$('showPlay').onclick = () => showSpeak && showSpeak();
+$('showClose').onclick = () => { $('show').classList.add('hidden'); playToken++; player.pause(); if ('speechSynthesis' in window) speechSynthesis.cancel(); };
+
+(async () => { LIST = await (await fetch('decks/index.json')).json(); renderHome(); })();
+</script>
+</body>
+</html>
