@@ -1,0 +1,303 @@
+{
+ "id": "darkroom",
+ "title": "暗房冲洗胶片",
+ "emoji": "🎞️",
+ "cards": [
+  {
+   "zh": "装胶卷这一步必须在全黑的环境里做",
+   "en": "You have to [[load the film onto the reel]] in total darkness.",
+   "mine": "Put the film into the tank in the dark.",
+   "mark": "~",
+   "note": "reel 是显影罐里的片轴，胶卷先绕上片轴，再放进 developing tank（显影罐）",
+   "audio": "audio/ebe7472d8cda.mp3",
+   "audio_us": "audio/112f0bb5a63c.mp3"
+  },
+  {
+   "zh": "先用开瓶器把胶卷暗盒撬开",
+   "en": "[[Crack open the canister]] with a bottle opener.",
+   "mine": "Open the film box.",
+   "mark": "x",
+   "note": "canister / cassette 是装胶卷的小铁盒（暗盒），box 是外面的纸盒",
+   "audio": "audio/5708551687c6.mp3",
+   "audio_us": "audio/a6bb361cc20b.mp3"
+  },
+  {
+   "zh": "没有暗房的话，可以用换片袋",
+   "en": "If there's no darkroom, you can use a [[changing bag]].",
+   "mine": "Use a black bag.",
+   "mark": "~",
+   "note": "changing bag 换片袋：有两个袖口，手伸进去在里面操作",
+   "audio": "audio/cc455819e19e.mp3",
+   "audio_us": "audio/dccae4207c93.mp3"
+  },
+  {
+   "zh": "先把片头剪平，这样比较好上片轴",
+   "en": "[[Trim the leader]] so it feeds onto the reel smoothly.",
+   "mine": "Cut the head of the film.",
+   "mark": "x",
+   "note": "leader 片头，就是露在暗盒外面那一小截",
+   "audio": "audio/3c7beb6bd105.mp3",
+   "audio_us": "audio/0de9a7c05f3d.mp3"
+  },
+  {
+   "zh": "盖子盖好以后罐子就不透光了，可以开灯",
+   "en": "Once the lid's on, the tank is [[light-tight]], so you can turn the lights on.",
+   "mine": "The light can't go in.",
+   "mark": "~",
+   "note": "light-tight 不透光，也常说 light-proof",
+   "audio": "audio/209b5dfe7e2b.mp3",
+   "audio_us": "audio/4954e32f7a77.mp3"
+  },
+  {
+   "zh": "冲黑白胶卷主要用三种药水：显影液、停显液、定影液",
+   "en": "The three main chemicals are [[developer, stop bath and fixer]].",
+   "mine": "Developing water, stopping water and fixing water.",
+   "mark": "x",
+   "note": "developer 显影液，stop bath 停显液，fixer 定影液",
+   "audio": "audio/33ccc361a40e.mp3",
+   "audio_us": "audio/9b096f77c8a8.mp3"
+  },
+  {
+   "zh": "显影液要按一比九兑水",
+   "en": "[[Dilute the developer]] one to nine with water.",
+   "mine": "Mix the developer with water.",
+   "mark": "~",
+   "note": "dilute 稀释。1+9 读作 one plus nine 或 one to nine",
+   "audio": "audio/55b8030daaa9.mp3",
+   "audio_us": "audio/c2bba7b2a820.mp3"
+  },
+  {
+   "zh": "查一下这款胶卷在 20 度时的显影时间",
+   "en": "Look up the [[development time]] for this film at 20 degrees.",
+   "mine": "Check how long to develop.",
+   "mark": "~",
+   "note": "development time 显影时间，常查 Massive Dev Chart。温度越高，时间越短",
+   "us": {
+    "en": "Look up the [[development time]] for this film at 68 degrees.",
+    "note": "美国常用华氏度，20°C 约等于 68°F"
+   },
+   "audio": "audio/bcc9a80d174c.mp3",
+   "audio_us": "audio/d0d3fe8af5ea.mp3"
+  },
+  {
+   "zh": "前 30 秒连续翻转，之后每分钟翻四次",
+   "en": "[[Agitate]] for the first 30 seconds, then do four inversions every minute.",
+   "mine": "Shake the tank.",
+   "mark": "~",
+   "note": "agitate 搅动（让药水均匀），inversion 把罐子倒过来再翻回去",
+   "audio": "audio/d7c4285072d6.mp3",
+   "audio_us": "audio/6918668cfa03.mp3"
+  },
+  {
+   "zh": "在桌上敲一敲罐子，把气泡赶走",
+   "en": "[[Tap the tank]] on the bench to knock off any air bubbles.",
+   "mine": "Hit the tank on the table.",
+   "mark": "x",
+   "note": "tap 轻敲。气泡粘在胶片上会留下小圆点",
+   "audio": "audio/56c2c92d7bbc.mp3",
+   "audio_us": "audio/b7f07f0369e0.mp3"
+  },
+  {
+   "zh": "把显影液倒掉，再倒进停显液",
+   "en": "[[Pour out the developer]] and pour in the stop bath.",
+   "mine": "Throw away the developer.",
+   "mark": "~",
+   "note": "pour out / pour off 倒出来。有的显影液是一次性的，有的可以回收，听老师的",
+   "audio": "audio/e764312eeb87.mp3",
+   "audio_us": "audio/cdfc5dba8e24.mp3"
+  },
+  {
+   "zh": "定影五分钟以后，就可以打开罐子了",
+   "en": "[[Fix]] for five minutes, then you can open the tank.",
+   "mine": "Do the fixing for five minutes.",
+   "mark": "~",
+   "note": "fix 当动词就是定影。定影完成前打开，胶片会被光毁掉",
+   "audio": "audio/6049db2af5c8.mp3",
+   "audio_us": "audio/c16ce3677bc9.mp3"
+  },
+  {
+   "zh": "用流水冲洗十分钟",
+   "en": "[[Wash the film]] under running water for ten minutes.",
+   "mine": "Clean the film with water.",
+   "mark": "~",
+   "note": "wash 水洗，把残留的定影液洗干净，底片才能保存很久",
+   "audio": "audio/6d5018635363.mp3",
+   "audio_us": "audio/a2eb16800888.mp3"
+  },
+  {
+   "zh": "最后加几滴润湿剂，防止留下水痕",
+   "en": "Add a few drops of [[wetting agent]] to stop water spots.",
+   "mine": "Add some soap.",
+   "mark": "x",
+   "note": "wetting agent 润湿剂，常见牌子 Photo-Flo。别用洗洁精",
+   "audio": "audio/8e468db127ee.mp3",
+   "audio_us": "audio/6f416f2a9d1c.mp3"
+  },
+  {
+   "zh": "把底片挂在没灰尘的地方晾干",
+   "en": "[[Hang the negatives up to dry]] somewhere dust-free.",
+   "mine": "Dry the film.",
+   "mark": "~",
+   "note": "negatives 底片（负片）。晾的时候底下夹个夹子，防止卷起来",
+   "audio": "audio/96c9d3e830cd.mp3",
+   "audio_us": "audio/c1110922ba89.mp3"
+  },
+  {
+   "zh": "这卷底片太薄了，可能显影不足",
+   "en": "These negatives look [[thin]]; they're probably underdeveloped.",
+   "mine": "The film is too light.",
+   "mark": "~",
+   "note": "thin 薄（影像很淡），对应 underdeveloped 显影不足 / underexposed 曝光不足",
+   "audio": "audio/703abff9ce19.mp3",
+   "audio_us": "audio/b349aac27a11.mp3"
+  },
+  {
+   "zh": "这卷特别厚，可能是过曝了",
+   "en": "This roll is really [[dense]]; maybe it was overexposed.",
+   "mine": "The film is too dark.",
+   "mark": "~",
+   "note": "dense 厚、密度高，对应 overexposed 过曝 / overdeveloped 显影过度",
+   "audio": "audio/b53f25b1972a.mp3",
+   "audio_us": "audio/8dbd036d1d38.mp3"
+  },
+  {
+   "zh": "我是按 1600 拍的，所以要推一档冲",
+   "en": "I shot it at 1600, so I need to [[push it one stop]].",
+   "mine": "Develop it longer by one level.",
+   "mark": "x",
+   "note": "push 增感冲洗（加长显影），pull 减感冲洗。stop 是一档",
+   "audio": "audio/00b42d13fa32.mp3",
+   "audio_us": "audio/75bdbf14b53a.mp3"
+  },
+  {
+   "zh": "前面几张有漏光",
+   "en": "There's a [[light leak]] on the first few frames.",
+   "mine": "Some light got in.",
+   "mark": "~",
+   "note": "light leak 漏光，frame 一张底片、一格画面",
+   "audio": "audio/f9e1349a8f61.mp3",
+   "audio_us": "audio/7b45c593fd29.mp3"
+  },
+  {
+   "zh": "把底片剪成六张一条，放进底片袋",
+   "en": "[[Cut the negatives into strips]] of six and put them in a sleeve.",
+   "mine": "Cut the film into pieces.",
+   "mark": "~",
+   "note": "strip 一条，negative sleeve 底片袋",
+   "audio": "audio/ca8ff0a71c2e.mp3",
+   "audio_us": "audio/4f33735d334c.mp3"
+  },
+  {
+   "zh": "先印一张印样，看看所有画面",
+   "en": "Let's make a [[contact sheet]] first to see all the frames.",
+   "mine": "Print all the small photos.",
+   "mark": "~",
+   "note": "contact sheet 印样（小样），底片直接压在相纸上曝光",
+   "audio": "audio/61af3c201281.mp3",
+   "audio_us": "audio/ca5621839a23.mp3"
+  },
+  {
+   "zh": "放大的时候可以开安全灯，装胶卷时不行",
+   "en": "You can switch on the [[safelight]] for printing, but not for loading film.",
+   "mine": "Turn on the red light.",
+   "mark": "~",
+   "note": "safelight 安全灯（通常是红色或琥珀色）。相纸对它不敏感，胶卷会被它弄坏",
+   "audio": "audio/51fe6c87c0fc.mp3",
+   "audio_us": "audio/5913198c67cf.mp3"
+  },
+  {
+   "zh": "底片放进片夹时，药膜面朝下",
+   "en": "Put the negative in the carrier [[emulsion side down]].",
+   "mine": "Put the matte side down.",
+   "mark": "~",
+   "note": "emulsion 药膜面（不反光的那面），朝下对着相纸。carrier 是放大机的底片夹",
+   "audio": "audio/d319cdc7cf51.mp3",
+   "audio_us": "audio/3368e0b5e0ae.mp3"
+  },
+  {
+   "zh": "用对焦器把颗粒对清楚",
+   "en": "Use the [[grain focuser]] to get the grain sharp.",
+   "mine": "Use the magnifier to focus.",
+   "mark": "~",
+   "note": "grain focuser 对焦器，grain 颗粒。对到颗粒清楚，照片就清楚",
+   "audio": "audio/ebcd37c3a33c.mp3",
+   "audio_us": "audio/39e56cabdfb9.mp3"
+  },
+  {
+   "zh": "先做一张试条，找出合适的曝光时间",
+   "en": "Do a [[test strip]] to find the right exposure time.",
+   "mine": "Make a test photo.",
+   "mark": "~",
+   "note": "test strip 试条：一张相纸分段曝光，比如每段多 3 秒",
+   "audio": "audio/0aa0508c5949.mp3",
+   "audio_us": "audio/a9bea471c709.mp3"
+  },
+  {
+   "zh": "天空那里多加几秒光",
+   "en": "[[Burn in]] the sky for a few extra seconds.",
+   "mine": "Give the sky more light.",
+   "mark": "~",
+   "note": "burn / burn in 加光（局部加长曝光，变暗）",
+   "audio": "audio/90840f69310e.mp3",
+   "audio_us": "audio/bad6f77f55b3.mp3"
+  },
+  {
+   "zh": "把阴影部分遮一下，不要太黑",
+   "en": "[[Dodge]] the shadows a bit so they don't go too dark.",
+   "mine": "Cover the dark part.",
+   "mark": "~",
+   "note": "dodge 遮挡减光（局部减少曝光，变亮），和 burn 正好相反",
+   "audio": "audio/bd0000d22d86.mp3",
+   "audio_us": "audio/f634b061367e.mp3"
+  },
+  {
+   "zh": "想要反差大一点，就换三号滤镜",
+   "en": "Use a [[grade 3 filter]] for more contrast.",
+   "mine": "Use a stronger filter.",
+   "mark": "~",
+   "note": "多级反差相纸（variable contrast / multigrade）配滤镜，号数越大反差越大",
+   "audio": "audio/ae03e328f5c9.mp3",
+   "audio_us": "audio/2d7f4a8f4a44.mp3"
+  },
+  {
+   "zh": "RC 相纸比纤维相纸干得快多了",
+   "en": "[[Resin-coated paper]] dries much faster than fibre paper.",
+   "mine": "Plastic paper dries faster.",
+   "mark": "x",
+   "note": "resin-coated (RC) 涂塑相纸，fibre-based 纤维相纸（质感更好，但难处理）",
+   "us": {
+    "en": "[[Resin-coated paper]] dries much faster than fiber paper.",
+    "note": "美式拼写是 fiber"
+   },
+   "audio": "audio/c6dad8c9bc95.mp3",
+   "audio_us": "audio/21be193e933e.mp3"
+  },
+  {
+   "zh": "轻轻晃动药盘，让照片显影均匀",
+   "en": "Gently [[rock the tray]] so the print develops evenly.",
+   "mine": "Shake the plate.",
+   "mark": "x",
+   "note": "tray 药盘，print 洗出来的照片",
+   "audio": "audio/8378bbf76d83.mp3",
+   "audio_us": "audio/73c7c9ca53eb.mp3"
+  },
+  {
+   "zh": "用夹子，别把手伸进药水里",
+   "en": "Use the [[tongs]], don't put your hands in the chemicals.",
+   "mine": "Use the clip.",
+   "mark": "~",
+   "note": "tongs 夹子。每个药盘用自己的夹子，别混用",
+   "audio": "audio/c4b4c1ce79b3.mp3",
+   "audio_us": "audio/7cf1ba70ac88.mp3"
+  },
+  {
+   "zh": "定影液不能倒进水槽，要倒进回收桶",
+   "en": "Don't [[pour the fixer down the sink]]; it goes in the waste container.",
+   "mine": "Don't throw the fixer in the sink.",
+   "mark": "~",
+   "note": "用过的定影液里有银，要回收处理",
+   "audio": "audio/94aa60ca701d.mp3",
+   "audio_us": "audio/6b08eedfcf2a.mp3"
+  }
+ ]
+}
